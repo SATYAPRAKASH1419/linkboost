@@ -90,6 +90,7 @@ export const AuthInput = forwardRef<HTMLInputElement, AuthInputProps>(
             ref={innerInputRef}
             id={inputId}
             type={computedType}
+            suppressHydrationWarning
             aria-invalid={hasError}
             aria-describedby={hasError ? errorId : helperText ? helperId : undefined}
             onChange={onChange}
@@ -121,6 +122,7 @@ export const AuthInput = forwardRef<HTMLInputElement, AuthInputProps>(
             {isPasswordType && (
               <button
                 type="button"
+                suppressHydrationWarning
                 onClick={(e) => {
                   e.stopPropagation()
                   setIsPasswordVisible(!isPasswordVisible)

@@ -14,6 +14,7 @@ export function GoogleAuthButton({
       type="button"
       onClick={onClick}
       disabled={disabled}
+      suppressHydrationWarning
       className="w-full h-11 sm:h-12 flex items-center justify-center gap-3 px-4 rounded-xl bg-white hover:bg-zinc-50/80 active:bg-zinc-100 text-zinc-800 text-sm font-semibold border border-zinc-200 transition-all duration-150 disabled:opacity-50 cursor-pointer shadow-2xs hover:border-zinc-300 active:scale-[0.98]"
     >
       <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24" aria-hidden="true">
