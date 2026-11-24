@@ -3,49 +3,54 @@
  * Reusable client-side validation rules & password strength metrics.
  */
 
-export interface FieldValidationResult {
-  isValid: boolean
-  error: string | null
-}
+import { z } from 'zod'
 
 const EMAIL_REGEX = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/
 
+const emailSchema = z
+  .string()
+  .trim()
+  .min(1, 'Please enter your email address')
+  .regex(EMAIL_REGEX, 'Please enter a valid email address (e.g. name@domain.com)')
+
+const loginPasswordSchema = z
+  .string()
+  .min(1, 'Please enter your password')
+
+const signupPasswordSchema = z
+  .string()
+  .min(1, 'Please enter your password')
+  .min(6, 'Password must be at least 6 characters')
+
+const usernameSchema = z
+  .string()
+  .trim()
+  .min(1, 'Please choose a link username')
+  .min(3, 'Username must be at least 3 characters')
+  .max(30, 'Username cannot exceed 30 characters')
+  .regex(
+    /^[a-z0-9_-]+$/i,
+    'Use only letters, numbers, hyphens (-), and underscores (_)',
+  )
+
+function getValidationError(schema: z.ZodString, value: string): string | null {
+  const result = schema.safeParse(value)
+  return result.success ? null : result.error.issues[0]?.message ?? null
+}
+
 export function validateEmail(email: string): string | null {
-  const trimmed = email.trim()
-  if (!trimmed) {
-    return 'Please enter your email address'
-  }
-  if (!EMAIL_REGEX.test(trimmed)) {
-    return 'Please enter a valid email address (e.g. name@domain.com)'
-  }
-  return null
+  return getValidationError(emailSchema, email)
 }
 
 export function validatePassword(password: string, mode: 'login' | 'signup' = 'login'): string | null {
-  if (!password) {
-    return 'Please enter your password'
-  }
-  if (mode === 'signup' && password.length < 6) {
-    return 'Password must be at least 6 characters'
-  }
-  return null
+  return getValidationError(
+    mode === 'signup' ? signupPasswordSchema : loginPasswordSchema,
+    password,
+  )
 }
 
 export function validateUsername(username: string): string | null {
-  const trimmed = username.trim()
-  if (!trimmed) {
-    return 'Please choose a link username'
-  }
-  if (trimmed.length < 3) {
-    return 'Username must be at least 3 characters'
-  }
-  if (trimmed.length > 30) {
-    return 'Username cannot exceed 30 characters'
-  }
-  if (!/^[a-z0-9_-]+$/i.test(trimmed)) {
-    return 'Use only letters, numbers, hyphens (-), and underscores (_)'
-  }
-  return null
+  return getValidationError(usernameSchema, username)
 }
 
 export interface PasswordStrength {

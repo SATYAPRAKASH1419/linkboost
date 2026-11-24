@@ -111,26 +111,28 @@
 
 ## 4. API Endpoints
 
-### 4.1 Auth
-| Method | Endpoint | What it does |
-|---|---|---|
-| POST | `/api/auth/signup` | Email/password registration |
-| POST | `/api/auth/login` | Email/password login |
-| GET | `/api/auth/google` | Google OAuth redirect |
-| GET | `/api/auth/callback` | OAuth callback handler |
-| POST | `/api/auth/logout` | End session |
-| POST | `/api/auth/forgot-password` | Password reset email |
-| POST | `/api/auth/reset-password` | Set new password with token |
+### 4.1 Auth & Onboarding
+| Method | Endpoint | What it does | Status |
+|---|---|---|---|
+| POST | `/api/auth/signup` | Email/password registration with handle reservation | Implemented |
+| POST | `/api/auth/login` | Email/password login with auto-routing to onboarding/dashboard | Implemented |
+| GET | `/api/auth/google` | Google OAuth redirect | Implemented |
+| GET | `/api/auth/callback` | OAuth callback handler with open-redirect mitigation & step detection | Implemented |
+| GET | `/api/auth/check-username` | Real-time handle availability check with reserved slug blocking & exact match | Implemented |
+| POST | `/api/onboarding/complete` | Complete 4-phase onboarding payload, validate Zod schema & upsert profile | Implemented |
+| POST | `/api/auth/logout` | End session | Planned |
+| POST | `/api/auth/forgot-password` | Password reset email | Planned |
+| POST | `/api/auth/reset-password` | Set new password with token | Planned |
 
 ### 4.2 Users / Profile
-| Method | Endpoint | What it does |
-|---|---|---|
-| GET | `/api/me` | Get current user profile |
-| PATCH | `/api/me` | Update profile (name, bio, avatar, category) |
-| POST | `/api/me/username` | Claim/change username (validate uniqueness) |
-| POST | `/api/me/avatar` | Upload avatar image |
-| DELETE | `/api/me` | Account deletion (GDPR/privacy) |
-| GET | `/api/me/export` | Export all user data as JSON/CSV |
+| Method | Endpoint | What it does | Status |
+|---|---|---|---|
+| GET | `/api/me` | Get current user profile | Planned |
+| PATCH | `/api/me` | Update profile (name, bio, avatar, category) | Planned |
+| POST | `/api/me/username` | Claim/change username (validate uniqueness) | Implemented (via onboarding & check-username) |
+| POST | `/api/me/avatar` | Upload avatar image | Planned |
+| DELETE | `/api/me` | Account deletion (GDPR/privacy) | Planned |
+| GET | `/api/me/export` | Export all user data as JSON/CSV | Planned |
 
 ### 4.3 Pages
 | Method | Endpoint | What it does |
@@ -193,7 +195,12 @@
 ## 5. Authentication & Authorization
 
 - **Auth provider:** Supabase Auth (email/password + Google OAuth)
-- **Session:** JWT-based, stored in httpOnly secure cookie
+- **Session:** JWT-based, stored in httpOnly secure cookie via `@supabase/ssr`
+- **Next.js 16 Proxy:** Session refresh and route matching managed through `src/proxy.ts` (Next.js 16 proxy convention)
+- **Onboarding State Machine:**
+  - `onboarding_completed: boolean` stored in database `profiles` and synced with `user.user_metadata`
+  - Callback step detection: routes unfinished profiles to `/signup?step=onboarding&oauth=true`
+  - Login auto-forwarding: checks session state and routes unfinished profiles to onboarding, completed profiles to `/dashboard`
 - **Role checks:**
   - `authenticated` — any logged-in user
   - `owner` — resource belongs to `req.user.id`
@@ -260,16 +267,19 @@ Visitor lands on /:username
 
 ## 10. Security Requirements
 
+- [x] Input validation and sanitization on all endpoints (Zod validation on auth & onboarding payloads)
+- [x] Open Redirect protection on OAuth callback (`safeNext` relative path enforcement)
+- [x] Reserved namespace blocking on vanity handles (`RESERVED_SLUGS` for system routes)
+- [x] SQL injection & wildcard prevention (exact `.eq()` matching for handles, parameterized queries)
+- [x] Safe URL protocol enforcement (`http:` / `https:` validation for social and store links)
 - [ ] Row-Level Security on all tenant tables — automated cross-tenant tests
-- [ ] Input validation and sanitization on all endpoints
 - [ ] Rate limiting on: auth endpoints, lead submission, event ingestion, file uploads
 - [ ] CSRF protection on state-changing requests
 - [ ] Helmet / security headers (CSP, HSTS, X-Frame-Options)
-- [ ] SQL injection prevention (parameterized queries via Supabase client)
 - [ ] XSS prevention in block content rendering
 - [ ] File upload validation (type, size, magic bytes)
 - [ ] Hashed IPs in analytics (never store raw)
-- [ ] Secure session management (httpOnly, secure, sameSite cookies)
+- [x] Secure session management (httpOnly, secure, sameSite cookies via `@supabase/ssr`)
 - [ ] Admin endpoints protected by role check
 - [ ] Spam protection on lead forms (honeypot + rate limit)
 - [ ] Audit log for admin actions (suspend, unsuspend, delete)
@@ -349,15 +359,15 @@ Visitor lands on /:username
 
 ## 15. Build Phases (Backend Focus)
 
-| Phase | What to build | Exit criteria |
-|---|---|---|
-| **Phase 1: Foundation** | Auth, user profile, username claim, DB schema, RLS | Sign-up → profile works; RLS tests pass |
-| **Phase 2: Page Builder API** | Pages CRUD, blocks CRUD, reorder, templates, publish/unpublish | A user can create, edit, publish a page via API |
-| **Phase 3: Public Page** | Public page data endpoint, caching, SEO meta | `GET /:username` returns full page data, cached |
-| **Phase 4: Leads & Gated PDF** | PDF upload, signed URL generation, lead capture endpoint, lead list/export | Visitor enters email → lead saved with source → PDF served via signed URL |
-| **Phase 5: Analytics** | Event ingestion, dashboard queries, source tracking | Events recorded without blocking; dashboard returns correct data |
-| **Phase 6: Admin** | Moderation endpoints, abuse reports, audit log | Admin can suspend/unsuspend pages |
-| **Phase 7: Hardening** | Security review, rate limiting, backups, monitoring, privacy flows | Backup restore tested; no critical findings |
+| Phase | What to build | Exit criteria | Status |
+|---|---|---|---|
+| **Phase 1: Foundation & Onboarding** | Auth, user profile, username claim, DB schema, Next.js 16 proxy, 4-phase onboarding API | Sign-up → onboarding wizard → profile works with real-time checks | **Completed** |
+| **Phase 2: Page Builder API** | Pages CRUD, blocks CRUD, reorder, templates, publish/unpublish | A user can create, edit, publish a page via API | In Progress |
+| **Phase 3: Public Page** | Public page data endpoint, caching, SEO meta | `GET /:username` returns full page data, cached | Planned |
+| **Phase 4: Leads & Gated PDF** | PDF upload, signed URL generation, lead capture endpoint, lead list/export | Visitor enters email → lead saved with source → PDF served via signed URL | Planned |
+| **Phase 5: Analytics** | Event ingestion, dashboard queries, source tracking | Events recorded without blocking; dashboard returns correct data | Planned |
+| **Phase 6: Admin** | Moderation endpoints, abuse reports, audit log | Admin can suspend/unsuspend pages | Planned |
+| **Phase 7: Hardening** | Security review, rate limiting, backups, monitoring, privacy flows | Backup restore tested; no critical findings | Planned |
 
 ---
 
