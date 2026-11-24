@@ -43,7 +43,7 @@ export function PlatformsSection() {
                   {row.map((item) => (
                     <li
                       key={item.platform}
-                      className="fill-hover flex items-center gap-3 rounded-full bg-ink-soft py-2 pl-2 pr-5 ring-1 ring-white/10 [--fill:var(--color-wine)]"
+                      className="fill-hover flex items-center gap-3 rounded-full bg-ink-soft py-2 pl-2 pr-5 ring-1 ring-white/10 [--fill:var(--color-brand)]"
                     >
                       <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white">
                         <PlatformIcon platform={item.platform} className="h-[18px] w-[18px]" />

@@ -35,7 +35,7 @@ export function Faq() {
 
           <div className="mt-10 rounded-[1.75rem] bg-surface-panel p-6">
             <p className="font-medium text-ink">{contact.text}</p>
-            <ButtonLink href={contact.href} variant="ink" className="mt-4">
+            <ButtonLink href={contact.href} variant="ink" className="mt-4 [--fill:var(--color-brand)]!">
               {contact.cta}
               <ButtonArrow />
             </ButtonLink>

@@ -75,7 +75,7 @@ export function ContactForm() {
                 onChange={() => setTopic(item.value)}
                 className="peer sr-only"
               />
-              <span className="fill-hover block rounded-full bg-white px-4 py-2.5 text-sm font-medium text-text-secondary ring-1 ring-border-default transition-colors duration-300 [--fill:var(--color-blush-strong)] hover:text-wine peer-checked:bg-ink peer-checked:text-white peer-checked:ring-ink peer-checked:[--fill:var(--color-ink)] peer-focus-visible:ring-2 peer-focus-visible:ring-brand">
+              <span className="fill-hover block rounded-full bg-white px-4 py-2.5 text-sm font-medium text-text-secondary ring-1 ring-border-default transition-colors duration-300 [--fill:var(--color-blush-strong)] hover:text-wine peer-checked:bg-ink peer-checked:text-white peer-checked:ring-ink peer-checked:[--fill:var(--color-ink)] peer-checked:hover:text-white peer-focus-visible:ring-2 peer-focus-visible:ring-brand">
                 {item.label}
               </span>
             </label>

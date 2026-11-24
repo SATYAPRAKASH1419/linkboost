@@ -122,6 +122,18 @@ Data & Triggers   -->  Monospace (Slugs, metrics, reels, timestamps)
   - Margin gutters: `p-6 sm:p-8 lg:p-10 xl:p-12`.
   - Input-to-button spacing: `space-y-3` for compact density without crowding.
 
+### 5.3 Live Phone Mockup & Dynamic Island Rules
+- **Physical Chassis Design:**
+  - Ratio: `aspect-[9/18.5]` with adaptive height `h-[min(540px,calc(100vh-90px))]`.
+  - Outer titanium bezel with hardware button silhouettes and dynamic island capsule at top center.
+  - Screen surface: Warm porcelain background (`#FAF8F5`) with status bar (cellular signal, Wi-Fi, battery level).
+- **Synchronous Live Binding:**
+  - Real-time updates as user types: Avatar initial, display name, handle, bio, category badge, and keywords.
+  - Social icons appear dynamically as squircle brand tiles with real SVG icons (Instagram, X, YouTube, TikTok, GitHub, LinkedIn, Spotify).
+  - Store and document cards render with theme cycling matching creator lead magnet aesthetics.
+- **Mobile Split Navigation:**
+  - On viewports `<lg`, a segmented switch pill (`Configure` vs `Preview`) toggles between the step form and live preview without breaking the 100vh layout lock.
+
 ---
 
 ## 6. Key Interface User Flows
@@ -133,18 +145,57 @@ Landing / Direct Reel Traffic
          ▼
      [/signup]
          │
-         ├─ Enter desired username: "linkboost.bio/[yourname]"
+         ├─ Enter desired username: "linkboost.bio/[yourname]" (Real-time debounced check via /api/auth/check-username)
          ├─ Enter email & password (or One-Tap Google OAuth)
+         ├─ Password strength meter with real-time score & hints
          ├─ Click "Claim My Link & Continue →"
          │
          ▼
 [api/auth/signup] (Supabase Auth)
          │
-         ├─ Automatically triggers database trigger `on_auth_user_created`
-         ├─ Reserves slug in `profiles` and initializes `pages`
+         ├─ Reserves slug in `profiles` and establishes session
          │
          ▼
-Email Verification Sent / Instant Dashboard Redirect
+Interactive 4-Phase Guided Onboarding Engine (/signup?step=onboarding)
+```
+
+### Flow 1.1: The 4-Phase Guided Onboarding Engine & Live Phone Preview
+```
+Onboarding Screen: 100vh Locked Layout (Left: Stepper Form | Right: Real-time Live Phone Mockup)
+         │
+         ├─ Phase 1: Vanity URL Claim
+         │    └─ Real-time 350ms debounce handle availability badge (✓ Available / ✗ Taken)
+         │
+         ├─ Phase 2: Creator Identity & Topics
+         │    ├─ Display Name (with fallback to @username)
+         │    ├─ Category dropdown (Creator, Tech & Dev, Design, Fitness, Startup, etc.)
+         │    ├─ Bio headline with 160-character countdown
+         │    └─ Topic keywords: click-to-select presets (#Tech, #Design...) + custom tag input
+         │
+         ├─ Phase 3: Social Channels Connection
+         │    ├─ Squircle tile selector (Instagram, X, YouTube, TikTok, GitHub, LinkedIn, Spotify)
+         │    ├─ Active channel status pills
+         │    └─ "Skip for now" non-blocking navigation
+         │
+         ├─ Phase 4: Featured Store & Lead Magnet Documents
+         │    ├─ 1-Click starter templates (PDF Resume, 1:1 Strategy Call, Creator eBook, Tech Gear)
+         │    ├─ Custom card form (product, document, service, affiliate) with title, price, URL
+         │    └─ Instant render in live phone preview list
+         │
+         ▼
+[POST /api/onboarding/complete]
+         │
+         ├─ 1. Verifies authenticated session
+         ├─ 2. Validates Zod schema & URL safety
+         ├─ 3. Re-checks handle syntax & reserved slugs
+         ├─ 4. Upserts profile in `profiles` table
+         ├─ 5. Synchronizes user_metadata (onboarding_completed: true)
+         │
+         ▼
+Celebration Modal:
+         ├─ Verified launch badge with soft pulse animation
+         ├─ 1-Click public link copy button with visual confirmation
+         └─ "Enter Creator Studio" CTA → [/dashboard]
 ```
 
 ### Flow 2: Returning Creator Management

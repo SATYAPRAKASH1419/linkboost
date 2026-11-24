@@ -23,20 +23,29 @@
   - Enable Row-Level Security (RLS) on all tenant-owned tables.
   - Add database triggers (auto-create profile on signup, update timestamps).
 
-- [x] **Step 4: Supabase Client Utilities**
+- [x] **Step 4: Supabase Client Utilities & Next.js 16 Proxy**
   - Set up browser client utility (`src/lib/supabase/client.ts`).
   - Set up server client utility (`src/lib/supabase/server.ts`).
-  - Set up auth middleware (`src/middleware.ts`) for session refreshing and route protection.
+  - Set up auth proxy (`src/proxy.ts` adopting Next.js 16 file convention) for session refreshing and route protection.
 
-- [ ] **Step 5: Auth Flow (Signup, Login, Sessions)**
-  - Auth route handlers: `/api/auth/callback`, `/api/auth/signout`.
-  - Basic signup/login/session verification.
-  - Protected route guard checks.
+- [x] **Step 5: Auth Flow (Signup, Login, Sessions, OAuth)**
+  - Auth route handlers: `/api/auth/callback` with open redirect mitigation (`safeNext`).
+  - High-precision signup (`/signup`) and login (`/login`) with zero-scroll 100vh layout.
+  - One-tap Google OAuth integration with state preservation.
+  - Client-side validation engine powered by Zod (`src/lib/validation/authValidation.ts`).
+  - Password strength meter and hydration warning suppression for password managers.
 
-- [ ] **Step 6: User & Profile API Routes**
-  - Profile retrieval & update (`GET /api/me`, `PATCH /api/me`).
-  - Username uniqueness check and claim (`POST /api/me/username`).
-  - Account deletion / export hooks.
+- [x] **Step 6: User Onboarding Engine & Profile Setup**
+  - Real-time handle verification endpoint (`GET /api/auth/check-username`) with exact `.eq()` matching and `RESERVED_SLUGS` blocking.
+  - Debounced username availability hook (`src/lib/hooks/useUsernameAvailability.ts`) with React 19 cascading-render compliance.
+  - 4-Phase Guided Onboarding Wizard (`src/components/onboarding/OnboardingWizard.tsx`):
+    - *Phase 1:* Reserve unique vanity link (`linkboost.bio/username`).
+    - *Phase 2:* Identity (Display name, bio with character counter, custom category selector, custom/preset topic keywords).
+    - *Phase 3:* Social media channels integration (Instagram, X, YouTube, TikTok, GitHub, LinkedIn, Spotify, Custom).
+    - *Phase 4:* Featured store items & lead magnet documents (starter presets, product, service, affiliate, PDF).
+  - Real-time live physical phone preview chassis (`src/components/onboarding/PhonePreview.tsx`).
+  - Launch Celebration Modal with one-click link copy (`src/components/onboarding/CelebrationModal.tsx`).
+  - Server-side onboarding completion endpoint (`POST /api/onboarding/complete`) with Zod schema parsing, URL safety checks, database profile upsert, and Supabase Auth metadata synchronization.
 
 - [ ] **Step 7: Page & Content Block Management (CRUD + Reordering)**
   - Page settings: theme, title, publish/unpublish (`/api/pages`).

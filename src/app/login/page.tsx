@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
@@ -13,6 +13,7 @@ import { AuthInput } from '@/components/auth/AuthInput'
 import { validateEmail, validatePassword } from '@/lib/validation/authValidation'
 
 export default function LoginPage() {
+  const [isCheckingSession, setIsCheckingSession] = useState(true)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
@@ -28,6 +29,44 @@ export default function LoginPage() {
 
   const router = useRouter()
   const supabase = createClient()
+
+  useEffect(() => {
+    async function checkActiveSession() {
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (session?.user) {
+          const userMeta = session.user.user_metadata || {}
+
+          // 1. If onboarding completed, redirect immediately to dashboard
+          if (userMeta.onboarding_completed) {
+            router.replace('/dashboard')
+            return
+          }
+
+          // Cross-verify with database profiles table
+          const { data: profile } = await supabase
+            .from('profiles')
+            .select('onboarding_completed')
+            .eq('id', session.user.id)
+            .maybeSingle()
+
+          if (profile?.onboarding_completed) {
+            router.replace('/dashboard')
+            return
+          }
+
+          // 2. If authenticated but onboarding pending, forward to finish onboarding
+          router.replace('/signup?step=onboarding')
+          return
+        }
+      } catch (err) {
+        console.error('Session check error on login:', err)
+      } finally {
+        setIsCheckingSession(false)
+      }
+    }
+    checkActiveSession()
+  }, [router, supabase])
 
   function triggerShake() {
     setIsShaking(true)
@@ -106,6 +145,15 @@ export default function LoginPage() {
       router.push('/dashboard')
       router.refresh()
     }
+  }
+
+  // While checking active session status
+  if (isCheckingSession) {
+    return (
+      <div className="h-screen w-screen bg-white flex items-center justify-center">
+        <div className="w-6 h-6 border-2 border-[#E23744] border-t-transparent rounded-full animate-spin" />
+      </div>
+    )
   }
 
   return (
@@ -195,6 +243,7 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={loading}
+              suppressHydrationWarning
               className="w-full h-11 sm:h-11.5 mt-1.5 px-4 rounded-xl bg-[#E23744] hover:bg-[#CB202D] active:scale-[0.98] text-white font-semibold text-sm tracking-wide transition-all duration-150 shadow-md shadow-[#E23744]/25 hover:shadow-lg hover:shadow-[#E23744]/30 disabled:opacity-50 cursor-pointer flex items-center justify-center gap-2"
             >
               {loading ? (
