@@ -1,0 +1,3046 @@
+{
+ "entranceAnimations": [
+  {
+   "target": "I",
+   "cls": "spot-prog",
+   "name": "spot-fill",
+   "duration": 5000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  }
+ ],
+ "midScrollAnimations": [
+  {
+   "target": "I",
+   "cls": "spot-prog",
+   "name": "spot-fill",
+   "duration": 5000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 175,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 250,
+   "delay": 125,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 250,
+   "delay": 125,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 250,
+   "delay": 125,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 500,
+   "delay": 0,
+   "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+   "iter": 1
+  }
+ ],
+ "desktop": {
+  "url": "https://topmate.io/",
+  "title": "Topmate: sell what your people ask for",
+  "description": "Topmate gives you one page at topmate.io/yourname where the people who already ask for your help can book a call, buy a guide or join a course, and pay.",
+  "viewport": 1440,
+  "docHeight": 14646,
+  "stack": {
+   "next": true,
+   "nextAppRouter": true,
+   "nuxt": false,
+   "gatsby": false,
+   "astro": false,
+   "svelte": false,
+   "webflow": false,
+   "framer": false,
+   "wordpress": false,
+   "tailwind": true,
+   "styledComponents": false,
+   "emotion": false,
+   "cssModules": false,
+   "radix": false,
+   "gsap": false,
+   "lenis": false,
+   "lottie": false,
+   "rive": false,
+   "threejs": false,
+   "swiper": false,
+   "splide": false,
+   "generator": null,
+   "scriptHosts": [
+    "topmate.io",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com",
+    "www.clarity.ms",
+    "accounts.google.com",
+    "s2787304.eu-central-1a.betterstackdata.com",
+    "connect.facebook.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "scripts.clarity.ms",
+    "t.clarity.ms",
+    "mpc-pilot-1-s6uit34pua-uc.a.run.app",
+    "www.facebook.com",
+    "c.clarity.ms"
+   ]
+  },
+  "fonts": {
+   "loaded": [
+    "Inter Nav 400 900 normal",
+    "Inter v3 400 normal",
+    "Inter v3 500 normal",
+    "Inter v3 600 normal",
+    "Inter v3 900 normal"
+   ],
+   "body": "Inter, system-ui, arial, sans-serif, Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+   "fontFaces": [
+    "gilroy | 400 | url(\"../media/font-s.p.3m9smrmi-a6ms.woff2\") format(\"woff2\")",
+    "gilroy | 500 | url(\"../media/font-s.p.0gdddinu9iiem.woff2\") format(\"woff2\")",
+    "gilroy | 600 | url(\"../media/font-s.p.0onrjidjatmav.woff2\") format(\"woff2\")",
+    "gilroy | 700 | url(\"../media/font-s.p.3puuoxs96_-ex.woff2\") format(\"woff2\")",
+    "gilroy | 800 | url(\"../media/font-s.p.42b7htitv7a5k.woff2\") format(\"woff2\")",
+    "\"gilroy Fallback\" |  | local(\"Arial\")",
+    "Inter | 300 | url(\"../media/748a21031b97c27e.1_989u-8wo87d.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/f84a983d8653ded7.0p_e0o_mmch4k.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/a8320515d353d873.3_ipbiomk_uac.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/ac7e62a5b03308a9.1lwvfe4dbkct1.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/12aa771336123755.3sggwitc9b6nr.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/ca9ac0dbf20fc664.0212ts7yts16_.woff2\") format(\"woff2\")",
+    "Inter | 300 | url(\"../media/7069abc9ca2a3316.p.2b482_kimkjhm.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/748a21031b97c27e.1_989u-8wo87d.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/f84a983d8653ded7.0p_e0o_mmch4k.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/a8320515d353d873.3_ipbiomk_uac.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/ac7e62a5b03308a9.1lwvfe4dbkct1.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/12aa771336123755.3sggwitc9b6nr.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/ca9ac0dbf20fc664.0212ts7yts16_.woff2\") format(\"woff2\")",
+    "Inter | 400 | url(\"../media/7069abc9ca2a3316.p.2b482_kimkjhm.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/748a21031b97c27e.1_989u-8wo87d.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/f84a983d8653ded7.0p_e0o_mmch4k.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/a8320515d353d873.3_ipbiomk_uac.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/ac7e62a5b03308a9.1lwvfe4dbkct1.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/12aa771336123755.3sggwitc9b6nr.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/ca9ac0dbf20fc664.0212ts7yts16_.woff2\") format(\"woff2\")",
+    "Inter | 500 | url(\"../media/7069abc9ca2a3316.p.2b482_kimkjhm.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/748a21031b97c27e.1_989u-8wo87d.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/f84a983d8653ded7.0p_e0o_mmch4k.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/a8320515d353d873.3_ipbiomk_uac.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/ac7e62a5b03308a9.1lwvfe4dbkct1.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/12aa771336123755.3sggwitc9b6nr.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/ca9ac0dbf20fc664.0212ts7yts16_.woff2\") format(\"woff2\")",
+    "Inter | 600 | url(\"../media/7069abc9ca2a3316.p.2b482_kimkjhm.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/748a21031b97c27e.1_989u-8wo87d.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/f84a983d8653ded7.0p_e0o_mmch4k.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/a8320515d353d873.3_ipbiomk_uac.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/ac7e62a5b03308a9.1lwvfe4dbkct1.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/12aa771336123755.3sggwitc9b6nr.woff2\") format(\"woff2\")",
+    "Inter | 700 | url(\"../media/ca9ac0dbf20fc664.0212ts7yts16_.woff2\") format(\"woff2\")"
+   ]
+  },
+  "tokens": {
+   "--PhoneInput-color--focus": "#03b2cb",
+   "--PhoneInputInternationalIconPhone-opacity": ".8",
+   "--PhoneInputInternationalIconGlobe-opacity": ".65",
+   "--PhoneInputCountrySelect-marginRight": ".35em",
+   "--PhoneInputCountrySelectArrow-width": ".3em",
+   "--PhoneInputCountrySelectArrow-marginLeft": "var(--PhoneInputCountrySelect-marginRight)",
+   "--PhoneInputCountrySelectArrow-borderWidth": "1px",
+   "--PhoneInputCountrySelectArrow-opacity": ".45",
+   "--PhoneInputCountrySelectArrow-color": "currentColor",
+   "--PhoneInputCountrySelectArrow-color--focus": "var(--PhoneInput-color--focus)",
+   "--PhoneInputCountrySelectArrow-transform": "rotate(45deg)",
+   "--PhoneInputCountryFlag-aspectRatio": "1.5",
+   "--PhoneInputCountryFlag-height": "1em",
+   "--PhoneInputCountryFlag-borderWidth": "1px",
+   "--PhoneInputCountryFlag-borderColor": "#00000080",
+   "--PhoneInputCountryFlag-borderColor--focus": "var(--PhoneInput-color--focus)",
+   "--PhoneInputCountryFlag-backgroundColor--loading": "#0000001a",
+   "--font-sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-serif": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-red-50": "lab(96.5005% 4.18508 1.52328)",
+   "--color-red-100": "lab(92.243% 10.2865 3.83865)",
+   "--color-red-200": "lab(86.017% 19.8815 7.75869)",
+   "--color-red-400": "lab(63.7053% 60.745 31.3109)",
+   "--color-red-500": "lab(55.4814% 75.0732 48.8528)",
+   "--color-red-600": "lab(48.4493% 77.4328 61.5452)",
+   "--color-red-700": "lab(40.4273% 67.2623 53.7441)",
+   "--color-orange-50": "lab(97.7008% 1.53735 5.90649)",
+   "--color-orange-600": "lab(57.1026% 64.2584 89.8886)",
+   "--color-orange-700": "lab(46.4615% 57.7275 70.8507)",
+   "--color-amber-50": "lab(98.6252% -.635922 8.42309)",
+   "--color-amber-200": "lab(91.7203% -.505269 49.9084)",
+   "--color-amber-400": "lab(80.1641% 16.6016 99.2089)",
+   "--color-amber-500": "lab(72.7183% 31.8672 97.9407)",
+   "--color-amber-600": "lab(60.3514% 40.5624 87.1228)",
+   "--color-amber-700": "lab(47.2709% 42.9082 69.2966)",
+   "--color-amber-900": "lab(31.2288% 30.2627 40.0378)",
+   "--color-yellow-200": "lab(94.3433% -5.00429 52.9663)",
+   "--color-lime-500": "lab(75.3197% -46.6547 86.1778)",
+   "--color-lime-900": "lab(31.9931% -20.7654 33.7379)",
+   "--color-green-50": "lab(98.1563% -5.60117 2.75915)",
+   "--color-green-100": "lab(96.1861% -13.8464 6.52365)",
+   "--color-green-500": "lab(70.5521% -66.5147 45.8073)",
+   "--color-green-600": "lab(59.0978% -58.6621 41.2579)",
+   "--color-green-700": "lab(47.0329% -47.0239 31.4788)",
+   "--color-emerald-400": "lab(75.0771% -60.7313 19.4147)",
+   "--color-emerald-500": "lab(66.9756% -58.27 19.5419)",
+   "--color-emerald-600": "lab(55.0481% -49.9246 15.93)",
+   "--color-cyan-500": "lab(67.805% -35.3952 -30.2018)",
+   "--color-blue-50": "lab(96.492% -1.14644 -5.11479)",
+   "--color-blue-100": "lab(92.0301% -2.24757 -11.6453)",
+   "--color-blue-200": "lab(86.15% -4.04379 -21.0797)",
+   "--color-blue-400": "lab(65.0361% -1.42065 -56.9802)",
+   "--color-blue-500": "lab(54.1736% 13.3369 -74.6839)",
+   "--color-blue-600": "lab(44.0605% 29.0279 -86.0352)",
+   "--color-blue-700": "lab(36.9089% 35.0961 -85.6872)",
+   "--color-indigo-100": "lab(91.6577% 1.04591 -12.7199)",
+   "--color-indigo-300": "lab(74.0235% 8.54138 -41.6075)",
+   "--color-indigo-500": "lab(48.295% 38.3129 -81.9673)",
+   "--color-violet-500": "lab(49.9355% 55.1776 -81.8963)",
+   "--color-rose-300": "lab(76.6339% 38.3549 9.68835)",
+   "--color-rose-500": "lab(56.101% 79.4328 31.4532)",
+   "--color-slate-50": "lab(98.1434% -.369519 -1.05966)",
+   "--color-slate-100": "lab(96.286% -.852436 -2.46847)",
+   "--color-slate-200": "lab(91.7353% -.998765 -4.76968)",
+   "--color-slate-300": "lab(84.7652% -1.94535 -7.93337)",
+   "--color-slate-400": "lab(65.5349% -2.25151 -14.5072)",
+   "--color-slate-500": "lab(48.0876% -2.03595 -16.5814)",
+   "--color-slate-600": "lab(35.5623% -1.74978 -15.4316)",
+   "--color-slate-700": "lab(26.9569% -1.47016 -15.6993)",
+   "--color-slate-800": "lab(16.132% -.318035 -14.6672)",
+   "--color-slate-900": "lab(7.78673% 1.82345 -15.0537)",
+   "--color-slate-950": "lab(1.76974% 1.32743 -9.28855)",
+   "--color-gray-50": "lab(98.2596% -.247031 -.706708)",
+   "--color-gray-100": "lab(96.1596% -.0823438 -1.13575)",
+   "--color-gray-200": "lab(91.6229% -.159115 -2.26791)",
+   "--color-gray-300": "lab(85.1236% -.612259 -3.7138)",
+   "--color-gray-400": "lab(65.9269% -.832707 -8.17473)",
+   "--color-gray-500": "lab(47.7841% -.393182 -10.0268)",
+   "--color-gray-600": "lab(35.6337% -1.58697 -10.8425)",
+   "--color-gray-900": "lab(8.11897% .811279 -12.254)",
+   "--color-neutral-400": "lab(66.128% -.0000298023 .0000119209)",
+   "--color-stone-50": "lab(98.2686% -.0991821 .364304)",
+   "--color-stone-700": "lab(27.3812% 1.32917 3.57789)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--container-sm": "24rem",
+   "--container-md": "28rem",
+   "--container-lg": "32rem",
+   "--container-xl": "36rem",
+   "--container-2xl": "42rem",
+   "--container-3xl": "48rem",
+   "--container-4xl": "56rem",
+   "--container-5xl": "64rem",
+   "--container-6xl": "72rem",
+   "--container-7xl": "80rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "1rem",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75 / 1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75 / 1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5 / 2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--text-6xl": "3.75rem",
+   "--text-6xl--line-height": "1",
+   "--text-7xl": "4.5rem",
+   "--text-7xl--line-height": "1",
+   "--text-8xl": "6rem",
+   "--text-8xl--line-height": "1",
+   "--font-weight-thin": "100",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--font-weight-extrabold": "800",
+   "--font-weight-black": "900",
+   "--tracking-tighter": "-.05em",
+   "--tracking-tight": "-.025em",
+   "--tracking-wide": ".025em",
+   "--tracking-wider": ".05em",
+   "--tracking-widest": ".1em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--leading-normal": "1.5",
+   "--leading-relaxed": "1.625",
+   "--radius-sm": ".25rem",
+   "--radius-md": ".375rem",
+   "--radius-lg": ".5rem",
+   "--radius-xl": ".75rem",
+   "--radius-2xl": "1rem",
+   "--radius-3xl": "1.5rem",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--animate-spin": "spin 1s linear infinite",
+   "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+   "--animate-bounce": "bounce 1s infinite",
+   "--blur-sm": "8px",
+   "--blur-md": "12px",
+   "--blur-xl": "24px",
+   "--blur-2xl": "40px",
+   "--blur-3xl": "64px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--commissionValue": "\"5%\"",
+   "--backgroundColor": "#fff",
+   "--colorPrimary": "#141414",
+   "--colorSuccess": "#008060",
+   "--colorError": "#cd432d",
+   "--colorSecondary": "#e44a32",
+   "--colorInfo": "#008060",
+   "--colorTextBase": "#141414",
+   "--font-base": "\"Inter\"",
+   "--borderRadiusBase": "6px",
+   "--inputBorderColor": "#b0b0b0",
+   "--swiper-theme-color": "#007aff",
+   "--nav-h": "116px",
+   "--nav-stuck": "56px"
+  },
+  "tokenCount": 174,
+  "unreadable": [
+   "https://accounts.google.com/gsi/style"
+  ],
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "bodyColor": "rgb(0, 0, 0)",
+  "bgColors": [
+   [
+    "rgb(20, 20, 20)",
+    43
+   ],
+   [
+    "rgb(255, 255, 255)",
+    32
+   ],
+   [
+    "rgba(255, 255, 255, 0.06)",
+    16
+   ],
+   [
+    "rgb(247, 245, 243)",
+    11
+   ],
+   [
+    "rgb(42, 41, 39)",
+    6
+   ],
+   [
+    "rgb(220, 241, 182)",
+    5
+   ],
+   [
+    "rgb(255, 198, 168)",
+    4
+   ],
+   [
+    "rgb(235, 233, 228)",
+    4
+   ],
+   [
+    "rgb(199, 233, 140)",
+    3
+   ],
+   [
+    "rgb(255, 228, 214)",
+    3
+   ],
+   [
+    "rgb(248, 238, 219)",
+    3
+   ],
+   [
+    "rgb(235, 233, 224)",
+    3
+   ],
+   [
+    "rgb(170, 202, 249)",
+    3
+   ],
+   [
+    "rgb(241, 212, 255)",
+    3
+   ],
+   [
+    "rgba(255, 255, 255, 0.08)",
+    2
+   ],
+   [
+    "rgba(255, 255, 255, 0.16)",
+    1
+   ],
+   [
+    "rgba(255, 255, 255, 0.35)",
+    1
+   ],
+   [
+    "rgb(214, 230, 253)",
+    1
+   ],
+   [
+    "rgba(255, 255, 255, 0.1)",
+    1
+   ]
+  ],
+  "textColors": [
+   [
+    "rgba(245, 244, 240, 0.65)",
+    185
+   ],
+   [
+    "rgb(20, 20, 20)",
+    140
+   ],
+   [
+    "rgba(20, 20, 20, 0.3)",
+    105
+   ],
+   [
+    "rgb(245, 244, 240)",
+    70
+   ],
+   [
+    "rgb(255, 255, 255)",
+    46
+   ],
+   [
+    "rgba(20, 20, 20, 0.75)",
+    46
+   ],
+   [
+    "rgba(20, 20, 20, 0.7)",
+    34
+   ],
+   [
+    "rgba(245, 244, 240, 0.5)",
+    17
+   ],
+   [
+    "rgb(44, 70, 0)",
+    12
+   ],
+   [
+    "rgba(20, 20, 20, 0.5)",
+    12
+   ],
+   [
+    "rgba(20, 20, 20, 0.63)",
+    8
+   ],
+   [
+    "rgba(255, 255, 255, 0.8)",
+    3
+   ],
+   [
+    "rgba(255, 255, 255, 0.72)",
+    2
+   ],
+   [
+    "rgba(20, 20, 20, 0.4)",
+    2
+   ],
+   [
+    "rgba(255, 255, 255, 0.55)",
+    1
+   ]
+  ],
+  "typeScale": [
+   [
+    "14px | w400 | lh 22px | ls normal | \"Inter v3\"",
+    127
+   ],
+   [
+    "64px | w400 | lh 73.6px | ls -1.28px | \"Inter v3\"",
+    106
+   ],
+   [
+    "20px | w400 | lh 28px | ls normal | \"Inter v3\"",
+    55
+   ],
+   [
+    "16px | w400 | lh 24px | ls normal | \"Inter v3\"",
+    49
+   ],
+   [
+    "56px | w500 | lh 60px | ls -1.68px | \"Inter v3\"",
+    47
+   ],
+   [
+    "20px | w600 | lh 30px | ls normal | \"Inter v3\"",
+    30
+   ],
+   [
+    "14px | w500 | lh 20px | ls normal | \"Inter v3\"",
+    23
+   ],
+   [
+    "18px | w400 | lh 26px | ls normal | \"Inter v3\"",
+    14
+   ],
+   [
+    "16px | w600 | lh 24px | ls normal | \"Inter v3\"",
+    13
+   ],
+   [
+    "32px | w600 | lh 38px | ls -0.64px | \"Inter v3\"",
+    13
+   ],
+   [
+    "15px | w600 | lh 22.5px | ls normal | \"Inter v3\"",
+    11
+   ],
+   [
+    "15px | w400 | lh 22.5px | ls normal | \"Inter v3\"",
+    10
+   ],
+   [
+    "20px | w600 | lh 26px | ls -0.2px | \"Inter v3\"",
+    10
+   ],
+   [
+    "28px | w500 | lh 40px | ls -0.56px | \"Inter v3\"",
+    10
+   ],
+   [
+    "14px | w600 | lh 22px | ls normal | \"Inter v3\"",
+    10
+   ],
+   [
+    "16px | w500 | lh 24px | ls -0.16px | \"Inter v3\"",
+    9
+   ],
+   [
+    "16px | w600 | lh 24px | ls -0.16px | \"Inter v3\"",
+    9
+   ],
+   [
+    "24px | w600 | lh 30px | ls -0.24px | \"Inter v3\"",
+    9
+   ],
+   [
+    "30px | w600 | lh 32px | ls -0.6px | \"Inter v3\"",
+    9
+   ],
+   [
+    "15px | w400 | lh 21px | ls normal | \"Inter v3\"",
+    9
+   ],
+   [
+    "16px | w600 | lh 20px | ls normal | \"Inter v3\"",
+    9
+   ],
+   [
+    "56px | w500 | lh 64px | ls -1.68px | \"Inter v3\"",
+    8
+   ],
+   [
+    "14px | w400 | lh 20px | ls normal | \"Inter v3\"",
+    7
+   ],
+   [
+    "32px | w400 | lh 44px | ls -0.64px | \"Inter v3\"",
+    7
+   ],
+   [
+    "18px | w400 | lh 24px | ls normal | \"Inter v3\"",
+    7
+   ],
+   [
+    "15px | w500 | lh 22.5px | ls -0.075px | \"Inter Nav\"",
+    6
+   ],
+   [
+    "76px | w600 | lh 79.42px | ls -3.04px | \"Inter v3\"",
+    6
+   ],
+   [
+    "20px | w600 | lh 24px | ls normal | \"Inter v3\"",
+    5
+   ],
+   [
+    "14px | w400 | lh 16px | ls normal | \"Inter v3\"",
+    5
+   ],
+   [
+    "20px | w500 | lh 28px | ls -0.2px | \"Inter v3\"",
+    4
+   ]
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "SELL WHAT YOUR PEOPLE ASK FOR",
+    "size": "162px",
+    "weight": "900",
+    "lh": "139.32px",
+    "ls": "-7.29px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "uppercase"
+   },
+   {
+    "tag": "H2",
+    "text": "Topmate has paid ₹100+ crore to creators.",
+    "size": "76px",
+    "weight": "600",
+    "lh": "79.42px",
+    "ls": "-3.04px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Start with one offer. Add more when people ask.",
+    "size": "56px",
+    "weight": "500",
+    "lh": "60px",
+    "ls": "-1.68px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Meetings",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Webinars",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Cohorts",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Courses",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Digital Products",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Packages",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Priority DM",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Memberships",
+    "size": "16px",
+    "weight": "400",
+    "lh": "24px",
+    "ls": "normal",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "You show up. Topmate sets up the call.",
+    "size": "56px",
+    "weight": "500",
+    "lh": "60px",
+    "ls": "-1.68px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Zoom Pro",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Calendar sync",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Reminders",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Testimonials",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Buyers pay the way they like. You withdraw the money to your bank.",
+    "size": "56px",
+    "weight": "500",
+    "lh": "60px",
+    "ls": "-1.68px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Buyers pay their way",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Earn more per buyer",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Withdraw to your bank",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "You bring the people. Topmate turns them into bookings.",
+    "size": "56px",
+    "weight": "500",
+    "lh": "60px",
+    "ls": "-1.68px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Instagram bio and Auto DM",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Ready‑made posts",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Topmate search",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Loop",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Sales team",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Performance marketing",
+    "size": "32px",
+    "weight": "600",
+    "lh": "38px",
+    "ls": "-0.64px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Learn it live, in a cohort.",
+    "size": "56px",
+    "weight": "500",
+    "lh": "60px",
+    "ls": "-1.68px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(245, 244, 240)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Germany & Europe Career Bootcamp",
+    "size": "30px",
+    "weight": "600",
+    "lh": "32px",
+    "ls": "-0.6px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "AI Product Builder Cohort",
+    "size": "30px",
+    "weight": "600",
+    "lh": "32px",
+    "ls": "-0.6px",
+    "family": "\"Inter v3\", system-ui, sans-serif",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "8px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px",
+    "size": "135x44",
+    "font": "16px w400 \"Inter Nav\"",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Creators",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "999px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "0px 16px",
+    "size": "93x36",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Marketplace",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(255, 255, 255, 0.72)",
+    "radius": "999px",
+    "border": "0px solid rgba(255, 255, 255, 0.72)",
+    "pad": "0px 16px",
+    "size": "120x36",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Search",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(255, 255, 255, 0.72)",
+    "radius": "999px",
+    "border": "0px solid rgba(255, 255, 255, 0.72)",
+    "pad": "0px 16px",
+    "size": "82x36",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Products",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(255, 255, 255, 0.8)",
+    "radius": "8px",
+    "border": "0px solid rgba(255, 255, 255, 0.8)",
+    "pad": "0px 9px",
+    "size": "101x44",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Use cases",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(255, 255, 255, 0.8)",
+    "radius": "8px",
+    "border": "0px solid rgba(255, 255, 255, 0.8)",
+    "pad": "0px 9px",
+    "size": "111x44",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Pricing",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(255, 255, 255, 0.8)",
+    "radius": "8px",
+    "border": "0px solid rgba(255, 255, 255, 0.8)",
+    "pad": "0px 9px",
+    "size": "67x44",
+    "font": "15px w500 \"Inter Nav\"",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Log in",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "999px",
+    "border": "1px solid rgba(255, 255, 255, 0.3)",
+    "pad": "0px 18px",
+    "size": "84x44",
+    "font": "16px w500 \"Inter Nav\"",
+    "transition": "border-color, background-color 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Start selling Start selling",
+    "bg": "rgb(199, 233, 140)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "999px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "0px 22px",
+    "size": "135x44",
+    "font": "16px w600 \"Inter Nav\"",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Start selling Start selling",
+    "bg": "rgb(20, 20, 20)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "20px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px 12px",
+    "size": "308x70",
+    "font": "20px w600 \"Inter v3\"",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Book an expert Book an expert",
+    "bg": "rgba(255, 255, 255, 0.35)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "20px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "0px 12px",
+    "size": "308x70",
+    "font": "20px w600 \"Inter v3\"",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Chandralekha M R",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "0px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "0px",
+    "size": "176x24",
+    "font": "18px w600 \"Inter v3\"",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "999px",
+    "border": "1px solid rgba(20, 20, 20, 0.2)",
+    "pad": "0px",
+    "size": "48x48",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "999px",
+    "border": "1px solid rgba(20, 20, 20, 0.2)",
+    "pad": "0px",
+    "size": "48x48",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "999px",
+    "border": "1px solid rgba(20, 20, 20, 0.2)",
+    "pad": "0px",
+    "size": "48x48",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Chandralekha M R Personal finance",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "0px",
+    "border": "0px 0px 1px none none solid rgba(20, 20, 20, 0.1)",
+    "pad": "10.08px 0px",
+    "size": "600x49",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Gaurav Ghai Tech careers",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(20, 20, 20, 0.63)",
+    "radius": "0px",
+    "border": "0px 0px 1px none none solid rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.1)",
+    "pad": "10.08px 0px",
+    "size": "600x49",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Nidhi Nagori Global careers, Toronto",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(20, 20, 20, 0.63)",
+    "radius": "0px",
+    "border": "0px 0px 1px none none solid rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.1)",
+    "pad": "10.08px 0px",
+    "size": "600x49",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Adv. Nitish Banka Family law",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(20, 20, 20, 0.63)",
+    "radius": "0px",
+    "border": "0px 0px 1px none none solid rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.1)",
+    "pad": "10.08px 0px",
+    "size": "600x49",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Hina Arora Careers and LinkedIn",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgba(20, 20, 20, 0.63)",
+    "radius": "0px",
+    "border": "0px 0px 1px none none solid rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.63) rgba(20, 20, 20, 0.1)",
+    "pad": "10.08px 0px",
+    "size": "600x49",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "background-color, color, border-color 0.2s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Start selling",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "0px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "0px",
+    "size": "135x28",
+    "font": "20px w600 \"Inter v3\"",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Meetings",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "8px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "14px 0px 0px",
+    "size": "640x58",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "padding 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Explore Meetings Explore Meetings",
+    "bg": "rgb(20, 20, 20)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "999px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px 32px",
+    "size": "228x54",
+    "font": "20px w600 \"Inter v3\"",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Webinars",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(20, 20, 20)",
+    "radius": "8px",
+    "border": "0px solid rgb(20, 20, 20)",
+    "pad": "14px 0px",
+    "size": "640x72",
+    "font": "16px w400 \"Inter v3\"",
+    "transition": "padding 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Explore Webinars Explore Webinars",
+    "bg": "rgb(20, 20, 20)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "999px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px 32px",
+    "size": "230x54",
+    "font": "20px w600 \"Inter v3\"",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    "shadow": "none"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "HEADER",
+    "cls": "nav relative z-50",
+    "top": 0,
+    "h": 72,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "nav-switch nav-desk-only ml-6",
+    "top": 14,
+    "h": 44,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "nav-links-only",
+    "top": 14,
+    "h": 44,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "flex flex-col min-[992px]:min-h-[calc(100svh-var(--hero-top,",
+    "top": 72,
+    "h": 828,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "SELL WHAT YOUR PEOPLE ASK FOR"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "proof",
+    "top": 900,
+    "h": 981,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "Topmate has paid ₹100+ crore to creators."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "gx @container relative bg-[var(--peach-light)] py-[104px] ma",
+    "top": 1777,
+    "h": 429,
+    "bg": "rgb(248, 238, 219)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "",
+    "top": 2206,
+    "h": 3448,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "Start with one offer. Add more when people ask."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "ses",
+    "top": 5654,
+    "h": 1337,
+    "bg": "rgb(255, 255, 255)",
+    "bgImg": "none",
+    "heading": "You show up. Topmate sets up the call."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "money",
+    "top": 6991,
+    "h": 1322,
+    "bg": "rgb(199, 233, 140)",
+    "bgImg": "none",
+    "heading": "Buyers pay the way they like. You withdraw the money to your bank."
+   },
+   {
+    "tag": "DIV",
+    "cls": "dark-panel",
+    "top": 7945,
+    "h": 6701,
+    "bg": "rgb(20, 20, 20)",
+    "bgImg": "none",
+    "heading": "You bring the people. Topmate turns them into bookings."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "g-section",
+    "top": 7945,
+    "h": 1750,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "You bring the people. Topmate turns them into bookings."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "c-section",
+    "top": 9695,
+    "h": 894,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "Learn it live, in a cohort."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "q-section gx text-[var(--fg)]",
+    "top": 10589,
+    "h": 906,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "In their words."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "gx pb-[var(--pad-y)] max-[992px]:scroll-mt-[calc(var(--nav-s",
+    "top": 11495,
+    "h": 1129,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "Questions people ask before they start"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "gx",
+    "top": 12624,
+    "h": 900,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "When people ask, send your link."
+   },
+   {
+    "tag": "FOOTER",
+    "cls": "gx",
+    "top": 13524,
+    "h": 1122,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "min-w-0",
+    "top": 13767,
+    "h": 322,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "cl-find",
+    "top": 14161,
+    "h": 144,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "cl-find",
+    "top": 14377,
+    "h": 78,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   }
+  ],
+  "images": [
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/topmate-dark.1xpxpc74uxv75.svg",
+    "alt": "Topmate home",
+    "w": 135,
+    "h": 26,
+    "natural": "504x97",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/ringlight-800.017sxrz7car2_.webp",
+    "alt": "A man records a video in front of a ring light",
+    "w": 720,
+    "h": 503,
+    "natural": "720x1080",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/financewizardcl-sm.40hs4eja6r_pz.webp",
+    "alt": "",
+    "w": 494,
+    "h": 479,
+    "natural": "508x492",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/gauravghai-sm.05fny-a17yq2p.webp",
+    "alt": "",
+    "w": 596,
+    "h": 575,
+    "natural": "563x543",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/nidhi_nagori-lg.2s70q4k0-q--u.webp",
+    "alt": "",
+    "w": 521,
+    "h": 657,
+    "natural": "635x801",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/lexspeak_legal-sm.2i1xu1sxvtdu_.webp",
+    "alt": "",
+    "w": 577,
+    "h": 582,
+    "natural": "545x551",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/careerwithhina-sm.03emwh4pm4yjl.webp",
+    "alt": "",
+    "w": 590,
+    "h": 585,
+    "natural": "557x552",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/meetings-mentor-client-call-pexels-7245802.1b4zi77dx8xdt.webp",
+    "alt": "A mentor at a long wooden table smiles at her client, whose ",
+    "w": 1476,
+    "h": 985,
+    "natural": "3010x2008",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/webinars-speaker-mic-slides-pexels-8761560.1ee29j-v92dxb.webp",
+    "alt": "",
+    "w": 1514,
+    "h": 1011,
+    "natural": "3090x2063",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/cohorts-teacher-live-class-pexels-37795360.19b267uw9ugz3.webp",
+    "alt": "",
+    "w": 1589,
+    "h": 900,
+    "natural": "3241x1836",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/courses-teacher-recording-lesson-pexels-6326386.0zvv4jibrtopj.webp",
+    "alt": "",
+    "w": 1602,
+    "h": 1068,
+    "natural": "3270x2179",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/products-designer-screen-pexels-7675023.3rm6vic9e8k5j.webp",
+    "alt": "",
+    "w": 1412,
+    "h": 943,
+    "natural": "2880x1923",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/packages-mentor-notes-pexels-4308094.2m9va9ho4kqqb.webp",
+    "alt": "",
+    "w": 973,
+    "h": 1002,
+    "natural": "1985x2044",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/priority-dm-expert-reply-phone-pexels-8154166.2nl-hus7zj6uf.webp",
+    "alt": "",
+    "w": 1026,
+    "h": 1538,
+    "natural": "2093x3139",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/memberships-creator-phone-update-pexels-8374250.31zgswsplz9ok.webp",
+    "alt": "",
+    "w": 1350,
+    "h": 900,
+    "natural": "2754x1836",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/telegram-05f6898c.svg",
+    "alt": "",
+    "w": 56,
+    "h": 56,
+    "natural": "256x256",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/meetings-mentor-client-call-pexels-7245802.1b4zi77dx8xdt.webp",
+    "alt": "A mentor at a long wooden table smiles at her client, whose ",
+    "w": 0,
+    "h": 0,
+    "natural": "3010x2008",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/webinars-speaker-mic-slides-pexels-8761560.1ee29j-v92dxb.webp",
+    "alt": "A speaker with a microphone teaches a room from her slides",
+    "w": 0,
+    "h": 0,
+    "natural": "3090x2063",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/cohorts-teacher-live-class-pexels-37795360.19b267uw9ugz3.webp",
+    "alt": "A teacher at her desk leads a live class through the laptop ",
+    "w": 0,
+    "h": 0,
+    "natural": "3241x1836",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/courses-teacher-recording-lesson-pexels-6326386.0zvv4jibrtopj.webp",
+    "alt": "A teacher records a lesson at his desk, his phone on a tripo",
+    "w": 0,
+    "h": 0,
+    "natural": "3270x2179",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/products-designer-screen-pexels-7675023.3rm6vic9e8k5j.webp",
+    "alt": "A designer works on a new guide page on her screen, drawing ",
+    "w": 0,
+    "h": 0,
+    "natural": "2880x1923",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/packages-mentor-notes-pexels-4308094.2m9va9ho4kqqb.webp",
+    "alt": "A mentor points at the notes his mentee is writing, his lapt",
+    "w": 0,
+    "h": 0,
+    "natural": "1985x2044",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/priority-dm-expert-reply-phone-pexels-8154166.2nl-hus7zj6uf.webp",
+    "alt": "An expert at her office desk types a written reply on her ph",
+    "w": 0,
+    "h": 0,
+    "natural": "2093x3139",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/memberships-creator-phone-update-pexels-8374250.31zgswsplz9ok.webp",
+    "alt": "A creator at his desk talks to his members through his phone",
+    "w": 0,
+    "h": 0,
+    "natural": "2754x1836",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/telegram-05f6898c.svg",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "256x256",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/zoom-5d1bf4d3.svg",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "256x256",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/google-meet-78740599.svg",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "622x512",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/whatsapp-icon-a4b67693.svg",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "149x150",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/upi-b7bdc22e.svg",
+    "alt": "UPI",
+    "w": 59,
+    "h": 21,
+    "natural": "493x174",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/images/homepage-v3/brands/upi-b7bdc22e.svg",
+    "alt": "UPI",
+    "w": 59,
+    "h": 21,
+    "natural": "493x174",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/wanderess_priyanka-cut.30y8vsilacmlu.webp",
+    "alt": "",
+    "w": 455,
+    "h": 460,
+    "natural": "950x960",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/technomanagers-cut.226-7c5yjsljj.webp",
+    "alt": "",
+    "w": 300,
+    "h": 350,
+    "natural": "821x960",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/sachin_sharma-cut.059wbd4_7kjpy.webp",
+    "alt": "",
+    "w": 318,
+    "h": 354,
+    "natural": "707x787",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/ankita_gulati-cut.3wxqrj_85pnes.webp",
+    "alt": "",
+    "w": 266,
+    "h": 281,
+    "natural": "414x438",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/simrankhokha-disc.3oaoygiiz_qae.webp",
+    "alt": "",
+    "w": 260,
+    "h": 260,
+    "natural": "340x340",
+    "loading": "eager",
+    "radius": "999px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/ayush_singh13-cut.1f8rr132qd972.webp",
+    "alt": "",
+    "w": 298,
+    "h": 336,
+    "natural": "599x676",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/theaipmcoach-disc.27thdgs9r44pq.webp",
+    "alt": "",
+    "w": 260,
+    "h": 260,
+    "natural": "572x572",
+    "loading": "eager",
+    "radius": "999px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/kartikkapoorconsultation-cut.1_ghk5421n885.webp",
+    "alt": "",
+    "w": 263,
+    "h": 297,
+    "natural": "786x888",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/payalineurope-disc.1c373pbattlrf.webp",
+    "alt": "",
+    "w": 260,
+    "h": 260,
+    "natural": "360x360",
+    "loading": "eager",
+    "radius": "999px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-anirudh_rapole.2w98k40voxqtz.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-swati_mathur.0ksa6nbdcx1fy.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-iamparagjain.3jd9xqvtt7ep0.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-nancy_g.2k8o1etot01wv.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-pratikbutani.1qe-u8i2os9c5.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-mukundkumar.31vb8e93ac_cl.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-born2wins.1gekdqffbws4u.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/a-rapti.17vigbrqzx82k.jpg",
+    "alt": "",
+    "w": 72,
+    "h": 72,
+    "natural": "168x168",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-anirudh_rapole.2s1u1el182n3m.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "640x800",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-swati_mathur.2qsorurr311sa.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "338x423",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-iamparagjain.2ug8m0ugyk4sv.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "644x805",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-nancy_g.06bo0v6tf0m_u.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "320x400",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-pratikbutani.1kopkrp60vhl_.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "644x805",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-mukundkumar.0qh58oc5yu5nt.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "644x805",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-born2wins.2sd64dbhnp3oa.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "516x645",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/p-rapti.3v2_9nlejri0b.jpg",
+    "alt": "",
+    "w": 400,
+    "h": 500,
+    "natural": "644x805",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/careerwithhina.1zgsnb-sgpidx.jpg",
+    "alt": "Hina Arora",
+    "w": 96,
+    "h": 96,
+    "natural": "640x640",
+    "loading": "eager",
+    "radius": "18px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/mitch_clements.3scm94zb0ba_8.jpg",
+    "alt": "Mitchell Clements",
+    "w": 96,
+    "h": 96,
+    "natural": "640x640",
+    "loading": "eager",
+    "radius": "18px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/vasantharan.3ipcrqfxtf9w6.jpg",
+    "alt": "Vasantharan K",
+    "w": 96,
+    "h": 96,
+    "natural": "640x640",
+    "loading": "eager",
+    "radius": "18px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/madadwoman.19nb722st8vgc.jpg",
+    "alt": "Pranita Bajoria",
+    "w": 96,
+    "h": 96,
+    "natural": "640x640",
+    "loading": "eager",
+    "radius": "18px"
+   },
+   {
+    "src": "https://topmate.io/_next/static/immutable/media/kartikkapoorconsultation.2dxnr7w9sh_gq.jpg",
+    "alt": "Kartik Kapoor",
+    "w": 96,
+    "h": 96,
+    "natural": "640x640",
+    "loading": "eager",
+    "radius": "18px"
+   }
+  ],
+  "videos": [],
+  "radius": [
+   [
+    "999px",
+    84
+   ],
+   [
+    "28px",
+    42
+   ],
+   [
+    "12px",
+    37
+   ],
+   [
+    "18px",
+    32
+   ],
+   [
+    "8px",
+    27
+   ],
+   [
+    "20px",
+    4
+   ],
+   [
+    "28px 28px 0px 0px",
+    1
+   ]
+  ],
+  "shadow": [],
+  "transitions": [
+   [
+    "stroke | 0.26s | cubic-bezier(0.5, 0, 0.1, 1)",
+    137
+   ],
+   [
+    "fill | 0.26s | cubic-bezier(0.5, 0, 0.1, 1)",
+    105
+   ],
+   [
+    "color | 0.2s | ease",
+    82
+   ],
+   [
+    "transform | 0.4s | cubic-bezier(0.25, 1, 0.5, 1)",
+    75
+   ],
+   [
+    "color, background-color, border-color, outline-color, text-decoration-color, fil | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)",
+    26
+   ],
+   [
+    "padding | 0.4s | cubic-bezier(0.25, 1, 0.5, 1)",
+    17
+   ],
+   [
+    "grid-template-rows | 0.4s | cubic-bezier(0.25, 1, 0.5, 1)",
+    16
+   ],
+   [
+    "opacity | 0.12s | linear",
+    14
+   ],
+   [
+    "transform, background-color, color | 0.4s, 0.2s, 0.2s | cubic-bezier(0.25, 1, 0.5, 1), ease, ease",
+    13
+   ],
+   [
+    "color | 0.2s | cubic-bezier(0.25, 1, 0.5, 1)",
+    9
+   ],
+   [
+    "max-width, margin, opacity | 0.4s, 0.4s, 0.2s | cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    9
+   ],
+   [
+    "background-color, color, border-color | 0.2s, 0.2s, 0.2s | cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "padding-bottom | 0.4s | cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "transform, translate, scale, rotate | 0.4s | cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "color, text-decoration-color | 0.2s, 0.2s | cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "outline-color | 0.2s | cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "filter, opacity | 0.2s, 0.2s | cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+    8
+   ],
+   [
+    "opacity | 0.08s | cubic-bezier(0.25, 1, 0.5, 1)",
+    7
+   ],
+   [
+    "opacity, visibility, transform | 0.2s, 0s, 0s | cubic-bezier(0.25, 1, 0.5, 1), linear, linear",
+    7
+   ],
+   [
+    "--g-tile | 0.2s | ease",
+    6
+   ]
+  ],
+  "animationsCss": [
+   [
+    "spot-fill | 5s | linear | 1",
+    1
+   ]
+  ],
+  "keyframes": {
+   "an1": "@keyframes an1 { \n  0% { transform: rotate(0deg); }\n  5% { transform: rotate(3deg); }\n  15% { transform: rotate(-2.5deg); }\n  25% { transform: rotate(2deg); }\n  35% { transform: rotate(-1.5deg); }\n  45% { transform: rotate(1deg); }\n  55% { transform: rotate(-1.5deg); }\n  65% { transform: rotate(2deg); }\n  75% { transform: rotate(-2deg); }\n  85% { transform: rotate(2.5deg); }\n  95% { transform: rotate(-3deg); }\n  100% { transform: rotate(0deg); }\n}",
+   "shimmer-move": "@keyframes shimmer-move { \n  0% { left: -75%; }\n  100% { left: 125%; }\n}",
+   "pulse-orange": "@keyframes pulse-orange { \n  0% { transform: scale(0.999); box-shadow: rgb(250, 205, 134) 0px 0px; }\n  70% { transform: scale(1); box-shadow: rgba(255, 121, 63, 0) 0px 0px 0px 10px; }\n  100% { transform: scale(0.999); box-shadow: rgba(255, 121, 63, 0) 0px 0px; }\n}",
+   "snowfall": "@keyframes snowfall { \n  0% { opacity: 1; }\n  65% { opacity: 1; }\n  100% { opacity: 0; transform: translate(-120px, 100vh) skew(-10deg) rotateX(50deg) rotateY(50deg); }\n}",
+   "spx-fold-in": "@keyframes spx-fold-in { \n  0% { opacity: 0; transform: translateY(-6px); }\n  100% { opacity: 1; transform: none; }\n}",
+   "spx-shimmer": "@keyframes spx-shimmer { \n  0% { background-position: 100% center; }\n  100% { background-position: 0px center; }\n}",
+   "rotate": "@keyframes rotate { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+   "slideIn": "@keyframes slideIn { \n  0% { opacity: 0; transform: translateY(-150%); }\n  100% { opacity: 1; transform: translateY(-100%); }\n}",
+   "slideOut": "@keyframes slideOut { \n  0% { opacity: 1; transform: translateY(-100%); }\n  30% { opacity: 0; }\n  100% { opacity: 0; transform: translateY(-50%); }\n}",
+   "spin": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}",
+   "pulse": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}",
+   "bounce": "@keyframes bounce { \n  0%, 100% { animation-timing-function: cubic-bezier(0.8, 0, 1, 1); transform: translateY(-25%); }\n  50% { animation-timing-function: cubic-bezier(0, 0, 0.2, 1); transform: none; }\n}",
+   "css-1yqcsqt-antZoomIn": "@keyframes css-1yqcsqt-antZoomIn { \n  0% { opacity: 0; transform: scale(0.2); }\n  100% { opacity: 1; transform: scale(1); }\n}",
+   "css-1yqcsqt-antSlideUpIn": "@keyframes css-1yqcsqt-antSlideUpIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: scaleY(0.8); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: scaleY(1); }\n}",
+   "css-1yqcsqt-antSlideDownIn": "@keyframes css-1yqcsqt-antSlideDownIn { \n  0% { transform-origin: 100% 100%; opacity: 0; transform: scaleY(0.8); }\n  100% { transform-origin: 100% 100%; opacity: 1; transform: scaleY(1); }\n}",
+   "css-1yqcsqt-antSlideUpOut": "@keyframes css-1yqcsqt-antSlideUpOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: scaleY(1); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: scaleY(0.8); }\n}",
+   "css-1yqcsqt-antSlideDownOut": "@keyframes css-1yqcsqt-antSlideDownOut { \n  0% { transform-origin: 100% 100%; opacity: 1; transform: scaleY(1); }\n  100% { transform-origin: 100% 100%; opacity: 0; transform: scaleY(0.8); }\n}",
+   "css-1yqcsqt-antMoveUpIn": "@keyframes css-1yqcsqt-antMoveUpIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translateY(-100%); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antMoveUpOut": "@keyframes css-1yqcsqt-antMoveUpOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translateY(-100%); }\n}",
+   "css-1yqcsqt-antMoveDownIn": "@keyframes css-1yqcsqt-antMoveDownIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translateY(100%); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antMoveDownOut": "@keyframes css-1yqcsqt-antMoveDownOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translateY(100%); }\n}",
+   "css-1yqcsqt-antBadgeLoadingCircle": "@keyframes css-1yqcsqt-antBadgeLoadingCircle { \n  0% { transform-origin: 50% center; }\n  100% { transform-origin: 50% center; transform: translate(50%, -50%) rotate(360deg); }\n}",
+   "css-1yqcsqt-antStatusProcessing": "@keyframes css-1yqcsqt-antStatusProcessing { \n  0% { opacity: 0.5; transform: scale(0.8); }\n  100% { opacity: 0; transform: scale(2.4); }\n}",
+   "css-1yqcsqt-antZoomBadgeIn": "@keyframes css-1yqcsqt-antZoomBadgeIn { \n  0% { opacity: 0; transform: scale(0) translate(50%, -50%); }\n  100% { transform: scale(1) translate(50%, -50%); }\n}",
+   "css-1yqcsqt-antZoomBadgeOut": "@keyframes css-1yqcsqt-antZoomBadgeOut { \n  0% { transform: scale(1) translate(50%, -50%); }\n  100% { opacity: 0; transform: scale(0) translate(50%, -50%); }\n}",
+   "css-1yqcsqt-antNoWrapperZoomBadgeIn": "@keyframes css-1yqcsqt-antNoWrapperZoomBadgeIn { \n  0% { opacity: 0; transform: scale(0); }\n  100% { transform: scale(1); }\n}",
+   "css-1yqcsqt-antNoWrapperZoomBadgeOut": "@keyframes css-1yqcsqt-antNoWrapperZoomBadgeOut { \n  0% { transform: scale(1); }\n  100% { opacity: 0; transform: scale(0); }\n}",
+   "css-1yqcsqt-ant-carousel-dot-animation": "@keyframes css-1yqcsqt-ant-carousel-dot-animation { \n  0% { width: 0px; }\n  100% { width: 24px; }\n}",
+   "css-1yqcsqt-ant-carousel-dot-vertical-animation": "@keyframes css-1yqcsqt-ant-carousel-dot-vertical-animation { \n  0% { height: 0px; }\n  100% { height: 24px; }\n}",
+   "css-1yqcsqt-antZoomBigIn": "@keyframes css-1yqcsqt-antZoomBigIn { \n  0% { opacity: 0; transform: scale(0.8); }\n  100% { opacity: 1; transform: scale(1); }\n}",
+   "css-1yqcsqt-antZoomBigOut": "@keyframes css-1yqcsqt-antZoomBigOut { \n  0% { transform: scale(1); }\n  100% { opacity: 0; transform: scale(0.8); }\n}",
+   "css-1yqcsqt-antFadeIn": "@keyframes css-1yqcsqt-antFadeIn { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+   "css-1yqcsqt-antFadeOut": "@keyframes css-1yqcsqt-antFadeOut { \n  0% { opacity: 1; }\n  100% { opacity: 0; }\n}",
+   "css-1yqcsqt-antFloatButtonMoveTopIn": "@keyframes css-1yqcsqt-antFloatButtonMoveTopIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translateY(50px); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveTopOut": "@keyframes css-1yqcsqt-antFloatButtonMoveTopOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translateY(50px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveBottomIn": "@keyframes css-1yqcsqt-antFloatButtonMoveBottomIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translateY(-50px); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveBottomOut": "@keyframes css-1yqcsqt-antFloatButtonMoveBottomOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translateY(-50px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveLeftIn": "@keyframes css-1yqcsqt-antFloatButtonMoveLeftIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translate(50px); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveLeftOut": "@keyframes css-1yqcsqt-antFloatButtonMoveLeftOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translate(50px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveRightIn": "@keyframes css-1yqcsqt-antFloatButtonMoveRightIn { \n  0% { transform-origin: 0px 0px; opacity: 0; transform: translate(-50px); }\n  100% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n}",
+   "css-1yqcsqt-antFloatButtonMoveRightOut": "@keyframes css-1yqcsqt-antFloatButtonMoveRightOut { \n  0% { transform-origin: 0px 0px; opacity: 1; transform: translate(0px, 0px); }\n  100% { transform-origin: 0px 0px; opacity: 0; transform: translate(-50px); }\n}",
+   "css-1yqcsqt-antZoomOut": "@keyframes css-1yqcsqt-antZoomOut { \n  0% { transform: scale(1); }\n  100% { opacity: 0; transform: scale(0.2); }\n}",
+   "css-1yqcsqt-antSpinMove": "@keyframes css-1yqcsqt-antSpinMove { \n  100% { opacity: 1; }\n}",
+   "css-1yqcsqt-antRotate": "@keyframes css-1yqcsqt-antRotate { \n  100% { transform: rotate(405deg); }\n}",
+   "css-1yqcsqt-antProgressLTRActive": "@keyframes css-1yqcsqt-antProgressLTRActive { \n  0% { opacity: 0.1; transform: translate(-100%) scaleX(0); }\n  20% { opacity: 0.5; transform: translate(-100%) scaleX(0); }\n  100% { opacity: 0; transform: translate(0px) scaleX(1); }\n}",
+   "css-1yqcsqt-antProgressRTLActive": "@keyframes css-1yqcsqt-antProgressRTLActive { \n  0% { opacity: 0.1; transform: translate(100%) scaleX(0); }\n  20% { opacity: 0.5; transform: translate(100%) scaleX(0); }\n  100% { opacity: 0; transform: translate(0px) scaleX(1); }\n}",
+   "css-1yqcsqt-ant-skeleton-loading": "@keyframes css-1yqcsqt-ant-skeleton-loading { \n  0% { background-position: 100% center; }\n  100% { background-position: 0px center; }\n}",
+   "css-1yqcsqt-ant-tree-node-fx-do-not-use": "@keyframes css-1yqcsqt-ant-tree-node-fx-do-not-use { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+   "css-1yqcsqt-uploadAnimateInlineIn": "@keyframes css-1yqcsqt-uploadAnimateInlineIn { \n  0% { opacity: 0; width: 0px; height: 0px; margin: -4px; padding: 0px; }\n}",
+   "css-1yqcsqt-uploadAnimateInlineOut": "@keyframes css-1yqcsqt-uploadAnimateInlineOut { \n  100% { opacity: 0; width: 0px; height: 0px; margin: -4px; padding: 0px; }\n}",
+   "Ojv-LW_scrollUpAnimationStorefront": "@keyframes Ojv-LW_scrollUpAnimationStorefront { \n  0% { transform: translateY(0%); }\n  100% { transform: translateY(-33.3333%); }\n}",
+   "Ojv-LW_scrollDownAnimationStorefront": "@keyframes Ojv-LW_scrollDownAnimationStorefront { \n  0% { transform: translateY(-33.3333%); }\n  100% { transform: translateY(0%); }\n}",
+   "gXYt8W_scrollUpAnimationJobsReferral": "@keyframes gXYt8W_scrollUpAnimationJobsReferral { \n  0% { transform: translateY(0%); }\n  100% { transform: translateY(-33.3333%); }\n}",
+   "gXYt8W_scrollDownAnimationJobsReferral": "@keyframes gXYt8W_scrollDownAnimationJobsReferral { \n  0% { transform: translateY(-33.3333%); }\n  100% { transform: translateY(0%); }\n}",
+   "S_NwIW_adm-drift": "@keyframes S_NwIW_adm-drift { \n  0% { transform: translateY(-64px); }\n  100% { transform: translateY(64px); }\n}",
+   "S_NwIW_adm-shift": "@keyframes S_NwIW_adm-shift { \n  0%, 100% { background-color: var(--adm-paper); }\n  50% { background-color: color-mix(in srgb, var(--adm-band-amber) 70%, var(--adm-paper)); }\n}",
+   "TEjSPq_offerPop": "@keyframes TEjSPq_offerPop { \n  0% { opacity: 0; transform: scale(0.95); }\n  100% { opacity: 1; transform: scale(1); }\n}",
+   "TEjSPq_offerRise": "@keyframes TEjSPq_offerRise { \n  0% { opacity: 0; transform: translateY(10px); }\n  100% { opacity: 1; transform: translateY(0px); }\n}",
+   "uQDgrq_sparkle": "@keyframes uQDgrq_sparkle { \n  0%, 100% { opacity: 1; transform: scale(1); }\n  50% { opacity: 0.8; transform: scale(1.1); }\n}",
+   "uQDgrq_gradientFlow": "@keyframes uQDgrq_gradientFlow { \n  0% { background-position: 0% center; }\n  50% { background-position: 100% center; }\n  100% { background-position: 0% center; }\n}",
+   "uQDgrq_arrowBob": "@keyframes uQDgrq_arrowBob { \n  0%, 100% { transform: translateY(0px); }\n  50% { transform: translateY(-2px); }\n}",
+   "swiper-preloader-spin": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+   "spot-in": "@keyframes spot-in { \n  0% { opacity: 0; transform: translateX(calc(12px * var(--dir,1))); }\n  100% { opacity: 1; transform: none; }\n}",
+   "spot-out": "@keyframes spot-out { \n  0% { opacity: 1; transform: none; }\n  100% { opacity: 0; transform: translateX(calc(-12px * var(--dir,1))); }\n}",
+   "spot-fill": "@keyframes spot-fill { \n  0% { transform: scaleX(0); }\n  100% { transform: scaleX(1); }\n}"
+  },
+  "breakpoints": [
+   "max-width: 1023px",
+   "max-width: 1024px",
+   "max-width: 1199.98px",
+   "max-width: 1199px",
+   "max-width: 1200px",
+   "max-width: 1279.98px",
+   "max-width: 1279px",
+   "max-width: 1280px",
+   "max-width: 1359.98px",
+   "max-width: 1359px",
+   "max-width: 1365px",
+   "max-width: 1439.98px",
+   "max-width: 1599px",
+   "max-width: 374.98px",
+   "max-width: 379px",
+   "max-width: 399.98px",
+   "max-width: 399px",
+   "max-width: 480px",
+   "max-width: 575px",
+   "max-width: 576px",
+   "max-width: 599px",
+   "max-width: 767.98px",
+   "max-width: 767px",
+   "max-width: 768px",
+   "max-width: 900px",
+   "max-width: 991.98px",
+   "max-width: 991px",
+   "max-width: 992px",
+   "min-width: 1023px",
+   "min-width: 1024px",
+   "min-width: 1025px",
+   "min-width: 1200px",
+   "min-width: 1280px",
+   "min-width: 1360px",
+   "min-width: 1400px",
+   "min-width: 1600px",
+   "min-width: 374px",
+   "min-width: 40rem",
+   "min-width: 480px",
+   "min-width: 48rem",
+   "min-width: 520px",
+   "min-width: 575px",
+   "min-width: 576px",
+   "min-width: 599px",
+   "min-width: 600px",
+   "min-width: 640px",
+   "min-width: 64rem",
+   "min-width: 767px",
+   "min-width: 768px",
+   "min-width: 80rem",
+   "min-width: 96rem",
+   "min-width: 991px",
+   "min-width: 992px",
+   "width < 992px"
+  ],
+  "liveAnimations": [
+   {
+    "target": "I",
+    "cls": "spot-prog",
+    "name": "spot-fill",
+    "duration": 5000,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scaleX(0)\"},{\"offset\":1,\"easing\":\"linear\",\"transform\":\"scaleX(1)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"scale(0.8)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 175,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(0px, 0px) scale(1)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(0px, 0px) scale(1)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(0px, 0px) scale(1)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(0px, 0px) scale(0.95)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 250,
+    "delay": 125,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(0px, 0px) scale(0.95)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 250,
+    "delay": 125,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"translate(-4.26562px, 0px)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(-4.26562px, 0px) scale(0.95)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 250,
+    "delay": 125,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"0\"},{\"offset\":null,\"easing\":\"linear\",\"opacity\":\"1\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(-4.26562px, 0px) scale(1)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 500,
+    "delay": 0,
+    "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+    "iter": 1,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translate(-0.546875px, 0px) scale(0.95)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"none\"}]"
+   }
+  ],
+  "effects": [
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 4px, rgb(0, 0, 0) calc(100% - 4px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 2.25px, rgb(0, 0, 0) calc(100% - 2.25px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "filter": "grayscale(1)"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 5px, rgb(0, 0, 0) calc(100% - 5px), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "SPAN",
+    "ps": "",
+    "cls": "roll",
+    "f": {
+     "maskImage": "linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 4px, rgb(0, 0, 0) calc(100% - 4px), rgba(0, 0, 0, 0))"
+    }
+   }
+  ],
+  "navLinks": [
+   "Creators",
+   "Marketplace",
+   "Search",
+   "Products",
+   "Use cases",
+   "Pricing",
+   "Log in",
+   "Start selling\nStart selling",
+   "Meetings",
+   "Webinars",
+   "Cohorts",
+   "Courses",
+   "Digital Products",
+   "Packages",
+   "Priority DM",
+   "Memberships",
+   "Instagram Auto DM",
+   "Loop",
+   "Sales Team",
+   "Performance Marketing",
+   "Refer & earn",
+   "Product Management",
+   "AI & ML",
+   "Software Engineering",
+   "Data Science"
+  ],
+  "stickyHeader": {
+   "position": "relative",
+   "bg": "rgba(0, 0, 0, 0)",
+   "backdrop": "none",
+   "h": 72
+  }
+ },
+ "headerAfterScroll": {
+  "position": "relative",
+  "top": -400,
+  "bg": "rgba(0, 0, 0, 0)",
+  "backdrop": "none",
+  "shadow": "none",
+  "h": 72
+ },
+ "hovers": [
+  {
+   "text": "Creators",
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)"
+   },
+   "after": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "color 0.2s cubic-bezier(0.25, 1, 0.5, 1)"
+   }
+  },
+  {
+   "text": "Start selling\nStart selling",
+   "before": {
+    "bg": "rgb(199, 233, 140)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   },
+   "after": {
+    "bg": "rgb(184, 229, 116)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "matrix(0.97, 0, 0, 0.97, 0, 0)",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   }
+  },
+  {
+   "text": "Start selling\nStart selling",
+   "before": {
+    "bg": "rgb(20, 20, 20)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "20px",
+    "border": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   },
+   "after": {
+    "bg": "rgb(20, 20, 20)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "matrix(0.97, 0, 0, 0.97, 0, 0)",
+    "shadow": "none",
+    "radius": "20px",
+    "border": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   }
+  },
+  {
+   "text": "Book an expert\nBook an expert",
+   "before": {
+    "bg": "rgba(255, 255, 255, 0.35)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "20px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   },
+   "after": {
+    "bg": "rgba(255, 255, 255, 0.35)",
+    "color": "rgb(20, 20, 20)",
+    "transform": "matrix(0.97, 0, 0, 0.97, 0, 0)",
+    "shadow": "none",
+    "radius": "20px",
+    "border": "rgb(20, 20, 20)",
+    "opacity": "1",
+    "transition": "transform, background-color, color 0.4s, 0.2s, 0.2s cubic-bezier(0.25, 1, 0.5, 1), ease, ease"
+   }
+  }
+ ],
+ "mobile": {
+  "headings": [
+   {
+    "text": "SELL WHAT\nYOUR PEOPLE\nASK FOR",
+    "size": "54px",
+    "lh": "46.44px",
+    "weight": "900"
+   },
+   {
+    "text": "Topmate has paid ₹100+ crore to creators.",
+    "size": "40px",
+    "lh": "44px",
+    "weight": "600"
+   },
+   {
+    "text": "Start with one offer. Add\nmore when people ask.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   },
+   {
+    "text": "You show up. Topmate\nsets up the call.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   },
+   {
+    "text": "Buyers pay the way they\nlike. You withdraw the\nmoney to your bank.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   },
+   {
+    "text": "You bring the people.\nTopmate turns\nthem into bookings.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   },
+   {
+    "text": "Learn it live, in a cohort.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   },
+   {
+    "text": "In their words.",
+    "size": "34px",
+    "lh": "38px",
+    "weight": "500"
+   }
+  ],
+  "nav": {
+   "h": 116,
+   "bg": "rgba(0, 0, 0, 0)",
+   "items": [
+    null,
+    "Start selling\nStart selling",
+    "Open menu",
+    "Creators",
+    "Marketplace",
+    "Search"
+   ]
+  },
+  "docHeight": 11562
+ }
+}

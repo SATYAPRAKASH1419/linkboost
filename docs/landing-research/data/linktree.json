@@ -1,0 +1,1994 @@
+{
+ "entranceAnimations": [
+  {
+   "target": "DIV",
+   "cls": "absolute inset-x-0 flex flex-col top-[calc(50%_-_m",
+   "name": "home-hero-tower-up",
+   "duration": 30000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  }
+ ],
+ "midScrollAnimations": [
+  {
+   "target": "DIV",
+   "cls": "absolute inset-x-0 flex flex-col top-[calc(50%_-_m",
+   "name": "home-hero-tower-up",
+   "duration": 30000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  }
+ ],
+ "desktop": {
+  "url": "https://linktr.ee/",
+  "title": "Link in bio tool: Everything you are, in one simple link | Linktree",
+  "description": "Join 70M+ creators and sell, share & curate everything you do online. One bio link—your Linktree—brings it all together for your audience.",
+  "viewport": 1440,
+  "docHeight": 10371,
+  "stack": {
+   "next": true,
+   "nextAppRouter": true,
+   "nuxt": false,
+   "gatsby": false,
+   "astro": false,
+   "svelte": false,
+   "webflow": true,
+   "framer": false,
+   "wordpress": false,
+   "tailwind": true,
+   "styledComponents": false,
+   "emotion": false,
+   "cssModules": false,
+   "radix": false,
+   "gsap": false,
+   "lenis": false,
+   "lottie": true,
+   "rive": true,
+   "threejs": false,
+   "swiper": false,
+   "splide": false,
+   "generator": null,
+   "scriptHosts": [
+    "linktr.ee",
+    "assets.production.linktr.ee",
+    "edge.browser-fp.production.linktr.ee",
+    "www.googletagmanager.com",
+    "api.consentjs.datagrail.io",
+    "www.redditstatic.com",
+    "connect.facebook.net",
+    "secure.quantserve.com",
+    "pixel.byspotify.com",
+    "bzrcdn.openai.com",
+    "bat.bing.com",
+    "analytics.tiktok.com",
+    "cdn.pdst.fm",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "pixel-config.reddit.com",
+    "alb.reddit.com",
+    "googleads.g.doubleclick.net",
+    "pixels.spotify.com",
+    "gtm-cloud.production.linktr.ee",
+    "ingress.linktr.ee",
+    "rules.quantcount.com",
+    "pixel.quantserve.com",
+    "capi.tr.ee",
+    "www.facebook.com",
+    "www.google.co.in",
+    "www.datadoghq-browser-agent.com",
+    "featureassets.org",
+    "analytics-ipv6.tiktokw.us",
+    "prodregistryv2.org",
+    "analytics.google.com",
+    "api2.amplitude.com",
+    "cdn.amplitude.com",
+    "stats.g.doubleclick.net",
+    "bzr.openai.com",
+    "sr-client-cfg.amplitude.com"
+   ]
+  },
+  "fonts": {
+   "loaded": [
+    "Linksans 300 900 normal"
+   ],
+   "body": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+   "fontFaces": [
+    "\"DM Mono\" | 300 | url(\"../media/ba8e772932784a28-s.1ma0lyyj3vj55.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono\" | 300 | url(\"../media/7546fe8f902b88b8-s.1agee208_hwfr.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono\" | 400 | url(\"../media/b12e986493c137cf-s.2njitm-prmz2_.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono\" | 400 | url(\"../media/36363bfb06833f56-s.38hmww4cj4vme.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono\" | 500 | url(\"../media/b2fa3ef4ca165ab4-s.12_ml6bnugnre.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono\" | 500 | url(\"../media/a73419dd2ba2d841-s.2yee423r7ahpo.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"DM Mono Fallback\" |  | local(\"Arial\")",
+    "mencken |  | url(\"../media/MenckenStdHeadNarrow-s.42igr7de2f1f1.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"mencken Fallback\" |  | local(\"Arial\")",
+    "thatThat |  | url(\"../media/ThatThatNewPixelFamily_Square-s.3s6tha1kf2_g5.woff2?dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15\") format(\"woff2\")",
+    "\"thatThat Fallback\" |  | local(\"Arial\")",
+    "Linksans | 300 900 | url(\"/_marketing/fonts/LinkSans-LinkSansVF.woff2\") format(\"woff2\")",
+    "\"Link Sans Product\" | 300 900 | url(\"/_marketing/fonts/LinkSansProduct.woff2\") format(\"woff2\")",
+    "\"Anybody Variablefont Wdth Wght\" | 100 900 | url(\"/_marketing/fonts/Anybody-VariableFont_wdthwght.woff2\") format(\"woff2\")",
+    "\"Anybody Variablefont Wdth Wght\" | 100 900 | url(\"/_marketing/fonts/Anybody-Italic-VariableFont_wdthwght.woff2\") format(\"woff2\")",
+    "\"Roboto Flex\" | 100 1000 | url(\"/_marketing/fonts/RobotoFlex-Variable.woff2\") format(\"woff2\")",
+    "Archivo | 100 900 | url(\"/_marketing/fonts/Archivo-Variable.woff2\") format(\"woff2\")",
+    "\"Roboto Serif\" | 100 900 | url(\"/_marketing/fonts/RobotoSerif-Variable.woff2\") format(\"woff2\")",
+    "\"Elza Condensed Fallback\" | 400 900 | local(\"Arial Bold\"), local(\"Arimo Bold\"), local(\"Liberation Sans Bold\"), local(\"Roboto Bold\"), local(\"Helvetica Bold\")",
+    "\"Elza Condensed Fallback\" | 400 900 | local(\"DejaVu Sans Bold\")",
+    "\"Linksans Fallback\" | 300 900 | local(\"Arial\"), local(\"Arimo\"), local(\"Liberation Sans\"), local(\"Helvetica\")",
+    "\"Linksans Fallback\" | 300 900 | local(\"Roboto\")",
+    "\"Linksans Fallback\" | 300 900 | local(\"DejaVu Sans\")",
+    "\"Anybody Fallback\" | 100 900 | local(\"Arial\"), local(\"Arimo\"), local(\"Liberation Sans\"), local(\"Helvetica\")",
+    "\"Anybody Fallback\" | 100 900 | local(\"Roboto\")",
+    "\"Anybody Fallback\" | 100 900 | local(\"DejaVu Sans\")"
+   ]
+  },
+  "tokens": {
+   "--font-sans": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "--font-serif": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+   "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+   "--color-red-500": "lab(55.4814% 75.0732 48.8528)",
+   "--color-red-600": "lab(48.4493% 77.4328 61.5452)",
+   "--color-yellow-200": "lab(94.3433% -5.00429 52.9663)",
+   "--color-green-100": "lab(96.1861% -13.8464 6.52365)",
+   "--color-green-500": "lab(70.5521% -66.5147 45.8073)",
+   "--color-emerald-600": "lab(55.0481% -49.9246 15.93)",
+   "--color-blue-100": "lab(92.0301% -2.24757 -11.6453)",
+   "--color-blue-500": "lab(54.1736% 13.3369 -74.6839)",
+   "--color-blue-600": "lab(44.0605% 29.0279 -86.0352)",
+   "--color-blue-900": "lab(26.1542% 15.7545 -51.5504)",
+   "--color-slate-100": "lab(96.286% -.852436 -2.46847)",
+   "--color-slate-200": "lab(91.7353% -.998765 -4.76968)",
+   "--color-slate-700": "lab(26.9569% -1.47016 -15.6993)",
+   "--color-slate-900": "lab(7.78673% 1.82345 -15.0537)",
+   "--color-gray-100": "lab(96.1596% -.0823438 -1.13575)",
+   "--color-gray-200": "lab(91.6229% -.159115 -2.26791)",
+   "--color-gray-400": "lab(65.9269% -.832707 -8.17473)",
+   "--color-gray-500": "lab(47.7841% -.393182 -10.0268)",
+   "--color-gray-600": "lab(35.6337% -1.58697 -10.8425)",
+   "--color-gray-700": "lab(27.1134% -.956401 -12.3224)",
+   "--color-gray-800": "lab(16.1051% -1.18239 -11.7533)",
+   "--color-gray-900": "lab(8.11897% .811279 -12.254)",
+   "--color-gray-950": "lab(1.90334% .278696 -5.48866)",
+   "--color-stone-50": "lab(98.2686% -.0991821 .364304)",
+   "--color-black": "#000",
+   "--color-white": "#fff",
+   "--spacing": ".25rem",
+   "--breakpoint-sm": "480px",
+   "--breakpoint-md": "768px",
+   "--breakpoint-lg": "992px",
+   "--breakpoint-xl": "1280px",
+   "--breakpoint-2xl": "1440px",
+   "--container-xs": "20rem",
+   "--container-sm": "24rem",
+   "--container-md": "28rem",
+   "--container-lg": "32rem",
+   "--container-xl": "36rem",
+   "--container-2xl": "42rem",
+   "--container-3xl": "48rem",
+   "--container-4xl": "56rem",
+   "--container-6xl": "72rem",
+   "--container-7xl": "80rem",
+   "--text-xs": ".75rem",
+   "--text-xs--line-height": "calc(1 / .75)",
+   "--text-sm": ".875rem",
+   "--text-sm--line-height": "calc(1.25 / .875)",
+   "--text-base": "16px",
+   "--text-base--line-height": "calc(1.5 / 1)",
+   "--text-lg": "1.125rem",
+   "--text-lg--line-height": "calc(1.75 / 1.125)",
+   "--text-xl": "1.25rem",
+   "--text-xl--line-height": "calc(1.75 / 1.25)",
+   "--text-2xl": "1.5rem",
+   "--text-2xl--line-height": "calc(2 / 1.5)",
+   "--text-3xl": "1.875rem",
+   "--text-3xl--line-height": "calc(2.25 / 1.875)",
+   "--text-4xl": "2.25rem",
+   "--text-4xl--line-height": "calc(2.5 / 2.25)",
+   "--text-5xl": "3rem",
+   "--text-5xl--line-height": "1",
+   "--text-6xl": "3.75rem",
+   "--text-6xl--line-height": "1",
+   "--font-weight-light": "300",
+   "--font-weight-normal": "400",
+   "--font-weight-medium": "500",
+   "--font-weight-semibold": "600",
+   "--font-weight-bold": "700",
+   "--font-weight-extrabold": "800",
+   "--font-weight-black": "900",
+   "--tracking-tight": "-.025em",
+   "--tracking-normal": "0em",
+   "--tracking-wide": ".025em",
+   "--tracking-wider": ".05em",
+   "--leading-tight": "1.25",
+   "--leading-snug": "1.375",
+   "--leading-normal": "1.5",
+   "--leading-relaxed": "1.625",
+   "--radius-sm": "8px",
+   "--radius-md": "16px",
+   "--radius-lg": "24px",
+   "--radius-xl": "32px",
+   "--radius-2xl": "48px",
+   "--radius-3xl": "64px",
+   "--radius-4xl": "160px",
+   "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+   "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+   "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+   "--animate-spin": "spin 1s linear infinite",
+   "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+   "--blur-sm": "8px",
+   "--blur-xl": "24px",
+   "--aspect-video": "16 / 9",
+   "--default-transition-duration": ".15s",
+   "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+   "--default-font-family": "var(--font-sans)",
+   "--default-mono-font-family": "var(--font-mono)",
+   "--font-linksans": "\"Linksans\", \"Linksans Fallback\", \"Inter\", ui-sans-serif, system-ui, sans-serif",
+   "--font-linksans-product": "\"Link Sans Product\", \"Linksans\", \"Inter\", ui-sans-serif, system-ui, sans-serif",
+   "--font-dm-mono": "\"DM Mono\", \"Roboto Mono\", ui-monospace, monospace",
+   "--font-dm-mono-google": "\"DM Mono\", ui-monospace, monospace",
+   "--font-anybody": "\"Anybody Variablefont Wdth Wght\", \"Anybody\", \"Anybody Fallback\", sans-serif",
+   "--font-mencken": "\"Mencken Std Head Narrow\", Arial, sans-serif",
+   "--font-thatthat": "\"Thatthatnewpixelfamily Square\", sans-serif",
+   "--font-yerk": "yerk, sans-serif",
+   "--font-elza-condensed": "\"elza-condensed\", \"Elza Condensed Fallback\", sans-serif",
+   "--animate-float": "float 4s ease-in-out infinite",
+   "--color-orange": "lab(57.5651% 47.6641 66.4718)",
+   "--color-heather": "lab(53.5884% 0 0)",
+   "--color-chartreuse-hover": "lab(85.6529% -21.2082 77.8226)",
+   "--color-shade-hover": "lab(22.0548% .195459 -8.29294)",
+   "--text-display": "96px",
+   "--text-elza-hero": "min(104px, 13cqi)",
+   "--text-elza-hero-offer": "min(120px, 16cqi)",
+   "--text-elza-price": "min(100px, 25cqi)",
+   "--text-elza-section-mobile": "clamp(40px, 12.8vw, 50px)",
+   "--text-elza-price-suffix": "30px",
+   "--text-elza-plan": "48px",
+   "--text-elza-badge": "24px",
+   "--text-story-title": "clamp(24px, 2.08vw, 36px)",
+   "--text-feature-card-title": "clamp(24px, 1.85vw, 28px)",
+   "--text-h1": "80px",
+   "--text-h2": "56px",
+   "--text-h3": "41px",
+   "--text-h4": "24px",
+   "--text-body-lg": "20px",
+   "--text-body": "18px",
+   "--text-body-sm": "14px",
+   "--text-eyebrow": "14px",
+   "--text-caption": "clamp(12px, calc(10.17px + .221vw), 13px)",
+   "--text-help-title": "36px",
+   "--text-plan-price": "36px",
+   "--text-plan-price-sm": "26px",
+   "--text-plan-tally": "13px",
+   "--text-pricing-amount": "2rem",
+   "--text-pricing-suffix": "21.55px",
+   "--text-pricing-suffix-compact": "17.469px",
+   "--leading-plan": "1.3",
+   "--leading-plan-price": "1.1",
+   "--tracking-plan-tight": "-.01em",
+   "--tracking-plan-loose": ".01em",
+   "--leading-card-summary": "1.65",
+   "--tracking-card-summary": ".01em",
+   "--leading-pricing-amount": "59.085px",
+   "--leading-pricing-suffix": "35.451px",
+   "--leading-pricing-suffix-compact": "28.73px",
+   "--tracking-pricing-body": ".16px",
+   "--tracking-pricing-price": "-.45px",
+   "--tracking-pricing-price-lg": "-.48px",
+   "--tracking-pricing-small": ".28px",
+   "--tracking-pricing-suffix": ".22px",
+   "--tracking-pricing-suffix-compact": ".1747px",
+   "--tracking-pricing-title": "-.54px",
+   "--tracking-pricing-title-compact": "-.45px",
+   "--text-inline-code": ".9em",
+   "--text-help-band-title": ".625em",
+   "--text-stat-headline": "1.2em",
+   "--text-pull-quote": "1.2em",
+   "--leading-display": "100%",
+   "--leading-condensed": ".84",
+   "--leading-elza-hero": "1",
+   "--leading-h1": "107%",
+   "--leading-h2": "106%",
+   "--leading-h3": "130%",
+   "--leading-body": "150%",
+   "--leading-help-title": "115%",
+   "--tracking-display": "-.02em",
+   "--tracking-body": "0em",
+   "--tracking-paragraph": "-.02em",
+   "--leading-nav": "1.3",
+   "--tracking-nav-row": "-.02em",
+   "--spacing-1": "4px",
+   "--spacing-2": "8px",
+   "--spacing-3": "12px",
+   "--spacing-4": "16px",
+   "--spacing-5": "20px",
+   "--spacing-6": "24px",
+   "--spacing-8": "32px",
+   "--spacing-10": "40px",
+   "--spacing-pricing-amount": "59.085px",
+   "--spacing-12": "48px",
+   "--spacing-16": "64px",
+   "--spacing-20": "80px",
+   "--spacing-32": "128px",
+   "--spacing-fluid-4": "1.14vw",
+   "--spacing-fluid-8": "2.28vw",
+   "--spacing-fluid-12": "3.42vw",
+   "--spacing-fluid-16": "4.57vw",
+   "--spacing-fluid-30": "8.55vw",
+   "--spacing-bleed": "calc(50% - 50vw)",
+   "--spacing-container-gutter-md": "2.5vw",
+   "--spacing-container-gutter-lg": "max(5vw, calc(50vw - 752px))",
+   "--spacing-container-edge-gutter-md": "calc(2.5vw - 1rem)",
+   "--spacing-container-edge-gutter-lg": "calc(max(5vw, calc(50vw - 752px)) - 1rem)",
+   "--spacing-measure-stat": "44ch",
+   "--spacing-measure-stat-detail": "60ch",
+   "--spacing-safe-bottom": "max(12px, env(safe-area-inset-bottom))",
+   "--spacing-navbar": "9.85vw",
+   "--spacing-navbar-lg": "12.25vw",
+   "--spacing-navbar-md": "12.5vw",
+   "--spacing-navbar-sm": "calc(22.36vw + 2px)",
+   "--spacing-navbar-xl": "125.45px",
+   "--spacing-navbar-2xl": "138px",
+   "--spacing-navbar-3xl": "151.8px",
+   "--spacing-navbar-pull-sm": "26vw",
+   "--container-reading": "960px",
+   "--spacing-hero-top-xl": "calc(125.45px + 28px)",
+   "--spacing-hero-top-2xl": "calc(138px + 28px)",
+   "--spacing-hero-top-3xl": "calc(151.8px + 28px)",
+   "--spacing-claim-field-sm": "5.56vw",
+   "--spacing-claim-field-lg": "4.64vw",
+   "--text-claim-cta-sm": "calc(var(--spacing-claim-field-sm) * 16 / 60)",
+   "--text-claim-cta-lg": "calc(var(--spacing-claim-field-lg) * 16 / 60)",
+   "--spacing-claim-cta-pad-sm": "calc(var(--spacing-claim-field-sm) * 36 / 60)",
+   "--spacing-claim-cta-pad-lg": "calc(var(--spacing-claim-field-lg) * 36 / 60)",
+   "--spacing-claim-cta-width-sm": "calc(var(--spacing-claim-field-sm) * 300 / 60)",
+   "--spacing-claim-cta-width-lg": "calc(var(--spacing-claim-field-lg) * 300 / 60)",
+   "--text-wordmark": "16vw",
+   "--text-wordmark-lg": "19.2vw",
+   "--text-wordmark-sm": "30vw",
+   "--text-wordmark-xl": "203.6px",
+   "--text-wordmark-2xl": "224px",
+   "--text-wordmark-3xl": "246.4px",
+   "--text-wordmark-date": "4.57vw",
+   "--text-wordmark-date-lg": "5.484vw",
+   "--text-wordmark-date-sm": "9.25vw",
+   "--text-wordmark-date-xl": "58.18px",
+   "--text-wordmark-date-2xl": "64px",
+   "--leading-wordmark": "69%",
+   "--text-report-display": "clamp(44px, 6.37vw, 110px)",
+   "--text-report-display--line-height": "1.04",
+   "--text-report-display--letter-spacing": "-.02em",
+   "--text-report-title-lg": "clamp(40px, 5.79vw, 100px)",
+   "--text-report-title-lg--line-height": "1.04",
+   "--text-report-title-lg--letter-spacing": "-.02em",
+   "--text-report-title": "clamp(36px, 4.63vw, 80px)",
+   "--text-report-title--line-height": "1.04",
+   "--text-report-title--letter-spacing": "-.02em",
+   "--text-report-h3": "clamp(24px, 2.31vw, 40px)",
+   "--text-report-h3--line-height": "1.2",
+   "--text-report-h3--letter-spacing": "-.02em",
+   "--text-report-lead": "clamp(20px, 1.85vw, 32px)",
+   "--text-report-lead--line-height": "1.21",
+   "--text-report-lead--letter-spacing": "-.02em",
+   "--text-report-nav": "clamp(20px, 1.85vw, 32px)",
+   "--text-report-nav--line-height": "1.12",
+   "--text-report-nav--letter-spacing": "-.04em",
+   "--text-report-body": "16px"
+  },
+  "tokenCount": 404,
+  "unreadable": [],
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyColor": "rgb(30, 35, 48)",
+  "bgColors": [
+   [
+    "rgb(255, 255, 255)",
+    24
+   ],
+   [
+    "rgb(30, 35, 48)",
+    8
+   ],
+   [
+    "rgb(233, 192, 233)",
+    8
+   ],
+   [
+    "oklab(0 0 0 / 0.3)",
+    8
+   ],
+   [
+    "rgb(210, 232, 35)",
+    7
+   ],
+   [
+    "rgb(243, 243, 241)",
+    6
+   ],
+   [
+    "rgb(120, 0, 22)",
+    5
+   ],
+   [
+    "rgb(37, 79, 26)",
+    3
+   ],
+   [
+    "rgb(6, 20, 146)",
+    3
+   ],
+   [
+    "rgb(214, 163, 54)",
+    2
+   ],
+   [
+    "rgb(38, 101, 214)",
+    1
+   ],
+   [
+    "rgb(232, 239, 214)",
+    1
+   ],
+   [
+    "rgb(80, 34, 116)",
+    1
+   ]
+  ],
+  "textColors": [
+   [
+    "rgb(30, 35, 48)",
+    47
+   ],
+   [
+    "rgb(103, 107, 95)",
+    43
+   ],
+   [
+    "rgb(233, 192, 233)",
+    28
+   ],
+   [
+    "rgb(255, 255, 255)",
+    6
+   ],
+   [
+    "rgb(37, 79, 26)",
+    2
+   ],
+   [
+    "rgb(243, 243, 241)",
+    1
+   ],
+   [
+    "rgb(210, 232, 35)",
+    1
+   ],
+   [
+    "rgb(38, 101, 214)",
+    1
+   ]
+  ],
+  "typeScale": [
+   [
+    "13px | w400 | lh 19.5px | ls -0.169px | Linksans",
+    32
+   ],
+   [
+    "16px | w400 | lh 24px | ls normal | Linksans",
+    15
+   ],
+   [
+    "56px | w700 | lh 59.36px | ls -1.12px | Linksans",
+    15
+   ],
+   [
+    "18.18px | w400 | lh 27.27px | ls -0.3636px | Linksans",
+    14
+   ],
+   [
+    "12px | w500 | lh 14.4px | ls normal | Linksans",
+    14
+   ],
+   [
+    "20px | w500 | lh 30px | ls -0.2px | Linksans",
+    8
+   ],
+   [
+    "16px | w400 | lh 20.8px | ls normal | Linksans",
+    7
+   ],
+   [
+    "16px | w500 | lh 24px | ls normal | Linksans",
+    6
+   ],
+   [
+    "16px | w400 | lh 24px | ls -0.32px | Linksans",
+    5
+   ],
+   [
+    "28px | w500 | lh 36.4px | ls -0.28px | Linksans",
+    3
+   ],
+   [
+    "16px | w400 | lh 24px | ls 0.16px | Linksans",
+    2
+   ],
+   [
+    "16px | w600 | lh 24px | ls normal | Linksans",
+    2
+   ],
+   [
+    "13px | w400 | lh 19.5px | ls normal | Linksans",
+    2
+   ],
+   [
+    "16px | w500 | lh 16px | ls normal | Linksans",
+    2
+   ],
+   [
+    "80px | w800 | lh 85.6px | ls -1.6px | Linksans",
+    1
+   ],
+   [
+    "56px | w700 | lh 71.68px | ls -1.12px | Linksans",
+    1
+   ]
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "A link in bio built for you.",
+    "size": "80px",
+    "weight": "800",
+    "lh": "85.6px",
+    "ls": "-1.6px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(37, 79, 26)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Create and customize your Linktree in minutes",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(210, 232, 35)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Share your Linktree anywhere you like!",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(233, 192, 233)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Analyze your audience and keep them engaged",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "The only link in bio trusted by 70M+ creators",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Share every type of content in limitless ways",
+    "size": "28px",
+    "weight": "500",
+    "lh": "36.4px",
+    "ls": "-0.28px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Sell products, collect payments and make monetization simple",
+    "size": "28px",
+    "weight": "500",
+    "lh": "36.4px",
+    "ls": "-0.28px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Grow, own and engage your audience across all of your channels",
+    "size": "28px",
+    "weight": "500",
+    "lh": "36.4px",
+    "ls": "-0.28px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "The fast, friendly and powerful link in bio tool.",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "As featured in…",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(30, 35, 48)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Questions? Answered",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(233, 192, 233)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Jumpstart your corner of the internet today",
+    "size": "56px",
+    "weight": "700",
+    "lh": "59.36px",
+    "ls": "-1.12px",
+    "family": "Linksans, \"Linksans Fallback\", Inter, ui-sans-serif, system-ui, sans-serif",
+    "color": "rgb(233, 192, 233)",
+    "transform": "none"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "Skip to main content",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "1x1",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Amplify your YouTube on Linktree. Connect today.",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "0px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px",
+    "size": "400x21",
+    "font": "16px w400 Linksans",
+    "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "0px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px",
+    "size": "48x48",
+    "font": "16px w400 Linksans",
+    "transition": "opacity 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "118x28",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Solutions",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 16px",
+    "size": "106x48",
+    "font": "16px w400 Linksans",
+    "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Features",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 16px",
+    "size": "100x48",
+    "font": "16px w400 Linksans",
+    "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Integrations",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 16px",
+    "size": "126x48",
+    "font": "16px w400 Linksans",
+    "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Resources",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 16px",
+    "size": "116x48",
+    "font": "16px w400 Linksans",
+    "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Pricing",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 16px",
+    "size": "86x48",
+    "font": "16px w400 Linksans",
+    "transition": "color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Log in",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "16px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 26px",
+    "size": "102x62",
+    "font": "16px w400 Linksans",
+    "transition": "background-color, transform 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Sign up free",
+    "bg": "rgb(30, 35, 48)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "9999px",
+    "border": "0px solid rgb(255, 255, 255)",
+    "pad": "0px 26px",
+    "size": "152x62",
+    "font": "16px w400 Linksans",
+    "transition": "background-color, transform 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started for free",
+    "bg": "rgb(37, 79, 26)",
+    "color": "rgb(243, 243, 241)",
+    "radius": "9999px",
+    "border": "0px solid rgb(243, 243, 241)",
+    "pad": "0px 36px",
+    "size": "300x60",
+    "font": "16px w500 Linksans",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started for free",
+    "bg": "rgb(210, 232, 35)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "9999px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 36px",
+    "size": "300x60",
+    "font": "16px w500 Linksans",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started for free",
+    "bg": "rgb(233, 192, 233)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "9999px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 36px",
+    "size": "300x60",
+    "font": "16px w500 Linksans",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started for free",
+    "bg": "rgb(233, 192, 233)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "9999px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px 36px",
+    "size": "300x60",
+    "font": "16px w500 Linksans",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)",
+    "shadow": "none"
+   },
+   {
+    "text": "/selenagomez",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/funkynutmeg",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/hbo",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/comedycentral",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "500x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/pharrell",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/tonyhawk",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "500x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/laclippers",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/selenagomez",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/funkynutmeg",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "/hbo",
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(30, 35, 48)",
+    "radius": "0px",
+    "border": "0px solid rgb(30, 35, 48)",
+    "pad": "0px",
+    "size": "316x400",
+    "font": "16px w400 Linksans",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "NAV",
+    "cls": "sticky top-0 z-[999] flex w-full flex-col overflow-visible b",
+    "top": 64,
+    "h": 138,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "DIV",
+    "cls": "home-hero-pending:[&_h1]:invisible home-hero-pending:[&_h1~*",
+    "top": 64,
+    "h": 911,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "A link in bio built for you."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-0 bg-chartreuse text-shade max-sm:min-h-[min(90s",
+    "top": 64,
+    "h": 911,
+    "bg": "rgb(210, 232, 35)",
+    "bgImg": "none",
+    "heading": "A link in bio built for you."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-20 md:py-32 bg-hydrangea text-marble",
+    "top": 975,
+    "h": 827,
+    "bg": "rgb(38, 101, 214)",
+    "bgImg": "none",
+    "heading": "Create and customize your Linktree in minutes"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-20 md:py-32 bg-currant text-marble",
+    "top": 1802,
+    "h": 872,
+    "bg": "rgb(120, 0, 22)",
+    "bgImg": "none",
+    "heading": "Share your Linktree anywhere you like!"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-20 md:py-32 bg-light-green text-shade",
+    "top": 2674,
+    "h": 879,
+    "bg": "rgb(232, 239, 214)",
+    "bgImg": "none",
+    "heading": "Analyze your audience and keep them engaged"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-20 md:py-32 overflow-hidden flex flex-col gap-[3",
+    "top": 3553,
+    "h": 837,
+    "bg": "rgb(243, 243, 241)",
+    "bgImg": "none",
+    "heading": "The only link in bio trusted by 70M+ creators"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative bg-marble py-0 overflow-visible pb-24 md:pb-40",
+    "top": 4390,
+    "h": 1059,
+    "bg": "rgb(243, 243, 241)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-24 md:py-40 bg-marble text-shade",
+    "top": 5449,
+    "h": 375,
+    "bg": "rgb(243, 243, 241)",
+    "bgImg": "none",
+    "heading": "The fast, friendly and powerful link in bio tool."
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-16 md:py-24 bg-marble text-shade",
+    "top": 5824,
+    "h": 361,
+    "bg": "rgb(243, 243, 241)",
+    "bgImg": "none",
+    "heading": "As featured in…"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-20 md:py-32 bg-marble text-shade pt-12 md:pt-16",
+    "top": 6185,
+    "h": 1068,
+    "bg": "rgb(243, 243, 241)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "relative py-24 md:py-40 bg-currant text-lavender",
+    "top": 7252,
+    "h": 1451,
+    "bg": "rgb(120, 0, 22)",
+    "bgImg": "none",
+    "heading": "Questions? Answered"
+   },
+   {
+    "tag": "FOOTER",
+    "cls": "relative overflow-hidden bg-dahlia pt-[17.85vw] pb-fluid-8 x",
+    "top": 8703,
+    "h": 1667,
+    "bg": "rgb(80, 34, 116)",
+    "bgImg": "none",
+    "heading": "Jumpstart your corner of the internet today"
+   },
+   {
+    "tag": "NAV",
+    "cls": "flex flex-wrap items-center gap-fluid-4 xl:gap-[14.5px] 2xl:",
+    "top": 9899,
+    "h": 20,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   }
+  ],
+  "images": [
+   {
+    "src": "https://linktr.ee/_marketing/images/promo/youtube-gtm-close.svg",
+    "alt": "",
+    "w": 16,
+    "h": 16,
+    "natural": "16x16",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/images/icons/app-store-badge-light-218d0cee.svg",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "300x77",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/images/icons/google-play-badge-light-d78dfabf.svg",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "300x75",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/images/icons/app-store-badge-light-218d0cee.svg",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "300x77",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/images/icons/google-play-badge-light-d78dfabf.svg",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "300x75",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/02-Koy-updated-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "eager",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/04-Pistakio-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/05-Zay-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/01-Kelsey-updated-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/02-Koy-updated-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/04-Pistakio-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/05-Zay-Lottie-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/lottie/posters/01-Kelsey-updated-800w.webp",
+    "alt": "",
+    "w": 576,
+    "h": 576,
+    "natural": "576x576",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fcapture-1764669836574.webp&w=828&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "A Linktree profile being customised in the Linktree editor",
+    "w": 616,
+    "h": 571,
+    "natural": "806x746",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fmisc%2Fanalyze-your-audience-and-keep-them-engaged.avif&w=828&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90",
+    "alt": "Analyze your audience and keep them engaged",
+    "w": 616,
+    "h": 623,
+    "natural": "806x816",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fselenagomez.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Selena Gomez in close-up wearing crystal S and G drop earrin",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "64px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Ffunkynutmeg.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Person with blue butterfly-shaped eye makeup and red lipstic",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "9999px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fhbo.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "HBO logo in white lettering on a black background",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "16px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fcomedycentral.webp&w=640&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Comedy Central logo, a yellow C inside a ring on black",
+    "w": 501,
+    "h": 400,
+    "natural": "500x500",
+    "loading": "lazy",
+    "radius": "64px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpharrell.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Pharrell Williams in a white cap, mirrored sunglasses and re",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "9999px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fselenagomez.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Selena Gomez in close-up wearing crystal S and G drop earrin",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "64px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Ffunkynutmeg.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Person with blue butterfly-shaped eye makeup and red lipstic",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "9999px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fhbo.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "HBO logo in white lettering on a black background",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "16px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fcomedycentral.webp&w=640&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Comedy Central logo, a yellow C inside a ring on black",
+    "w": 501,
+    "h": 400,
+    "natural": "500x500",
+    "loading": "lazy",
+    "radius": "64px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpharrell.webp&w=320&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Pharrell Williams in a white cap, mirrored sunglasses and re",
+    "w": 316,
+    "h": 400,
+    "natural": "316x316",
+    "loading": "lazy",
+    "radius": "9999px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 17,
+    "h": 17,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fcampaigns%2Fpattern.svg&w=32&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 0,
+    "h": 0,
+    "natural": "10x10",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fmisc%2Fall-your-things-1.avif&w=640&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 539,
+    "h": 156,
+    "natural": "576x166",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fproduct%2Fproducts-1.avif&w=640&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 490,
+    "h": 223,
+    "natural": "503x229",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fmisc%2Fgroup1597882005.avif&w=640&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "",
+    "w": 488,
+    "h": 670,
+    "natural": "503x692",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fintegrations%2Ftechcrunch.avif&w=1440&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "TechCrunch",
+    "w": 136,
+    "h": 20,
+    "natural": "368x54",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fintegrations%2Finsider.avif&w=1440&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Insider",
+    "w": 65,
+    "h": 32,
+    "natural": "199x98",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fmisc%2Fforbes.avif&w=1440&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Forbes",
+    "w": 59,
+    "h": 24,
+    "natural": "156x64",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://linktr.ee/_marketing/_next/image?url=%2Fimages%2Fintegrations%2Fmashable.avif&w=1440&q=75&dpl=41cf2ecd2f41f77b309b3c5ff9709c90aaee1e15",
+    "alt": "Mashable",
+    "w": 98,
+    "h": 16,
+    "natural": "214x35",
+    "loading": "lazy",
+    "radius": "0px"
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://assets.production.linktr.ee/static/curate/customise_your_linktree.webm",
+    "poster": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 616
+   }
+  ],
+  "radius": [
+   [
+    "9999px",
+    68
+   ],
+   [
+    "16px",
+    48
+   ],
+   [
+    "64px",
+    16
+   ],
+   [
+    "32px",
+    16
+   ],
+   [
+    "41.6px",
+    15
+   ],
+   [
+    "24px",
+    8
+   ],
+   [
+    "20px",
+    7
+   ],
+   [
+    "8px",
+    5
+   ],
+   [
+    "3.35544e+07px",
+    3
+   ],
+   [
+    "36px",
+    1
+   ],
+   [
+    "48px",
+    1
+   ]
+  ],
+  "shadow": [
+   [
+    "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.08) 0px ",
+    1
+   ],
+   [
+    "rgba(1, 1, 63, 0.1) 0px 2px 19px -4px",
+    1
+   ]
+  ],
+  "transitions": [
+   [
+    "color, background-color, border-color, outline-color, text-decoration-color, fil | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+    64
+   ],
+   [
+    "opacity | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+    43
+   ],
+   [
+    "transform | 0.7s | cubic-bezier(0.433, 0.217, 0.355, 1)",
+    14
+   ],
+   [
+    "background-color, transform, filter, box-shadow | 0.15s | cubic-bezier(0, 0, 0.2, 1)",
+    9
+   ],
+   [
+    "transform, translate, scale, rotate | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)",
+    8
+   ],
+   [
+    "transform, translate, scale, rotate | 0.2s | cubic-bezier(0, 0, 0.2, 1)",
+    5
+   ],
+   [
+    "transform, translate, scale, rotate | 0.15s | cubic-bezier(0, 0, 0.2, 1)",
+    5
+   ],
+   [
+    "transform, filter | 0.15s | cubic-bezier(0, 0, 0.2, 1)",
+    3
+   ],
+   [
+    "background-color, transform | 0.15s | cubic-bezier(0, 0, 0.2, 1)",
+    2
+   ],
+   [
+    "transform | 0.28s | cubic-bezier(0.65, 0, 0.35, 1)",
+    2
+   ],
+   [
+    "all | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+    2
+   ],
+   [
+    " |  | ",
+    2
+   ],
+   [
+    "opacity, transform | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+    2
+   ],
+   [
+    "transform, translate, scale, rotate | 0.3s | cubic-bezier(0, 0, 0.2, 1)",
+    1
+   ],
+   [
+    "border-color, box-shadow | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)",
+    1
+   ],
+   [
+    "opacity, transform | 0.15s, 0.32s | linear, cubic-bezier(0.32, 0.72, 0, 1)",
+    1
+   ],
+   [
+    "opacity | 0.15s | ease-out",
+    1
+   ],
+   [
+    "color, background-color, border-color, outline-color, text-decoration-color, fil | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)",
+    1
+   ],
+   [
+    "opacity | 0.16s | ease-out",
+    1
+   ],
+   [
+    "opacity | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)",
+    1
+   ]
+  ],
+  "animationsCss": [
+   [
+    " |  |  | ",
+    2
+   ],
+   [
+    "home-hero-tower-up | 30s | ease-in-out | infinite",
+    1
+   ],
+   [
+    "home-hero-tower-left | 30s | ease-in-out | infinite",
+    1
+   ]
+  ],
+  "keyframes": {
+   "nav-panel-slide-in": "@keyframes nav-panel-slide-in { \n  0% { transform: translate(var(--nav-panel-shift,0px), var(--nav-panel-rise,0px)); }\n  100% { transform: none; }\n}",
+   "nav-panel-slide-out": "@keyframes nav-panel-slide-out { \n  0% { transform: none; }\n  100% { transform: translate(var(--nav-panel-shift,0px), var(--nav-panel-rise,0px)); }\n}",
+   "nav-panel-fade-in": "@keyframes nav-panel-fade-in { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+   "nav-panel-fade-out": "@keyframes nav-panel-fade-out { \n  0% { opacity: 1; }\n  100% { opacity: 0; }\n}",
+   "accordion-down": "@keyframes accordion-down { \n  0% { height: 0px; }\n  100% { height: var(--radix-accordion-content-height); }\n}",
+   "accordion-up": "@keyframes accordion-up { \n  0% { height: var(--radix-accordion-content-height); }\n  100% { height: 0px; }\n}",
+   "overlay-in": "@keyframes overlay-in { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+   "overlay-out": "@keyframes overlay-out { \n  0% { opacity: 1; }\n  100% { opacity: 0; }\n}",
+   "content-in": "@keyframes content-in { \n  0% { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }\n  100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }\n}",
+   "content-out": "@keyframes content-out { \n  0% { opacity: 1; transform: translate(-50%, -50%) scale(1); }\n  100% { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }\n}",
+   "home-hero-tower-up": "@keyframes home-hero-tower-up { \n  0%, 2% { transform: translateY(0px); }\n  20%, 22% { transform: translateY(calc(-1 * var(--card-step))); }\n  40%, 42% { transform: translateY(calc(-2 * var(--card-step))); }\n  60%, 62% { transform: translateY(calc(-3 * var(--card-step))); }\n  80%, 82% { transform: translateY(calc(-4 * var(--card-step))); }\n  100% { transform: translateY(calc(-5 * var(--card-step))); }\n}",
+   "home-hero-tower-left": "@keyframes home-hero-tower-left { \n  0%, 2% { transform: translate(0px); }\n  20%, 22% { transform: translateX(calc(-1 * var(--card-step))); }\n  40%, 42% { transform: translateX(calc(-2 * var(--card-step))); }\n  60%, 62% { transform: translateX(calc(-3 * var(--card-step))); }\n  80%, 82% { transform: translateX(calc(-4 * var(--card-step))); }\n  100% { transform: translateX(calc(-5 * var(--card-step))); }\n}",
+   "marquee": "@keyframes marquee { \n  0% { transform: translate(0px); }\n  100% { transform: translate(-50%); }\n}",
+   "spin": "@keyframes spin { \n  100% { transform: rotate(360deg); }\n}",
+   "pulse": "@keyframes pulse { \n  50% { opacity: 0.5; }\n}",
+   "float": "@keyframes float { \n  0%, 100% { transform: translateY(0px); }\n  50% { transform: translateY(-10px); }\n}"
+  },
+  "breakpoints": [
+   "max-width: 1279px",
+   "max-width: 1439px",
+   "max-width: 479px",
+   "max-width: 991px",
+   "min-width: 1280px",
+   "min-width: 1440px",
+   "min-width: 1920px",
+   "min-width: 20rem",
+   "min-width: 24rem",
+   "min-width: 28rem",
+   "min-width: 32rem",
+   "min-width: 36rem",
+   "min-width: 42rem",
+   "min-width: 480px",
+   "min-width: 768px",
+   "min-width: 992px"
+  ],
+  "liveAnimations": [
+   {
+    "target": "DIV",
+    "cls": "absolute inset-x-0 flex flex-col top-[calc(50%_-_m",
+    "name": "home-hero-tower-up",
+    "duration": 30000,
+    "delay": 0,
+    "easing": "linear",
+    "iter": null,
+    "kf": "[{\"offset\":0,\"easing\":\"ease-in-out\",\"transform\":\"translateY(0px)\"},{\"offset\":0.02,\"easing\":\"ease-in-out\",\"transform\":\"translateY(0px)\"},{\"offset\":0.2,\"easing\":\"ease-in-out\",\"transform\":\"translateY(-616px)\"}]"
+   }
+  ],
+  "effects": [
+   {
+    "tag": "IMG",
+    "ps": "",
+    "cls": "brightness-0 invert",
+    "f": {
+     "filter": "brightness(0) invert(1)"
+    }
+   }
+  ],
+  "navLinks": [
+   "Solutions",
+   "Features",
+   "Integrations",
+   "Resources",
+   "Pricing",
+   "Log in",
+   "Sign up free",
+   "Português (Brasil)"
+  ],
+  "stickyHeader": {
+   "position": "static",
+   "bg": "rgba(0, 0, 0, 0)",
+   "backdrop": "none",
+   "h": 0
+  }
+ },
+ "headerAfterScroll": {
+  "position": "static",
+  "top": 0,
+  "bg": "rgba(0, 0, 0, 0)",
+  "backdrop": "none",
+  "shadow": "none",
+  "h": 0
+ },
+ "hovers": [
+  {
+   "text": "Sign up free",
+   "before": {
+    "bg": "rgb(30, 35, 48)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "9999px",
+    "border": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "transition": "background-color, transform 0.15s cubic-bezier(0, 0, 0.2, 1)"
+   },
+   "after": {
+    "bg": "rgb(38, 45, 62)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "9999px",
+    "border": "rgb(255, 255, 255)",
+    "opacity": "1",
+    "transition": "background-color, transform 0.15s cubic-bezier(0, 0, 0.2, 1)"
+   }
+  },
+  {
+   "text": "Get started for free",
+   "before": {
+    "bg": "rgb(37, 79, 26)",
+    "color": "rgb(243, 243, 241)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "9999px",
+    "border": "rgb(243, 243, 241)",
+    "opacity": "1",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)"
+   },
+   "after": {
+    "bg": "rgb(37, 79, 26)",
+    "color": "rgb(243, 243, 241)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "9999px",
+    "border": "rgb(243, 243, 241)",
+    "opacity": "1",
+    "transition": "background-color, transform, filter, box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1)"
+   }
+  }
+ ],
+ "mobile": {
+  "headings": [
+   {
+    "text": "A link in bio built for you.",
+    "size": "37.44px",
+    "lh": "40.0608px",
+    "weight": "800"
+   },
+   {
+    "text": "Create and customize your Linktree in minutes",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "Share your Linktree anywhere you like!",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "Analyze your audience and keep them engaged",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "The only link in bio trusted by 70M+\ncreators",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "The fast, friendly and powerful link in bio tool.",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "As featured in…",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   },
+   {
+    "text": "Questions? Answered",
+    "size": "27.3px",
+    "lh": "28.938px",
+    "weight": "700"
+   }
+  ],
+  "nav": {
+   "h": 0,
+   "bg": "rgba(0, 0, 0, 0)",
+   "items": [
+    "Linktree home",
+    "Log in",
+    "Sign up free",
+    "Toggle menu"
+   ]
+  },
+  "docHeight": 10554
+ }
+}

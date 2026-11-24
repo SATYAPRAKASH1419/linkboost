@@ -1,0 +1,2280 @@
+{
+ "entranceAnimations": [
+  {
+   "target": "DIV",
+   "cls": "index_heroTextContainer__jhn6x",
+   "name": "index_fadeInUp__i_qJr",
+   "duration": 1000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "index_line__Dzd80 index_line__animate__dZPML",
+   "name": "index_slide__fvGMA",
+   "duration": 2500,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DIV",
+   "cls": "index_carousel__Uad_T index_carouselAnimate__gXkDW",
+   "name": "index_move__DjQPj",
+   "duration": 100000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  }
+ ],
+ "midScrollAnimations": [
+  {
+   "target": "DIV",
+   "cls": "index_stickyCarouselItemCopy__AIJS_",
+   "name": "transform",
+   "duration": 500,
+   "delay": 300,
+   "easing": "ease-in-out",
+   "iter": 1
+  },
+  {
+   "target": "DIV",
+   "cls": "index_heroTextContainer__jhn6x",
+   "name": "index_fadeInUp__i_qJr",
+   "duration": 1000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "index_line__Dzd80 index_line__animate__dZPML",
+   "name": "index_slide__fvGMA",
+   "duration": 2500,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DIV",
+   "cls": "index_carousel__Uad_T index_carouselAnimate__gXkDW",
+   "name": "index_move__DjQPj",
+   "duration": 100000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  },
+  {
+   "target": "DT",
+   "cls": "FAQTab_answer__OCI0t",
+   "name": "FAQTab_fadeInUp__PFnMv",
+   "duration": 400,
+   "delay": 0,
+   "easing": "linear",
+   "iter": 1
+  }
+ ],
+ "desktop": {
+  "url": "https://biosites.com/",
+  "title": "Free Link in Bio Tool for Instagram & TikTok - Bio Sites",
+  "description": "Create a free link in bio with Bio Sites by Squarespace. Showcase your links, earn money, and grow your brand online, all with one link",
+  "viewport": 1440,
+  "docHeight": 7536,
+  "stack": {
+   "next": true,
+   "nextAppRouter": false,
+   "nuxt": false,
+   "gatsby": false,
+   "astro": false,
+   "svelte": false,
+   "webflow": false,
+   "framer": false,
+   "wordpress": false,
+   "tailwind": false,
+   "styledComponents": false,
+   "emotion": false,
+   "cssModules": true,
+   "radix": false,
+   "gsap": false,
+   "lenis": false,
+   "lottie": false,
+   "rive": false,
+   "threejs": false,
+   "swiper": false,
+   "splide": false,
+   "generator": null,
+   "scriptHosts": [
+    "static.biosites.com",
+    "consent.trustarc.com",
+    "www.googletagmanager.com",
+    "clanker-events.squarespace.com",
+    "www.google-analytics.com"
+   ]
+  },
+  "fonts": {
+   "loaded": [
+    "Clarkson 400 normal",
+    "Clarkson 500 normal"
+   ],
+   "body": "sans-serif",
+   "fontFaces": [
+    "Clarkson | 400 | local(\"?\"), url(\"/frontsite/fonts/clarkson-400.woff2\") format(\"woff2\"), url(\"/frontsite/fonts/clarkson-400.woff\") format(\"woff\")",
+    "Clarkson | 500 | local(\"?\"), url(\"/frontsite/fonts/clarkson-500.woff2\") format(\"woff2\"), url(\"/frontsite/fonts/clarkson-500.woff\") format(\"woff\")",
+    "Canela | 300 | local(\"?\"), url(\"/frontsite/fonts/canela-light.woff2\") format(\"woff2\"), url(\"/frontsite/fonts/canela-light.woff\") format(\"woff\")",
+    "Canela | 300 | local(\"?\"), url(\"/frontsite/fonts/canela-light-italic.woff2\") format(\"woff2\"), url(\"/frontsite/fonts/canela-light-italic.woff\") format(\"woff",
+    "\"Canela Text\" | 500 | local(\"?\"), url(\"/frontsite/fonts/canela-text-regular.woff2\") format(\"woff2\"), url(\"/frontsite/fonts/canela-text-regular.woff\") format(\"woff",
+    "Clarkson | 400 | local(\"?\"), url(\"https://static.biosites.com/frontsitev2/fonts/clarkson-400.woff2\") format(\"woff2\"), url(\"https://static.biosites.com/fronts",
+    "Clarkson | 500 | local(\"?\"), url(\"https://static.biosites.com/frontsitev2/fonts/clarkson-500.woff2\") format(\"woff2\"), url(\"https://static.biosites.com/fronts",
+    "Canela | 300 | local(\"?\"), url(\"https://static.biosites.com/frontsitev2/fonts/canela-light.woff2\") format(\"woff2\"), url(\"https://static.biosites.com/fronts",
+    "Canela | 300 | local(\"?\"), url(\"https://static.biosites.com/frontsitev2/fonts/canela-light-italic.woff2\") format(\"woff2\"), url(\"https://static.biosites.com",
+    "\"Canela Text\" | 500 | local(\"?\"), url(\"https://static.biosites.com/frontsitev2/fonts/canela-text-regular\") format(\"woff2\"), url(\"https://static.biosites.com/front"
+   ]
+  },
+  "tokens": {},
+  "tokenCount": 0,
+  "unreadable": [
+   "https://static.biosites.com/frontsitev2/_next/static/css/48d0f3fb17905af3.css",
+   "https://static.biosites.com/frontsitev2/_next/static/css/cd8368a510ba7711.css"
+  ],
+  "bodyBg": "rgb(0, 0, 0)",
+  "bodyColor": "rgb(0, 0, 0)",
+  "bgColors": [
+   [
+    "rgba(0, 0, 0, 0.25)",
+    72
+   ],
+   [
+    "rgb(255, 255, 255)",
+    7
+   ],
+   [
+    "rgb(0, 0, 0)",
+    5
+   ],
+   [
+    "rgb(79, 86, 111)",
+    4
+   ],
+   [
+    "rgb(3, 0, 220)",
+    4
+   ],
+   [
+    "rgb(254, 1, 75)",
+    4
+   ],
+   [
+    "rgb(121, 161, 251)",
+    4
+   ],
+   [
+    "rgb(81, 90, 45)",
+    4
+   ],
+   [
+    "rgb(45, 45, 45)",
+    4
+   ],
+   [
+    "rgb(0, 255, 209)",
+    4
+   ],
+   [
+    "rgb(136, 25, 117)",
+    4
+   ],
+   [
+    "rgb(5, 36, 62)",
+    4
+   ],
+   [
+    "rgb(178, 213, 218)",
+    4
+   ],
+   [
+    "rgb(13, 113, 153)",
+    4
+   ],
+   [
+    "rgb(255, 131, 173)",
+    4
+   ],
+   [
+    "rgb(26, 35, 30)",
+    4
+   ],
+   [
+    "rgb(212, 133, 176)",
+    4
+   ],
+   [
+    "rgb(248, 178, 163)",
+    4
+   ],
+   [
+    "rgb(29, 31, 22)",
+    4
+   ],
+   [
+    "rgb(219, 152, 33)",
+    4
+   ],
+   [
+    "rgb(1, 1, 1)",
+    3
+   ],
+   [
+    "rgb(250, 250, 250)",
+    3
+   ]
+  ],
+  "textColors": [
+   [
+    "rgb(255, 255, 255)",
+    198
+   ],
+   [
+    "rgb(106, 106, 106)",
+    49
+   ],
+   [
+    "rgb(0, 0, 0)",
+    28
+   ],
+   [
+    "rgb(1, 1, 1)",
+    8
+   ],
+   [
+    "rgb(37, 16, 55)",
+    4
+   ],
+   [
+    "rgb(254, 250, 137)",
+    4
+   ],
+   [
+    "rgb(26, 26, 26)",
+    4
+   ],
+   [
+    "rgb(42, 31, 93)",
+    4
+   ],
+   [
+    "rgb(6, 31, 96)",
+    4
+   ],
+   [
+    "rgb(46, 80, 56)",
+    4
+   ],
+   [
+    "rgb(103, 103, 103)",
+    1
+   ]
+  ],
+  "typeScale": [
+   [
+    "16px | w400 | lh 17.6px | ls -0.5px | Clarkson",
+    144
+   ],
+   [
+    "14px | w400 | lh 17px | ls -0.5px | sans-serif",
+    72
+   ],
+   [
+    "18px | w400 | lh 29.4px | ls -0.5px | Clarkson",
+    34
+   ],
+   [
+    "21px | w400 | lh 29.4px | ls -0.5px | Clarkson",
+    10
+   ],
+   [
+    "16px | w400 | lh 22.4px | ls normal | Clarkson",
+    10
+   ],
+   [
+    "16px | w500 | lh 22.4px | ls normal | Clarkson",
+    5
+   ],
+   [
+    "18px | w400 | lh 25.2px | ls -0.5px | Clarkson",
+    4
+   ],
+   [
+    "14px | w400 | lh 21px | ls normal | Clarkson",
+    4
+   ],
+   [
+    "70px | w500 | lh 70px | ls -2px | Clarkson",
+    4
+   ],
+   [
+    "55px | w500 | lh normal | ls -2px | Clarkson",
+    4
+   ],
+   [
+    "12px | w500 | lh 13.2px | ls normal | Clarkson",
+    3
+   ],
+   [
+    "18px | w700 | lh 29.4px | ls -0.5px | Clarkson",
+    3
+   ],
+   [
+    "70px | w500 | lh 98px | ls -0.5px | Clarkson",
+    2
+   ],
+   [
+    "35px | w500 | lh 35px | ls -1px | Clarkson",
+    1
+   ],
+   [
+    "21px | w400 | lh 29px | ls -0.5px | Clarkson",
+    1
+   ],
+   [
+    "21px | w400 | lh 23px | ls -0.5px | Clarkson",
+    1
+   ],
+   [
+    "19px | w400 | lh 20.9px | ls normal | sans-serif",
+    1
+   ],
+   [
+    "18.72px | w500 | lh normal | ls normal | Clarkson",
+    1
+   ],
+   [
+    "16px | w400 | lh 22.4px | ls -0.5px | Clarkson",
+    1
+   ],
+   [
+    "21px | w500 | lh 25.2px | ls -0.5px | Clarkson",
+    1
+   ],
+   [
+    "21px | w500 | lh 25px | ls -0.5px | Clarkson",
+    1
+   ],
+   [
+    "18px | w500 | lh 19.8px | ls -0.5px | Clarkson",
+    1
+   ]
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Your brand, your storefront, one link.",
+    "size": "35px",
+    "weight": "500",
+    "lh": "35px",
+    "ls": "-1px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Stand out with engaging designs",
+    "size": "18px",
+    "weight": "400",
+    "lh": "25.2px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(1, 1, 1)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Make money online",
+    "size": "18px",
+    "weight": "400",
+    "lh": "25.2px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(1, 1, 1)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Build lasting connections",
+    "size": "18px",
+    "weight": "400",
+    "lh": "25.2px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(1, 1, 1)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "See what's working",
+    "size": "18px",
+    "weight": "400",
+    "lh": "25.2px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(1, 1, 1)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "TRUSTED BY MILLIONS OF",
+    "size": "18.72px",
+    "weight": "500",
+    "lh": "normal",
+    "ls": "normal",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "uppercase"
+   },
+   {
+    "tag": "H2",
+    "text": "Frequently Asked Questions",
+    "size": "21px",
+    "weight": "500",
+    "lh": "25px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Why should I use a link in bio tool?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Is a link in bio from Bio Sites really free?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "How do I monetize my link in bio?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Do I need a website to use a link in bio tool?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "How do I add a link in bio to my profile?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "What should I put in my link in bio?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Can I have more than one link in bio page with Bio Sites?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Can I use Bio Sites to create a link in bio for my clients?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "I have some questions about my Bio Site. Do you have a support team?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Can I make a Bio Site if I'm new to Squarespace?",
+    "size": "21px",
+    "weight": "400",
+    "lh": "29.4px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "BUILD YOUR FREE LINK IN BIO PAGE",
+    "size": "18px",
+    "weight": "500",
+    "lh": "19.8px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(255, 255, 255)",
+    "transform": "uppercase"
+   },
+   {
+    "tag": "H2",
+    "text": "BIO.SITE/YOURNAME ↗",
+    "size": "70px",
+    "weight": "500",
+    "lh": "98px",
+    "ls": "-0.5px",
+    "family": "Clarkson",
+    "color": "rgb(255, 255, 255)",
+    "transform": "uppercase"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "BLOG",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "radius": "40px",
+    "border": "0px none rgb(0, 0, 0)",
+    "pad": "0px 24px",
+    "size": "81x40",
+    "font": "12px w500 Clarkson",
+    "transition": "background-color, color, border 0.3s linear",
+    "shadow": "none"
+   },
+   {
+    "text": "LOG IN",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "radius": "40px",
+    "border": "0px none rgb(0, 0, 0)",
+    "pad": "0px 24px",
+    "size": "89x40",
+    "font": "12px w500 Clarkson",
+    "transition": "background-color, color, border 0.3s linear",
+    "shadow": "none"
+   },
+   {
+    "text": "SIGN UP FOR FREE",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "radius": "40px",
+    "border": "0px none rgb(0, 0, 0)",
+    "pad": "0px 24px",
+    "size": "155x40",
+    "font": "12px w500 Clarkson",
+    "transition": "background-color, color, border 0.3s linear",
+    "shadow": "none"
+   },
+   {
+    "text": "Create a free Bio Site",
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "1px solid rgb(1, 1, 1)",
+    "pad": "10px 32px",
+    "size": "325x80",
+    "font": "21px w400 Clarkson",
+    "transition": "background-color, color, border 0.3s linear",
+    "shadow": "none"
+   },
+   {
+    "text": "Create a free Bio Site",
+    "bg": "rgb(1, 1, 1)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "1px solid rgb(1, 1, 1)",
+    "pad": "10px 32px",
+    "size": "331x80",
+    "font": "19px w400 sans-serif",
+    "transition": "background-color, color, border 0.3s linear",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Get started ↗",
+    "bg": "rgba(0, 0, 0, 0.25)",
+    "color": "rgb(255, 255, 255)",
+    "radius": "46px",
+    "border": "0px none rgb(255, 255, 255)",
+    "pad": "14px",
+    "size": "305x46",
+    "font": "16px w400 Clarkson",
+    "transition": "all 0.2s ease-out",
+    "shadow": "none"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "SECTION",
+    "cls": "FAQFooter_FAQFooterContainer__YcbFq",
+    "top": 5868,
+    "h": 995,
+    "bg": "rgb(250, 250, 250)",
+    "bgImg": "none",
+    "heading": "Frequently Asked Questions"
+   }
+  ],
+  "images": [
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-health-wellness.webp",
+    "alt": "Grey, calming Bio Site template for a health & wellness crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-podcast.webp",
+    "alt": "Blue, energizing Bio Site template for a podcast creator.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-musician.webp",
+    "alt": "Expressive, energetic Bio Site template for a musician.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-fitness.webp",
+    "alt": "Dynamic, athletic Bio Site template for a fitness instructor",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-commerce.webp",
+    "alt": "Earthy, product-focused Bio Site template for a commerce bra",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-content-creator.webp",
+    "alt": "High-contrast, modern Bio Site template for a content creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-artist.webp",
+    "alt": "Bold, typographic Bio Site template for an artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-gamer.webp",
+    "alt": "Vibrant, neon-lit Bio Site template for a gamer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-wedding.webp",
+    "alt": "Elegant, romantic Bio Site template for a wedding.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-photography.webp",
+    "alt": "Sleek, dark-themed Bio Site template for a photographer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-beauty-content-creator.webp",
+    "alt": "Modern, pastel-themed Bio Site template for a beauty creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-food-content-creator.webp",
+    "alt": "Fresh, inviting Bio Site template for a food content creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-interior-designer.webp",
+    "alt": "Playful, typographic Bio Site template for an interior desig",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-architect.webp",
+    "alt": "Minimalist, professional Bio Site template for an architect.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-lifestyle-content-creator.webp",
+    "alt": "Pink and blue Bio Site template for a lifestyle content crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-travel-content-creator.webp",
+    "alt": "Earthy colored Bio Site template for a lifestyle travel cont",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-makeup-artist.webp",
+    "alt": "Dark, dramatic Bio Site template for a makeup artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-floral-design.webp",
+    "alt": "Warm and yellow Bio Site template for a floral design creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-health-wellness.webp",
+    "alt": "Grey, calming Bio Site template for a health & wellness crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-podcast.webp",
+    "alt": "Blue, energizing Bio Site template for a podcast creator.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-musician.webp",
+    "alt": "Expressive, energetic Bio Site template for a musician.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-fitness.webp",
+    "alt": "Dynamic, athletic Bio Site template for a fitness instructor",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-commerce.webp",
+    "alt": "Earthy, product-focused Bio Site template for a commerce bra",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-content-creator.webp",
+    "alt": "High-contrast, modern Bio Site template for a content creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-artist.webp",
+    "alt": "Bold, typographic Bio Site template for an artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-gamer.webp",
+    "alt": "Vibrant, neon-lit Bio Site template for a gamer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-wedding.webp",
+    "alt": "Elegant, romantic Bio Site template for a wedding.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-photography.webp",
+    "alt": "Sleek, dark-themed Bio Site template for a photographer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-beauty-content-creator.webp",
+    "alt": "Modern, pastel-themed Bio Site template for a beauty creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-food-content-creator.webp",
+    "alt": "Fresh, inviting Bio Site template for a food content creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-interior-designer.webp",
+    "alt": "Playful, typographic Bio Site template for an interior desig",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-architect.webp",
+    "alt": "Minimalist, professional Bio Site template for an architect.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-lifestyle-content-creator.webp",
+    "alt": "Pink and blue Bio Site template for a lifestyle content crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-travel-content-creator.webp",
+    "alt": "Earthy colored Bio Site template for a lifestyle travel cont",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-makeup-artist.webp",
+    "alt": "Dark, dramatic Bio Site template for a makeup artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-floral-design.webp",
+    "alt": "Warm and yellow Bio Site template for a floral design creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-health-wellness.webp",
+    "alt": "Grey, calming Bio Site template for a health & wellness crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-podcast.webp",
+    "alt": "Blue, energizing Bio Site template for a podcast creator.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-musician.webp",
+    "alt": "Expressive, energetic Bio Site template for a musician.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-fitness.webp",
+    "alt": "Dynamic, athletic Bio Site template for a fitness instructor",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-commerce.webp",
+    "alt": "Earthy, product-focused Bio Site template for a commerce bra",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-content-creator.webp",
+    "alt": "High-contrast, modern Bio Site template for a content creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-artist.webp",
+    "alt": "Bold, typographic Bio Site template for an artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-gamer.webp",
+    "alt": "Vibrant, neon-lit Bio Site template for a gamer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-wedding.webp",
+    "alt": "Elegant, romantic Bio Site template for a wedding.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-photography.webp",
+    "alt": "Sleek, dark-themed Bio Site template for a photographer.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-beauty-content-creator.webp",
+    "alt": "Modern, pastel-themed Bio Site template for a beauty creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-food-content-creator.webp",
+    "alt": "Fresh, inviting Bio Site template for a food content creator",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-interior-designer.webp",
+    "alt": "Playful, typographic Bio Site template for an interior desig",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-architect.webp",
+    "alt": "Minimalist, professional Bio Site template for an architect.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-lifestyle-content-creator.webp",
+    "alt": "Pink and blue Bio Site template for a lifestyle content crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-travel-content-creator.webp",
+    "alt": "Earthy colored Bio Site template for a lifestyle travel cont",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-makeup-artist.webp",
+    "alt": "Dark, dramatic Bio Site template for a makeup artist.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-floral-design.webp",
+    "alt": "Warm and yellow Bio Site template for a floral design creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-health-wellness.webp",
+    "alt": "Grey, calming Bio Site template for a health & wellness crea",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-podcast.webp",
+    "alt": "Blue, energizing Bio Site template for a podcast creator.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-musician.webp",
+    "alt": "Expressive, energetic Bio Site template for a musician.",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-fitness.webp",
+    "alt": "Dynamic, athletic Bio Site template for a fitness instructor",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-commerce.webp",
+    "alt": "Earthy, product-focused Bio Site template for a commerce bra",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/images/SlidingCarousel/persona-content-creator.webp",
+    "alt": "High-contrast, modern Bio Site template for a content creato",
+    "w": 205,
+    "h": 423,
+    "natural": "410x846",
+    "loading": "auto",
+    "radius": "20px 20px 0px 0px"
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://static.biosites.com/frontsitev2/videos/hero/loop.mp4",
+    "poster": "https://static.biosites.com/frontsitev2/images/Hero/poster.webp",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/videos/StickyCarousel/01-stand-out.mp4",
+    "poster": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/videos/StickyCarousel/02-earn.mp4",
+    "poster": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/videos/StickyCarousel/03-connect.mp4",
+    "poster": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440
+   },
+   {
+    "src": "https://static.biosites.com/frontsitev2/videos/StickyCarousel/04-grow.mp4",
+    "poster": "",
+    "autoplay": false,
+    "loop": true,
+    "muted": true,
+    "w": 1440
+   }
+  ],
+  "radius": [
+   [
+    "46px",
+    74
+   ],
+   [
+    "20px",
+    72
+   ],
+   [
+    "20px 20px 0px 0px",
+    72
+   ],
+   [
+    "40px",
+    3
+   ],
+   [
+    "0px 0px 40px 40px",
+    2
+   ],
+   [
+    "28px",
+    2
+   ],
+   [
+    "39px",
+    1
+   ],
+   [
+    "0px 0px 38px 38px",
+    1
+   ]
+  ],
+  "shadow": [],
+  "transitions": [
+   [
+    "all | 0.2s | ease-out",
+    72
+   ],
+   [
+    "height, margin | 0.2s, 0.2s | ease, ease",
+    10
+   ],
+   [
+    "opacity | 0.5s | ease-in-out",
+    8
+   ],
+   [
+    "background-color, color, border | 0.3s | linear",
+    5
+   ],
+   [
+    " |  | ",
+    5
+   ],
+   [
+    "transform, -webkit-transform | 0.5s, 0.5s | ease-in-out, ease-in-out",
+    4
+   ],
+   [
+    "all | 0.3s | ease",
+    2
+   ],
+   [
+    "transform, opacity, -webkit-transform | 0.3s, 0.3s, 0.3s | ease, ease, ease",
+    1
+   ],
+   [
+    "text-decoration-color, -webkit-text-decoration-color | 0.3s, 0.3s | ease, ease",
+    1
+   ]
+  ],
+  "animationsCss": [
+   [
+    "FAQTab_fadeInUp__PFnMv | 0.4s | ease | 1",
+    10
+   ],
+   [
+    " |  |  | ",
+    5
+   ],
+   [
+    "index_fadeInUp__i_qJr | 1s | ease | 1",
+    1
+   ],
+   [
+    "index_slide__fvGMA | 2.5s | ease | 1",
+    1
+   ],
+   [
+    "index_move__DjQPj | 100s | linear | infinite",
+    1
+   ]
+  ],
+  "keyframes": {},
+  "breakpoints": [],
+  "liveAnimations": [
+   {
+    "target": "DIV",
+    "cls": "index_stickyCarouselItemCopy__AIJS_",
+    "name": "transform",
+    "duration": 500,
+    "delay": 300,
+    "easing": "ease-in-out",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"translateY(30px)\"},{\"offset\":1,\"easing\":\"linear\",\"transform\":\"translateY(0px)\"}]"
+   },
+   {
+    "target": "DIV",
+    "cls": "index_heroTextContainer__jhn6x",
+    "name": "index_fadeInUp__i_qJr",
+    "duration": 1000,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, 40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "SPAN",
+    "cls": "index_line__Dzd80 index_line__animate__dZPML",
+    "name": "index_slide__fvGMA",
+    "duration": 2500,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"transform\":\"translateY(100%)\"},{\"offset\":0.25,\"easing\":\"ease\",\"transform\":\"translateY(0px)\"},{\"offset\":0.75,\"easing\":\"ease\",\"transform\":\"translateY(0px)\"}]"
+   },
+   {
+    "target": "DIV",
+    "cls": "index_carousel__Uad_T index_carouselAnimate__gXkDW",
+    "name": "index_move__DjQPj",
+    "duration": 100000,
+    "delay": 0,
+    "easing": "linear",
+    "iter": null,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\",\"transform\":\"translateX(-7290px)\"},{\"offset\":1,\"easing\":\"linear\",\"transform\":\"translateX(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   },
+   {
+    "target": "DT",
+    "cls": "FAQTab_answer__OCI0t",
+    "name": "FAQTab_fadeInUp__PFnMv",
+    "duration": 400,
+    "delay": 0,
+    "easing": "linear",
+    "iter": 1,
+    "kf": "[{\"offset\":0,\"easing\":\"ease\",\"opacity\":\"0\",\"transform\":\"translate3d(0px, -40px, 0px)\"},{\"offset\":1,\"easing\":\"ease\",\"opacity\":\"1\",\"transform\":\"translateZ(0px)\"}]"
+   }
+  ],
+  "effects": [
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "index_mask__YPvnw",
+    "f": {
+     "backgroundImage": "linear-gradient(rgb(17, 17, 17) -39.18%, rgba(17, 17, 17, 0) 49.17%)"
+    }
+   },
+   {
+    "tag": "VIDEO",
+    "ps": "",
+    "cls": "index_video__B3H_q",
+    "f": {
+     "filter": "brightness(0.8)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_blendWithBackground__VcFba",
+    "f": {
+     "mixBlendMode": "difference"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   },
+   {
+    "tag": "A",
+    "ps": "",
+    "cls": "index_getStartedBtn__GZirW",
+    "f": {
+     "backdropFilter": "blur(50px)"
+    }
+   }
+  ],
+  "navLinks": [],
+  "stickyHeader": null
+ },
+ "headerAfterScroll": null,
+ "hovers": [
+  {
+   "text": "BLOG",
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   },
+   "after": {
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   }
+  },
+  {
+   "text": "LOG IN",
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   },
+   "after": {
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   }
+  },
+  {
+   "text": "SIGN UP FOR FREE",
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   },
+   "after": {
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "40px",
+    "border": "rgb(0, 0, 0)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   }
+  },
+  {
+   "text": "Create a free Bio Site",
+   "before": {
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "46px",
+    "border": "rgb(1, 1, 1)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   },
+   "after": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(1, 1, 1)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "46px",
+    "border": "rgb(230, 230, 230)",
+    "opacity": "1",
+    "transition": "background-color, color, border 0.3s linear"
+   }
+  }
+ ],
+ "mobile": {
+  "headings": [
+   {
+    "text": "Your brand, your storefront, one link.",
+    "size": "21px",
+    "lh": "22.47px",
+    "weight": "500"
+   },
+   {
+    "text": "STAND OUT",
+    "size": "46px",
+    "lh": "57px",
+    "weight": "500"
+   },
+   {
+    "text": "Stand out with engaging designs",
+    "size": "21px",
+    "lh": "22.4px",
+    "weight": "700"
+   },
+   {
+    "text": "SELL",
+    "size": "46px",
+    "lh": "57px",
+    "weight": "500"
+   },
+   {
+    "text": "Make money online",
+    "size": "21px",
+    "lh": "22.4px",
+    "weight": "700"
+   },
+   {
+    "text": "CONNECT",
+    "size": "46px",
+    "lh": "57px",
+    "weight": "500"
+   },
+   {
+    "text": "Build lasting connections",
+    "size": "21px",
+    "lh": "22.4px",
+    "weight": "700"
+   },
+   {
+    "text": "ANALYZE",
+    "size": "46px",
+    "lh": "57px",
+    "weight": "500"
+   }
+  ],
+  "nav": null,
+  "docHeight": 6159
+ }
+}

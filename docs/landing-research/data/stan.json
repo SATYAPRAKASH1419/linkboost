@@ -1,0 +1,1409 @@
+{
+ "entranceAnimations": [],
+ "midScrollAnimations": [],
+ "desktop": {
+  "url": "https://stan.store/",
+  "title": "Stan - Your Creator Store",
+  "viewport": 1440,
+  "docHeight": 8084,
+  "stack": {
+   "next": false,
+   "nextAppRouter": false,
+   "nuxt": false,
+   "gatsby": false,
+   "astro": false,
+   "svelte": false,
+   "webflow": false,
+   "framer": false,
+   "wordpress": false,
+   "tailwind": false,
+   "styledComponents": false,
+   "emotion": false,
+   "cssModules": false,
+   "radix": false,
+   "gsap": false,
+   "lenis": false,
+   "lottie": false,
+   "rive": false,
+   "threejs": false,
+   "swiper": false,
+   "splide": false,
+   "generator": null,
+   "scriptHosts": [
+    "fonts.googleapis.com",
+    "stan.store",
+    "assets.stanwith.me",
+    "api.stanwith.me",
+    "status.stan.store",
+    "j9r0xyfw7s13.statuspage.io",
+    "geo.assets.stanwith.me",
+    "api.analytics.stanwith.me",
+    "www.clarity.ms",
+    "j.northbeam.io",
+    "connect.facebook.net",
+    "analytics.tiktok.com",
+    "snap.licdn.com",
+    "www.googletagmanager.com",
+    "px.ads.linkedin.com",
+    "scripts.clarity.ms",
+    "c.clarity.ms",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "analytics-ipv6.tiktokw.us",
+    "s.clarity.ms",
+    "i.stan.store",
+    "mpc2-prod-26-is5qnl632q-uc.a.run.app",
+    "www.facebook.com"
+   ]
+  },
+  "fonts": {
+   "loaded": [
+    "Plus Jakarta Sans 300 normal",
+    "Plus Jakarta Sans 400 normal",
+    "Plus Jakarta Sans 600 normal",
+    "Plus Jakarta Sans 700 normal",
+    "Plus Jakarta Sans 800 normal",
+    "Inter 300 normal",
+    "Inter 400 normal"
+   ],
+   "body": "system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", \"Liberation Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+   "fontFaces": [
+    "Grobek | 400 | url(\"/fonts/grobek-regular.woff2\") format(\"woff2\"), url(\"/fonts/grobek-regular.woff\") format(\"woff\"), url(\"/fonts/grobek-regular.ttf\") forma",
+    "Grobek | 700 | url(\"/fonts/grobek-bold.woff2\") format(\"woff2\"), url(\"/fonts/grobek-bold.woff\") format(\"woff\"), url(\"/fonts/grobek-bold.ttf\") format(\"truety",
+    "Inter | 400 | url(\"/fonts/inter-regular.woff2\") format(\"woff2\"), url(\"/fonts/inter-regular.woff\") format(\"woff\"), url(\"/fonts/inter-regular.ttf\") format(\"",
+    "swiper-icons | 400 | url(\"data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkU"
+   ]
+  },
+  "tokens": {
+   "--bs-blue": "#0d6efd",
+   "--bs-indigo": "#6610f2",
+   "--bs-purple": "#6f42c1",
+   "--bs-pink": "#d63384",
+   "--bs-red": "#dc3545",
+   "--bs-orange": "#fd7e14",
+   "--bs-yellow": "#ffc107",
+   "--bs-green": "#198754",
+   "--bs-teal": "#20c997",
+   "--bs-cyan": "#0dcaf0",
+   "--bs-white": "#fff",
+   "--bs-gray": "#6c757d",
+   "--bs-gray-dark": "#343a40",
+   "--bs-gray-100": "#f8f9fa",
+   "--bs-gray-200": "#e9ecef",
+   "--bs-gray-300": "#dee2e6",
+   "--bs-gray-400": "#ced4da",
+   "--bs-gray-500": "#adb5bd",
+   "--bs-gray-600": "#6c757d",
+   "--bs-gray-700": "#495057",
+   "--bs-gray-800": "#343a40",
+   "--bs-gray-900": "#212529",
+   "--bs-primary": "#0d6efd",
+   "--bs-secondary": "#6c757d",
+   "--bs-success": "#198754",
+   "--bs-info": "#0dcaf0",
+   "--bs-warning": "#ffc107",
+   "--bs-danger": "#dc3545",
+   "--bs-light": "#f8f9fa",
+   "--bs-dark": "#212529",
+   "--bs-primary-rgb": "13,110,253",
+   "--bs-secondary-rgb": "108,117,125",
+   "--bs-success-rgb": "25,135,84",
+   "--bs-info-rgb": "13,202,240",
+   "--bs-warning-rgb": "255,193,7",
+   "--bs-danger-rgb": "220,53,69",
+   "--bs-light-rgb": "248,249,250",
+   "--bs-dark-rgb": "33,37,41",
+   "--bs-white-rgb": "255,255,255",
+   "--bs-black-rgb": "0,0,0",
+   "--bs-body-color-rgb": "33,37,41",
+   "--bs-body-bg-rgb": "255,255,255",
+   "--bs-font-sans-serif": "system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",\"Liberation Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+   "--bs-font-monospace": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+   "--bs-gradient": "linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0))",
+   "--bs-body-font-family": "var(--bs-font-sans-serif)",
+   "--bs-body-font-size": "1rem",
+   "--bs-body-font-weight": "400",
+   "--bs-body-line-height": "1.5",
+   "--bs-body-color": "#212529",
+   "--bs-body-bg": "#fff",
+   "--primary-color": "#001d6d",
+   "--secondary-color": "#3a36db",
+   "--stan-primary-primary-color": "#6355ff",
+   "--stan-primary-strike-color": "#5200ff",
+   "--stan-primary-dark-color": "#00106d",
+   "--stan-primary-soft-color": "#b5bcff",
+   "--stan-primary-light-color": "#ebebff",
+   "--stan-positive-primary-color": "#22edc8",
+   "--stan-positive-strike-color": "#00ffd1",
+   "--stan-positive-dark-color": "#00554b",
+   "--stan-positive-soft-color": "#74fbe3",
+   "--stan-positive-light-color": "#e4fff9",
+   "--stan-negative-primary-color": "#ff5050",
+   "--stan-negative-strike-color": "red",
+   "--stan-negative-dark-color": "#7c0000",
+   "--stan-negative-soft-color": "#ff9197",
+   "--stan-negative-light-color": "#fff2f2",
+   "--stan-gray-dark-color": "#b5c2d5",
+   "--stan-gray-strike-color": "#dae0ea",
+   "--stan-gray-primary-color": "#eef1f5",
+   "--stan-gray-soft-color": "#f2f4f8",
+   "--stan-gray-light-color": "#f9f9ff",
+   "--stan-text-dark-color": "#131f60",
+   "--stan-text-light-color": "#808eb6",
+   "--stan-text-positive-color": "#01b88c",
+   "--stan-text-negative-color": "#ff5050",
+   "--stan-box-shadow": "0px 15px 50px rgba(0,29,109,.07),inset 0px -5px 10px rgba(0,0,0,.01)",
+   "--stan-grey": "#e1e7f5",
+   "--stan-white": "#fff",
+   "--stan-green": "#00c6a4",
+   "--stan-danger": "#ff487e",
+   "--stan-black": "#000",
+   "--stan-orange-1": "#fff6f2",
+   "--stan-orange-2": "#ffdcce",
+   "--stan-orange-3": "#ffdee2",
+   "--stan-orange-4": "#f85918",
+   "--stan-cerulean-1": "#d5ecff",
+   "--stan-persian-green-1": "#009693",
+   "--stan-persian-green-2": "#00c6a4",
+   "--stan-persian-green-3": "#00cfcc",
+   "--stan-persian-green-4": "#defffb",
+   "--stan-green-1": "#a7e6b1",
+   "--stan-green-2": "#6edc5f",
+   "--stan-green-3": "#2f8f3f",
+   "--stan-green-4": "#4caf50",
+   "--stan-purple-1": "#974597",
+   "--stan-purple-2": "#fcdeff",
+   "--stan-oxford-blue-1": "#3b485a",
+   "--stan-oxford-blue-2": "#e1e7f5",
+   "--stan-boulder-1": "#777",
+   "--stan-boulder-2": "#a9a9a9",
+   "--stan-boulder-3": "#ccc",
+   "--stan-boulder-4": "#e6e6e6",
+   "--stan-boulder-5": "#cad1e1",
+   "--stan-boulder-6": "#8f9cb9",
+   "--stan-blue-3": "#6574ff",
+   "--stan-blue-4": "#5383ff",
+   "--stan-blue-5": "#48638c",
+   "--stan-blue-6": "#8f9cb9",
+   "--stan-blue-8": "#f3f6fd",
+   "--stan-grey-1": "#868e9e",
+   "--stan-grey-2": "#b8bdc8",
+   "--stan-yellow-1": "#fb0",
+   "--stan-yellow-2": "#efc14e",
+   "--stan-yellow-3": "#ffd875",
+   "--stan-yellow-4": "#fff7e1",
+   "--stan-white-2": "#fafdfa",
+   "--stan-user-primary-color": "#5383ff",
+   "--stan-disabled-text-color": "#b5c2d5",
+   "--stan-disabled-bg-color": "#f2f4f8",
+   "--stan-alt-bg-color": "#f8f7fa",
+   "--swiper-navigation-size": "44px",
+   "--swiper-theme-color": "#007aff"
+  },
+  "tokenCount": 124,
+  "unreadable": [
+   "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900&display=swap",
+   "https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap",
+   "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;600;700;800;900&display=swap",
+   "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap"
+  ],
+  "bodyBg": "rgb(99, 85, 255)",
+  "bodyColor": "rgb(33, 37, 41)",
+  "bgColors": [
+   [
+    "rgb(255, 255, 255)",
+    22
+   ],
+   [
+    "rgb(19, 31, 96)",
+    2
+   ],
+   [
+    "rgb(48, 255, 180)",
+    1
+   ],
+   [
+    "rgb(238, 238, 249)",
+    1
+   ],
+   [
+    "rgb(248, 247, 250)",
+    1
+   ],
+   [
+    "rgb(242, 244, 248)",
+    1
+   ]
+  ],
+  "textColors": [
+   [
+    "rgb(255, 255, 255)",
+    22
+   ],
+   [
+    "rgb(33, 37, 41)",
+    19
+   ],
+   [
+    "rgb(19, 31, 96)",
+    8
+   ],
+   [
+    "rgba(255, 255, 255, 0.6)",
+    7
+   ],
+   [
+    "rgb(0, 0, 0)",
+    5
+   ],
+   [
+    "rgb(0, 16, 109)",
+    1
+   ]
+  ],
+  "typeScale": [
+   [
+    "13px | w700 | lh 15.6px | ls normal | \"Plus Jakarta Sans\"",
+    10
+   ],
+   [
+    "16px | w400 | lh 32px | ls 0.08px | \"Plus Jakarta Sans\"",
+    7
+   ],
+   [
+    "24px | w700 | lh 28.8px | ls normal | \"Plus Jakarta Sans\"",
+    5
+   ],
+   [
+    "14px | w500 | lh 16.8px | ls normal | \"Plus Jakarta Sans\"",
+    5
+   ],
+   [
+    "12px | w500 | lh 10px | ls normal | \"Plus Jakarta Sans\"",
+    5
+   ],
+   [
+    "32px | w900 | lh 38.4px | ls normal | \"Plus Jakarta Sans\"",
+    4
+   ],
+   [
+    "18px | w600 | lh 27px | ls 0.18px | \"Plus Jakarta Sans\"",
+    3
+   ],
+   [
+    "18px | w400 | lh 21.6px | ls normal | \"Plus Jakarta Sans\"",
+    3
+   ],
+   [
+    "44px | w800 | lh 52.8px | ls normal | \"Plus Jakarta Sans\"",
+    3
+   ],
+   [
+    "18px | w300 | lh 23.4px | ls -0.3px | Inter",
+    3
+   ],
+   [
+    "16px | w700 | lh 24px | ls 0.16px | \"Plus Jakarta Sans\"",
+    2
+   ],
+   [
+    "18px | w300 | lh 23.4px | ls 0.05px | \"Plus Jakarta Sans\"",
+    2
+   ],
+   [
+    "32px | w800 | lh 38.4px | ls normal | \"Plus Jakarta Sans\"",
+    2
+   ],
+   [
+    "72px | w800 | lh 75.6px | ls -1.5px | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "24px | w800 | lh 28.8px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "80px | w900 | lh 96px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "40px | w900 | lh 48px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "16px | w400 | lh 19.2px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "22px | w600 | lh 23.1px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "36px | w800 | lh 37.8px | ls 0.324px | \"Plus Jakarta Sans\"",
+    1
+   ],
+   [
+    "24px | w700 | lh 24px | ls normal | \"Plus Jakarta Sans\"",
+    1
+   ]
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Meet Your All·in·One Creator Store",
+    "size": "72px",
+    "weight": "800",
+    "lh": "75.6px",
+    "ls": "-1.5px",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Stan is the easiest way to make money online. All of your courses, digital products, and bookings are now hosted within ",
+    "size": "18px",
+    "weight": "300",
+    "lh": "23.4px",
+    "ls": "0.05px",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Continue",
+    "size": "24px",
+    "weight": "800",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(19, 31, 96)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "The Best Creators Use Stan 🚀",
+    "size": "32px",
+    "weight": "900",
+    "lh": "38.4px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "See how our creators use Stan to superpower their businesses!",
+    "size": "18px",
+    "weight": "400",
+    "lh": "21.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Abigail Peugh",
+    "size": "24px",
+    "weight": "700",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "@abigailpeugh",
+    "size": "14px",
+    "weight": "500",
+    "lh": "16.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "💰 . Business Coach",
+    "size": "13px",
+    "weight": "700",
+    "lh": "15.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Millie Adrian",
+    "size": "24px",
+    "weight": "700",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "@itsmodernmillie",
+    "size": "14px",
+    "weight": "500",
+    "lh": "16.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "📲 . Social Media Coach",
+    "size": "13px",
+    "weight": "700",
+    "lh": "15.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Eddie Abbew",
+    "size": "24px",
+    "weight": "700",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "@eddieabbew",
+    "size": "14px",
+    "weight": "500",
+    "lh": "16.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "💪 . Fitness Coach",
+    "size": "13px",
+    "weight": "700",
+    "lh": "15.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Sarah Perl",
+    "size": "24px",
+    "weight": "700",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "@hothighpriestess",
+    "size": "14px",
+    "weight": "500",
+    "lh": "16.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "✨ . Spirituality Creator",
+    "size": "13px",
+    "weight": "700",
+    "lh": "15.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Tatiana Londono",
+    "size": "24px",
+    "weight": "700",
+    "lh": "28.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(255, 255, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "@tatlondono",
+    "size": "14px",
+    "weight": "500",
+    "lh": "16.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgba(255, 255, 255, 0.6)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "🏠 . Real Estate Coach",
+    "size": "13px",
+    "weight": "700",
+    "lh": "15.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "See What People Are Saying 👀",
+    "size": "32px",
+    "weight": "900",
+    "lh": "38.4px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Stan is the easiest way to start selling online.",
+    "size": "18px",
+    "weight": "400",
+    "lh": "21.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "0%",
+    "size": "80px",
+    "weight": "900",
+    "lh": "96px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Transaction Fees, Always.",
+    "size": "40px",
+    "weight": "900",
+    "lh": "48px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Not just another link·in·bio🚀",
+    "size": "32px",
+    "weight": "900",
+    "lh": "38.4px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Stan has everything you need to run your business. All-in-one place.",
+    "size": "18px",
+    "weight": "400",
+    "lh": "21.6px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "A Simpler Solution 💰",
+    "size": "32px",
+    "weight": "800",
+    "lh": "38.4px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "No more paying for 5+ different apps! Stan brings it all home.",
+    "size": "16px",
+    "weight": "400",
+    "lh": "19.2px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "No Coding Required",
+    "size": "44px",
+    "weight": "800",
+    "lh": "52.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "1-Tap Checkout",
+    "size": "44px",
+    "weight": "800",
+    "lh": "52.8px",
+    "ls": "normal",
+    "family": "\"Plus Jakarta Sans\", sans-serif",
+    "color": "rgb(33, 37, 41)",
+    "transform": "none"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "Sign Up",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 16, 109)",
+    "radius": "10px",
+    "border": "0px none rgb(0, 16, 109)",
+    "pad": "10px 20px 12px",
+    "size": "100x46",
+    "font": "16px w700 \"Plus Jakarta Sans\"",
+    "transition": "color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out",
+    "shadow": "none"
+   },
+   {
+    "text": "Continue",
+    "bg": "rgb(48, 255, 180)",
+    "color": "rgb(19, 31, 96)",
+    "radius": "100px",
+    "border": "0px none rgb(19, 31, 96)",
+    "pad": "20px 35px",
+    "size": "213x69",
+    "font": "16px w400 \"Plus Jakarta Sans\"",
+    "transition": "all 0.2s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Start My Trial",
+    "bg": "rgb(19, 31, 96)",
+    "color": "rgb(0, 0, 0)",
+    "radius": "50px",
+    "border": "0px none rgb(0, 0, 0)",
+    "pad": "16px 6px",
+    "size": "330x75",
+    "font": "16px w400 \"Plus Jakarta Sans\"",
+    "transition": "all 0.2s ease",
+    "shadow": "rgba(0, 0, 0, 0.1) 0px 40px 40px 0px"
+   },
+   {
+    "text": "Start My Trial",
+    "bg": "rgb(19, 31, 96)",
+    "color": "rgb(0, 0, 0)",
+    "radius": "50px",
+    "border": "0px none rgb(0, 0, 0)",
+    "pad": "28px 0px 32px 19px",
+    "size": "339x84",
+    "font": "16px w800 \"Plus Jakarta Sans\"",
+    "transition": "all 0.2s ease",
+    "shadow": "rgba(0, 0, 0, 0.1) 0px 40px 40px 0px"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "NAV",
+    "cls": "navbar navbar-expand-md navbar-dark creator-store-nav",
+    "top": 0,
+    "h": 102,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   }
+  ],
+  "images": [
+   {
+    "src": "https://stan.store/img/stan_logo_v6.c1a212e3.svg",
+    "alt": "",
+    "w": 84,
+    "h": 26,
+    "natural": "84x26",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/arrow.a5fc5910.svg",
+    "alt": "",
+    "w": 20,
+    "h": 20,
+    "natural": "200x200",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-1.9ed36b6c.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1423x1657",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-2.c6e072af.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1424x1645",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-8.7257a40c.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1453x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-6.d915a28f.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1453x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-7.19e12075.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1443x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-3.e09d2786.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1423x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-4.63aebec8.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1424x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/stan-hero-5.e4cd1e3e.png",
+    "alt": "",
+    "w": 648,
+    "h": 743,
+    "natural": "1423x1621",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/tt.622bb218.svg",
+    "alt": "Instagram",
+    "w": 13,
+    "h": 13,
+    "natural": "200x200",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/store-abi.acdb2980.png",
+    "alt": "store",
+    "w": 220,
+    "h": 447,
+    "natural": "675x1373",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://stan.store/img/ig.24c0b1ef.svg",
+    "alt": "Instagram",
+    "w": 13,
+    "h": 13,
+    "natural": "163x162",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/store-millie.7af6a394.png",
+    "alt": "store",
+    "w": 220,
+    "h": 447,
+    "natural": "900x1830",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://stan.store/img/ig.24c0b1ef.svg",
+    "alt": "Instagram",
+    "w": 13,
+    "h": 13,
+    "natural": "163x162",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/store-eddie.ab491546.svg",
+    "alt": "store",
+    "w": 220,
+    "h": 447,
+    "natural": "900x1830",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://stan.store/img/tt.622bb218.svg",
+    "alt": "Instagram",
+    "w": 13,
+    "h": 13,
+    "natural": "200x200",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/store-priestess.295fb41f.png",
+    "alt": "store",
+    "w": 220,
+    "h": 447,
+    "natural": "900x1830",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://stan.store/img/tt.622bb218.svg",
+    "alt": "Instagram",
+    "w": 13,
+    "h": 13,
+    "natural": "200x200",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/store-tat.3a518146.png",
+    "alt": "profile",
+    "w": 220,
+    "h": 447,
+    "natural": "675x1373",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://stan.store/img/abigail-peugh.48de2212.png",
+    "alt": "",
+    "w": 317,
+    "h": 149,
+    "natural": "1223x575",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-3.73d4a6c6.png",
+    "alt": "",
+    "w": 317,
+    "h": 595,
+    "natural": "518x973",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-2.e43842eb.png",
+    "alt": "",
+    "w": 317,
+    "h": 259,
+    "natural": "1082x884",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/jenna.0358893a.png",
+    "alt": "",
+    "w": 317,
+    "h": 634,
+    "natural": "1179x2359",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-5.abc4014e.png",
+    "alt": "",
+    "w": 317,
+    "h": 157,
+    "natural": "518x256",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-7.82b8028c.png",
+    "alt": "",
+    "w": 317,
+    "h": 595,
+    "natural": "518x973",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-10.06cdbdc9.png",
+    "alt": "",
+    "w": 317,
+    "h": 187,
+    "natural": "518x306",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-8.4dee655a.png",
+    "alt": "",
+    "w": 317,
+    "h": 595,
+    "natural": "518x973",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/test-9.05c433e2.png",
+    "alt": "",
+    "w": 317,
+    "h": 595,
+    "natural": "518x973",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v6/features.png",
+    "alt": "slide",
+    "w": 1000,
+    "h": 662,
+    "natural": "2667x1765",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/img/convertkit-auto.9bb12a39.png",
+    "alt": "Simpler Solution",
+    "w": 520,
+    "h": 580,
+    "natural": "1788x2226",
+    "loading": "auto",
+    "radius": "20px"
+   },
+   {
+    "src": "https://stan.store/images/home/v6/infographic-2.png",
+    "alt": "img",
+    "w": 573,
+    "h": 400,
+    "natural": "1420x992",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v6/infographic-1.png",
+    "alt": "img",
+    "w": 592,
+    "h": 400,
+    "natural": "1420x960",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v6/infographic.png",
+    "alt": "img",
+    "w": 592,
+    "h": 400,
+    "natural": "1420x960",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v4/icons/youtube.svg",
+    "alt": "Youtube",
+    "w": 40,
+    "h": 40,
+    "natural": "20x20",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v4/icons/twitter.svg",
+    "alt": "Twitter",
+    "w": 40,
+    "h": 40,
+    "natural": "20x20",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v4/icons/instagram-logo.svg",
+    "alt": "Instagram",
+    "w": 40,
+    "h": 40,
+    "natural": "20x20",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v4/icons/tiktok.svg",
+    "alt": "TikTok",
+    "w": 40,
+    "h": 40,
+    "natural": "20x20",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v4/icons/linkedin.svg",
+    "alt": "Linkedin",
+    "w": 40,
+    "h": 40,
+    "natural": "20x20",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://stan.store/images/home/v6/stan_logo_footer.svg",
+    "alt": "Stan",
+    "w": 108,
+    "h": 34,
+    "natural": "108x34",
+    "loading": "auto",
+    "radius": "0px"
+   }
+  ],
+  "videos": [],
+  "radius": [
+   [
+    "10px",
+    10
+   ],
+   [
+    "15px",
+    10
+   ],
+   [
+    "40px",
+    8
+   ],
+   [
+    "50px",
+    7
+   ],
+   [
+    "9999px",
+    5
+   ],
+   [
+    "4px",
+    2
+   ],
+   [
+    "100px",
+    1
+   ],
+   [
+    "20px",
+    1
+   ],
+   [
+    "8px",
+    1
+   ]
+  ],
+  "shadow": [
+   [
+    "rgba(0, 0, 0, 0.1) -10px 10px 30px 0px",
+    10
+   ],
+   [
+    "rgba(0, 0, 0, 0.15) 0px 50px 80px 0px",
+    9
+   ],
+   [
+    "rgba(0, 0, 0, 0.1) 0px 40px 40px 0px",
+    2
+   ],
+   [
+    "rgba(0, 0, 0, 0.1) 0px 20px 60px 0px",
+    1
+   ],
+   [
+    "rgba(9, 20, 66, 0.25) 0px 20px 32px -8px",
+    1
+   ]
+  ],
+  "transitions": [
+   [
+    "opacity | 0.3s | ease-in-out",
+    40
+   ],
+   [
+    "all | 0.2s | ease",
+    3
+   ],
+   [
+    "all | 0.4s | ease",
+    3
+   ],
+   [
+    "color, background-color, border-color | 0.15s, 0.15s, 0.15s | ease-in-out, ease-in-out, ease-in-out",
+    2
+   ],
+   [
+    "box-shadow | 0.15s | ease-in-out",
+    1
+   ],
+   [
+    "left, bottom, right | 1s, 1s, 1s | ease, ease, ease",
+    1
+   ],
+   [
+    "all | 0.3s | ease-in-out",
+    1
+   ]
+  ],
+  "animationsCss": [],
+  "keyframes": {
+   "progress-bar-stripes": "@keyframes progress-bar-stripes { \n  0% { background-position-x: 1rem; }\n}",
+   "spinner-border": "@keyframes spinner-border { \n  100% { transform: rotate(1turn); }\n}",
+   "spinner-grow": "@keyframes spinner-grow { \n  0% { transform: scale(0); }\n  50% { opacity: 1; transform: none; }\n}",
+   "placeholder-glow": "@keyframes placeholder-glow { \n  50% { opacity: 0.2; }\n}",
+   "placeholder-wave": "@keyframes placeholder-wave { \n  100% { mask-position: -200% 0px; }\n}",
+   "s-scale": "@keyframes s-scale { \n  0% { transform: scale(1); }\n  50% { transform: scale(1.04); }\n  100% { transform: scale(1); }\n}",
+   "s-fade": "@keyframes s-fade { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+   "landing-spin-3f3cf1c4": "@keyframes landing-spin-3f3cf1c4 { \n  100% { transform: rotate(1turn); }\n}",
+   "swiper-preloader-spin": "@keyframes swiper-preloader-spin { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(1turn); }\n}"
+  },
+  "breakpoints": [
+   "max-width: 1048px",
+   "max-width: 1199.98px",
+   "max-width: 1399.98px",
+   "max-width: 330px",
+   "max-width: 370px",
+   "max-width: 520px",
+   "max-width: 575.98px",
+   "max-width: 575px",
+   "max-width: 687px",
+   "max-width: 767.98px",
+   "max-width: 767px",
+   "max-width: 800px",
+   "max-width: 899px",
+   "max-width: 991.98px",
+   "min-width: 1200px",
+   "min-width: 1400px",
+   "min-width: 376px",
+   "min-width: 568px",
+   "min-width: 576px",
+   "min-width: 768px",
+   "min-width: 800px",
+   "min-width: 992px"
+  ],
+  "liveAnimations": [],
+  "effects": [
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "expo anim",
+    "f": {
+     "backgroundImage": "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "expo anim",
+    "f": {
+     "backgroundImage": "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "expo anim",
+    "f": {
+     "backgroundImage": "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "expo anim",
+    "f": {
+     "backgroundImage": "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "expo anim",
+    "f": {
+     "backgroundImage": "linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0))"
+    }
+   }
+  ],
+  "navLinks": [
+   "Home",
+   "Our Mission",
+   "Blog",
+   "Log in",
+   "Sign Up"
+  ],
+  "stickyHeader": {
+   "position": "relative",
+   "bg": "rgba(0, 0, 0, 0)",
+   "backdrop": "none",
+   "h": 102
+  }
+ },
+ "headerAfterScroll": {
+  "position": "relative",
+  "top": -400,
+  "bg": "rgba(0, 0, 0, 0)",
+  "backdrop": "none",
+  "shadow": "none",
+  "h": 102
+ },
+ "hovers": [
+  {
+   "text": "Sign Up",
+   "before": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 16, 109)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "10px",
+    "border": "rgb(0, 16, 109)",
+    "opacity": "1",
+    "transition": "color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out"
+   },
+   "after": {
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 16, 109)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "10px",
+    "border": "rgb(0, 16, 109)",
+    "opacity": "1",
+    "transition": "color, background-color, border-color 0.15s, 0.15s, 0.15s ease-in-out, ease-in-out, ease-in-out"
+   }
+  },
+  {
+   "text": "Continue",
+   "before": {
+    "bg": "rgb(48, 255, 180)",
+    "color": "rgb(19, 31, 96)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "100px",
+    "border": "rgb(19, 31, 96)",
+    "opacity": "1",
+    "transition": "all 0.2s ease"
+   },
+   "after": {
+    "bg": "rgb(48, 255, 180)",
+    "color": "rgb(19, 31, 96)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "100px",
+    "border": "rgb(19, 31, 96)",
+    "opacity": "1",
+    "transition": "all 0.2s ease"
+   }
+  }
+ ],
+ "mobile": {
+  "headings": [
+   {
+    "text": "Meet Your All·in·One Creator Store",
+    "size": "36px",
+    "lh": "43.2px",
+    "weight": "700"
+   },
+   {
+    "text": "Continue",
+    "size": "20px",
+    "lh": "24px",
+    "weight": "800"
+   },
+   {
+    "text": "The Best Creators Use Stan 🚀",
+    "size": "32px",
+    "lh": "38.4px",
+    "weight": "900"
+   },
+   {
+    "text": "See how our creators use Stan to superpower their businesses!",
+    "size": "14px",
+    "lh": "21px",
+    "weight": "400"
+   },
+   {
+    "text": "Abigail Peugh",
+    "size": "22px",
+    "lh": "26.4px",
+    "weight": "700"
+   },
+   {
+    "text": "@abigailpeugh",
+    "size": "14px",
+    "lh": "16.8px",
+    "weight": "500"
+   },
+   {
+    "text": "Millie Adrian",
+    "size": "22px",
+    "lh": "26.4px",
+    "weight": "700"
+   },
+   {
+    "text": "@itsmodernmillie",
+    "size": "14px",
+    "lh": "16.8px",
+    "weight": "500"
+   }
+  ],
+  "nav": {
+   "h": 76,
+   "bg": "rgb(99, 85, 255)",
+   "items": [
+    "Stan Logo",
+    "Toggle Nav"
+   ]
+  },
+  "docHeight": 6688
+ }
+}

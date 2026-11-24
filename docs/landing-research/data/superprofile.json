@@ -1,0 +1,1984 @@
+{
+ "entranceAnimations": [
+  {
+   "target": "H1",
+   "cls": "sc-aXZVg fuFShx",
+   "name": "eKXFfL",
+   "duration": 6000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  },
+  {
+   "target": "UL",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 77320,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  }
+ ],
+ "midScrollAnimations": [
+  {
+   "target": "H1",
+   "cls": "sc-aXZVg fuFShx",
+   "name": "eKXFfL",
+   "duration": 6000,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  },
+  {
+   "target": "UL",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 77320,
+   "delay": 0,
+   "easing": "linear",
+   "iter": null
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 2800,
+   "delay": 200,
+   "easing": "linear(0 0%, 0.0148 0.35842293906810035%, 0.0451 0.7168458781362007%, 0.0805 1.075268817204301%, 0.1167 1.4336917562724014%, 0.1524 1.7921146953405018%, 0.187 2.150537634408602%, 0.2202 2.508960573476702%, 0.2522 2.8673835125448024%, 0.2829 3.2258064516129026%, 0.3123 3.5842293906810028%, 0.3405 3.942652329749103%, 0.3676 4.301075268817203%, 0.3935 4.659498207885304%, 0.4184 5.017921146953404%, 0.4422 5.376344086021505%, 0.4651 5.734767025089606%, 0.4871 6.093189964157706%, 0.5081 6.451612903225807%, 0.5283 6.810035842293908%, 0.5477 7.168458781362008%, 0.5662 7.526881720430109%, 0.584 7.8853046594982095%, 0.6011 8.24372759856631%, 0.6174 8.60215053763441%, 0.6331 8.96057347670251%, 0.6482 9.318996415770611%, 0.6626 9.677419354838712%, 0.6765 10.035842293906812%, 0.6897 10.394265232974913%, 0.7025 10.752688172043014%, 0.7147 11.111111111111114%, 0.7264 11.469534050179215%, 0.7376 11.827956989247316%, 0.7484 12.186379928315416%, 0.7587 12.544802867383517%, 0.7686 12.903225806451617%, 0.7781 13.261648745519718%, 0.7872 13.620071684587819%, 0.7959 13.97849462365592%, 0.8043 14.33691756272402%, 0.8123 14.69534050179212%, 0.82 15.053763440860221%, 0.8274 15.412186379928322%, 0.8345 15.770609318996422%, 0.8413 16.129032258064523%, 0.8478 16.487455197132622%, 0.854 16.84587813620072%, 0.86 17.20430107526882%, 0.8658 17.56272401433692%, 0.8713 17.921146953405017%, 0.8766 18.279569892473116%, 0.8816 18.637992831541215%, 0.8865 18.996415770609314%, 0.8911 19.354838709677413%, 0.8956 19.71326164874551%, 0.8999 20.07168458781361%, 0.904 20.43010752688171%, 0.9079 20.78853046594981%, 0.9117 21.146953405017907%, 0.9153 21.505376344086006%, 0.9188 21.863799283154105%, 0.9221 22.222222222222204%, 0.9253 22.580645161290303%, 0.9284 22.9390681003584%, 0.9313 23.2974910394265%, 0.9341 23.6559139784946%, 0.9368 24.014336917562698%, 0.9394 24.372759856630797%, 0.9419 24.731182795698896%, 0.9443 25.089605734766995%, 0.9466 25.448028673835093%, 0.9488 25.806451612903192%, 0.9509 26.16487455197129%, 0.9529 26.52329749103939%, 0.9548 26.88172043010749%, 0.9567 27.240143369175588%, 0.9585 27.598566308243687%, 0.9602 27.956989247311785%, 0.9618 28.315412186379884%, 0.9634 28.673835125447983%, 0.9649 29.032258064516085%, 0.9663 29.390681003584184%, 0.9677 29.749103942652283%, 0.969 30.107526881720382%, 0.9703 30.46594982078848%, 0.9715 30.82437275985658%, 0.9727 31.18279569892468%, 0.9738 31.541218637992777%, 0.9749 31.899641577060876%, 0.9759 32.258064516128975%, 0.9769 32.616487455197074%, 0.9778 32.97491039426517%, 0.9788 33.33333333333327%, 0.9796 33.69175627240137%, 0.9805 34.05017921146947%, 0.9813 34.40860215053757%, 0.982 34.76702508960567%, 0.9828 35.125448028673766%, 0.9835 35.483870967741865%, 0.9842 35.842293906809964%, 0.9848 36.20071684587806%, 0.9854 36.55913978494616%, 0.986 36.91756272401426%, 0.9866 37.27598566308236%, 0.9871 37.63440860215046%, 0.9877 37.99283154121856%, 0.9882 38.351254480286656%, 0.9887 38.709677419354755%, 0.9891 39.06810035842285%, 0.9896 39.42652329749095%, 0.99 39.78494623655905%, 0.9904 40.14336917562715%, 0.9908 40.50179211469525%, 0.9912 40.86021505376335%, 0.9915 41.21863799283145%, 0.9919 41.577060931899545%, 0.9922 41.935483870967644%, 0.9925 42.29390681003574%, 0.9928 42.65232974910384%, 0.9931 43.01075268817194%, 0.9934 43.36917562724004%, 0.9937 43.72759856630814%, 0.994 44.08602150537624%, 0.9942 44.444444444444336%, 0.9944 44.802867383512435%, 0.9947 45.161290322580534%, 0.9949 45.51971326164863%, 0.9951 45.87813620071673%, 0.9953 46.23655913978483%, 0.9955 46.59498207885293%, 0.9957 46.95340501792103%, 0.9959 47.31182795698913%, 0.996 47.670250896057226%, 0.9962 48.028673835125325%, 0.9963 48.387096774193424%, 0.9965 48.74551971326152%, 0.9966 49.10394265232962%, 0.9968 49.46236559139772%, 0.9969 49.82078853046582%, 0.997 50.17921146953392%, 0.9972 50.53763440860202%, 0.9973 50.896057347670116%, 0.9974 51.254480286738215%, 0.9975 51.61290322580631%, 0.9976 51.97132616487441%, 0.9977 52.32974910394251%, 0.9978 52.68817204301061%, 0.9979 53.04659498207871%, 0.998 53.40501792114681%, 0.998 53.76344086021491%, 0.9981 54.121863799283005%, 0.9982 54.480286738351104%, 0.9983 54.8387096774192%, 0.9983 55.1971326164873%, 0.9984 55.5555555555554%, 0.9985 55.9139784946235%, 0.9985 56.2724014336916%, 0.9986 56.6308243727597%, 0.9987 56.989247311827796%, 0.9987 57.347670250895895%, 0.9988 57.706093189963994%, 0.9988 58.06451612903209%, 0.9989 58.42293906810019%, 0.9989 58.78136200716829%, 0.999 59.13978494623639%, 0.999 59.49820788530449%, 0.999 59.85663082437259%, 0.9991 60.215053763440686%, 0.9991 60.573476702508785%, 0.9992 60.931899641576884%, 0.9992 61.29032258064498%, 0.9992 61.64874551971308%, 0.9993 62.00716845878118%, 0.9993 62.36559139784928%, 0.9993 62.72401433691738%, 0.9993 63.08243727598548%, 0.9994 63.440860215053576%, 0.9994 63.799283154121674%, 0.9994 64.15770609318977%, 0.9994 64.51612903225788%, 0.9995 64.87455197132599%, 0.9995 65.23297491039409%, 0.9995 65.5913978494622%, 0.9995 65.9498207885303%, 0.9995 66.30824372759841%, 0.9996 66.66666666666652%, 0.9996 67.02508960573462%, 0.9996 67.38351254480273%, 0.9996 67.74193548387083%, 0.9996 68.10035842293894%, 0.9996 68.45878136200704%, 0.9997 68.81720430107515%, 0.9997 69.17562724014326%, 0.9997 69.53405017921136%, 0.9997 69.89247311827947%, 0.9997 70.25089605734757%, 0.9997 70.60931899641568%, 0.9997 70.96774193548379%, 0.9997 71.32616487455189%, 0.9998 71.68458781362%, 0.9998 72.0430107526881%, 0.9998 72.40143369175621%, 0.9998 72.75985663082432%, 0.9998 73.11827956989242%, 0.9998 73.47670250896053%, 0.9998 73.83512544802863%, 0.9998 74.19354838709674%, 0.9998 74.55197132616485%, 0.9998 74.91039426523295%, 0.9998 75.26881720430106%, 0.9998 75.62724014336916%, 0.9999 75.98566308243727%, 0.9999 76.34408602150538%, 0.9999 76.70250896057348%, 0.9999 77.06093189964159%, 0.9999 77.4193548387097%, 0.9999 77.7777777777778%, 0.9999 78.1362007168459%, 0.9999 78.49462365591401%, 0.9999 78.85304659498212%, 0.9999 79.21146953405022%, 0.9999 79.56989247311833%, 0.9999 79.92831541218644%, 0.9999 80.28673835125454%, 0.9999 80.64516129032265%, 0.9999 81.00358422939075%, 0.9999 81.36200716845886%, 0.9999 81.72043010752697%, 0.9999 82.07885304659506%, 0.9999 82.43727598566315%, 0.9999 82.79569892473125%, 0.9999 83.15412186379936%, 0.9999 83.51254480286745%, 0.9999 83.87096774193554%, 0.9999 84.22939068100365%, 0.9999 84.58781362007176%, 0.9999 84.94623655913985%, 1 85.30465949820794%, 1 85.66308243727605%, 1 86.02150537634415%, 1 86.37992831541224%, 1 86.73835125448034%, 1 87.09677419354844%, 1 87.45519713261655%, 1 87.81362007168464%, 1 88.17204301075273%, 1 88.53046594982084%, 1 88.88888888888894%, 1 89.24731182795703%, 1 89.60573476702513%, 1 89.96415770609323%, 1 90.32258064516134%, 1 90.68100358422943%, 1 91.03942652329752%, 1 91.39784946236563%, 1 91.75627240143373%, 1 92.11469534050183%, 1 92.47311827956992%, 1 92.83154121863802%, 1 93.18996415770613%, 1 93.54838709677422%, 1 93.90681003584231%, 1 94.26523297491042%, 1 94.62365591397852%, 1 94.98207885304662%, 1 95.34050179211471%, 1 95.69892473118281%, 1 96.05734767025092%, 1 96.41577060931901%, 1 96.7741935483871%, 1 97.13261648745521%, 1 97.49103942652332%, 1 97.8494623655914%, 1 98.2078853046595%, 1 98.5663082437276%, 1 98.92473118279571%, 1 99.2831541218638%, 1 99.6415770609319%, 1 100%)",
+   "iter": 1
+  },
+  {
+   "target": "SPAN",
+   "cls": "",
+   "name": "(waapi)",
+   "duration": 2800,
+   "delay": 250,
+   "easing": "linear(0 0%, 0.0148 0.35842293906810035%, 0.0451 0.7168458781362007%, 0.0805 1.075268817204301%, 0.1167 1.4336917562724014%, 0.1524 1.7921146953405018%, 0.187 2.150537634408602%, 0.2202 2.508960573476702%, 0.2522 2.8673835125448024%, 0.2829 3.2258064516129026%, 0.3123 3.5842293906810028%, 0.3405 3.942652329749103%, 0.3676 4.301075268817203%, 0.3935 4.659498207885304%, 0.4184 5.017921146953404%, 0.4422 5.376344086021505%, 0.4651 5.734767025089606%, 0.4871 6.093189964157706%, 0.5081 6.451612903225807%, 0.5283 6.810035842293908%, 0.5477 7.168458781362008%, 0.5662 7.526881720430109%, 0.584 7.8853046594982095%, 0.6011 8.24372759856631%, 0.6174 8.60215053763441%, 0.6331 8.96057347670251%, 0.6482 9.318996415770611%, 0.6626 9.677419354838712%, 0.6765 10.035842293906812%, 0.6897 10.394265232974913%, 0.7025 10.752688172043014%, 0.7147 11.111111111111114%, 0.7264 11.469534050179215%, 0.7376 11.827956989247316%, 0.7484 12.186379928315416%, 0.7587 12.544802867383517%, 0.7686 12.903225806451617%, 0.7781 13.261648745519718%, 0.7872 13.620071684587819%, 0.7959 13.97849462365592%, 0.8043 14.33691756272402%, 0.8123 14.69534050179212%, 0.82 15.053763440860221%, 0.8274 15.412186379928322%, 0.8345 15.770609318996422%, 0.8413 16.129032258064523%, 0.8478 16.487455197132622%, 0.854 16.84587813620072%, 0.86 17.20430107526882%, 0.8658 17.56272401433692%, 0.8713 17.921146953405017%, 0.8766 18.279569892473116%, 0.8816 18.637992831541215%, 0.8865 18.996415770609314%, 0.8911 19.354838709677413%, 0.8956 19.71326164874551%, 0.8999 20.07168458781361%, 0.904 20.43010752688171%, 0.9079 20.78853046594981%, 0.9117 21.146953405017907%, 0.9153 21.505376344086006%, 0.9188 21.863799283154105%, 0.9221 22.222222222222204%, 0.9253 22.580645161290303%, 0.9284 22.9390681003584%, 0.9313 23.2974910394265%, 0.9341 23.6559139784946%, 0.9368 24.014336917562698%, 0.9394 24.372759856630797%, 0.9419 24.731182795698896%, 0.9443 25.089605734766995%, 0.9466 25.448028673835093%, 0.9488 25.806451612903192%, 0.9509 26.16487455197129%, 0.9529 26.52329749103939%, 0.9548 26.88172043010749%, 0.9567 27.240143369175588%, 0.9585 27.598566308243687%, 0.9602 27.956989247311785%, 0.9618 28.315412186379884%, 0.9634 28.673835125447983%, 0.9649 29.032258064516085%, 0.9663 29.390681003584184%, 0.9677 29.749103942652283%, 0.969 30.107526881720382%, 0.9703 30.46594982078848%, 0.9715 30.82437275985658%, 0.9727 31.18279569892468%, 0.9738 31.541218637992777%, 0.9749 31.899641577060876%, 0.9759 32.258064516128975%, 0.9769 32.616487455197074%, 0.9778 32.97491039426517%, 0.9788 33.33333333333327%, 0.9796 33.69175627240137%, 0.9805 34.05017921146947%, 0.9813 34.40860215053757%, 0.982 34.76702508960567%, 0.9828 35.125448028673766%, 0.9835 35.483870967741865%, 0.9842 35.842293906809964%, 0.9848 36.20071684587806%, 0.9854 36.55913978494616%, 0.986 36.91756272401426%, 0.9866 37.27598566308236%, 0.9871 37.63440860215046%, 0.9877 37.99283154121856%, 0.9882 38.351254480286656%, 0.9887 38.709677419354755%, 0.9891 39.06810035842285%, 0.9896 39.42652329749095%, 0.99 39.78494623655905%, 0.9904 40.14336917562715%, 0.9908 40.50179211469525%, 0.9912 40.86021505376335%, 0.9915 41.21863799283145%, 0.9919 41.577060931899545%, 0.9922 41.935483870967644%, 0.9925 42.29390681003574%, 0.9928 42.65232974910384%, 0.9931 43.01075268817194%, 0.9934 43.36917562724004%, 0.9937 43.72759856630814%, 0.994 44.08602150537624%, 0.9942 44.444444444444336%, 0.9944 44.802867383512435%, 0.9947 45.161290322580534%, 0.9949 45.51971326164863%, 0.9951 45.87813620071673%, 0.9953 46.23655913978483%, 0.9955 46.59498207885293%, 0.9957 46.95340501792103%, 0.9959 47.31182795698913%, 0.996 47.670250896057226%, 0.9962 48.028673835125325%, 0.9963 48.387096774193424%, 0.9965 48.74551971326152%, 0.9966 49.10394265232962%, 0.9968 49.46236559139772%, 0.9969 49.82078853046582%, 0.997 50.17921146953392%, 0.9972 50.53763440860202%, 0.9973 50.896057347670116%, 0.9974 51.254480286738215%, 0.9975 51.61290322580631%, 0.9976 51.97132616487441%, 0.9977 52.32974910394251%, 0.9978 52.68817204301061%, 0.9979 53.04659498207871%, 0.998 53.40501792114681%, 0.998 53.76344086021491%, 0.9981 54.121863799283005%, 0.9982 54.480286738351104%, 0.9983 54.8387096774192%, 0.9983 55.1971326164873%, 0.9984 55.5555555555554%, 0.9985 55.9139784946235%, 0.9985 56.2724014336916%, 0.9986 56.6308243727597%, 0.9987 56.989247311827796%, 0.9987 57.347670250895895%, 0.9988 57.706093189963994%, 0.9988 58.06451612903209%, 0.9989 58.42293906810019%, 0.9989 58.78136200716829%, 0.999 59.13978494623639%, 0.999 59.49820788530449%, 0.999 59.85663082437259%, 0.9991 60.215053763440686%, 0.9991 60.573476702508785%, 0.9992 60.931899641576884%, 0.9992 61.29032258064498%, 0.9992 61.64874551971308%, 0.9993 62.00716845878118%, 0.9993 62.36559139784928%, 0.9993 62.72401433691738%, 0.9993 63.08243727598548%, 0.9994 63.440860215053576%, 0.9994 63.799283154121674%, 0.9994 64.15770609318977%, 0.9994 64.51612903225788%, 0.9995 64.87455197132599%, 0.9995 65.23297491039409%, 0.9995 65.5913978494622%, 0.9995 65.9498207885303%, 0.9995 66.30824372759841%, 0.9996 66.66666666666652%, 0.9996 67.02508960573462%, 0.9996 67.38351254480273%, 0.9996 67.74193548387083%, 0.9996 68.10035842293894%, 0.9996 68.45878136200704%, 0.9997 68.81720430107515%, 0.9997 69.17562724014326%, 0.9997 69.53405017921136%, 0.9997 69.89247311827947%, 0.9997 70.25089605734757%, 0.9997 70.60931899641568%, 0.9997 70.96774193548379%, 0.9997 71.32616487455189%, 0.9998 71.68458781362%, 0.9998 72.0430107526881%, 0.9998 72.40143369175621%, 0.9998 72.75985663082432%, 0.9998 73.11827956989242%, 0.9998 73.47670250896053%, 0.9998 73.83512544802863%, 0.9998 74.19354838709674%, 0.9998 74.55197132616485%, 0.9998 74.91039426523295%, 0.9998 75.26881720430106%, 0.9998 75.62724014336916%, 0.9999 75.98566308243727%, 0.9999 76.34408602150538%, 0.9999 76.70250896057348%, 0.9999 77.06093189964159%, 0.9999 77.4193548387097%, 0.9999 77.7777777777778%, 0.9999 78.1362007168459%, 0.9999 78.49462365591401%, 0.9999 78.85304659498212%, 0.9999 79.21146953405022%, 0.9999 79.56989247311833%, 0.9999 79.92831541218644%, 0.9999 80.28673835125454%, 0.9999 80.64516129032265%, 0.9999 81.00358422939075%, 0.9999 81.36200716845886%, 0.9999 81.72043010752697%, 0.9999 82.07885304659506%, 0.9999 82.43727598566315%, 0.9999 82.79569892473125%, 0.9999 83.15412186379936%, 0.9999 83.51254480286745%, 0.9999 83.87096774193554%, 0.9999 84.22939068100365%, 0.9999 84.58781362007176%, 0.9999 84.94623655913985%, 1 85.30465949820794%, 1 85.66308243727605%, 1 86.02150537634415%, 1 86.37992831541224%, 1 86.73835125448034%, 1 87.09677419354844%, 1 87.45519713261655%, 1 87.81362007168464%, 1 88.17204301075273%, 1 88.53046594982084%, 1 88.88888888888894%, 1 89.24731182795703%, 1 89.60573476702513%, 1 89.96415770609323%, 1 90.32258064516134%, 1 90.68100358422943%, 1 91.03942652329752%, 1 91.39784946236563%, 1 91.75627240143373%, 1 92.11469534050183%, 1 92.47311827956992%, 1 92.83154121863802%, 1 93.18996415770613%, 1 93.54838709677422%, 1 93.90681003584231%, 1 94.26523297491042%, 1 94.62365591397852%, 1 94.98207885304662%, 1 95.34050179211471%, 1 95.69892473118281%, 1 96.05734767025092%, 1 96.41577060931901%, 1 96.7741935483871%, 1 97.13261648745521%, 1 97.49103942652332%, 1 97.8494623655914%, 1 98.2078853046595%, 1 98.5663082437276%, 1 98.92473118279571%, 1 99.2831541218638%, 1 99.6415770609319%, 1 100%)",
+   "iter": 1
+  }
+ ],
+ "desktop": {
+  "url": "https://superprofile.bio/in",
+  "title": "SuperProfile - Complete Toolkit for Creators In India",
+  "description": "Grow your reach, earn more, and save time so you can focus on what matters: delivering real value to your audience.",
+  "viewport": 1440,
+  "docHeight": 9678,
+  "stack": {
+   "next": false,
+   "nextAppRouter": false,
+   "nuxt": false,
+   "gatsby": false,
+   "astro": false,
+   "svelte": false,
+   "webflow": false,
+   "framer": true,
+   "wordpress": false,
+   "tailwind": false,
+   "styledComponents": true,
+   "emotion": false,
+   "cssModules": false,
+   "radix": false,
+   "gsap": false,
+   "lenis": true,
+   "lottie": false,
+   "rive": false,
+   "threejs": false,
+   "swiper": false,
+   "splide": false,
+   "generator": "Framer 68244df",
+   "scriptHosts": [
+    "analytics.ahrefs.com",
+    "events.framer.com",
+    "www.googletagmanager.com",
+    "framerusercontent.com",
+    "i.ytimg.com",
+    "connect.facebook.net",
+    "www.clarity.ms",
+    "fonts.gstatic.com",
+    "app.framerstatic.com",
+    "framer.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "scripts.clarity.ms",
+    "o.clarity.ms",
+    "mpc-pilot-3-s6uit34pua-ew.a.run.app",
+    "c.clarity.ms"
+   ]
+  },
+  "fonts": {
+   "loaded": [
+    "Hind Madurai 400 normal",
+    "Hind Madurai 500 normal",
+    "Hind Madurai 600 normal",
+    "Instrument Serif 400 italic",
+    "Hind Madurai 700 normal",
+    "Inter 400 normal",
+    "Inter 500 normal",
+    "Inter 600 normal",
+    "Hind Madurai Placeholder normal normal",
+    "Instrument Serif Placeholder normal normal",
+    "Inter Placeholder normal normal"
+   ],
+   "body": "sans-serif",
+   "fontFaces": [
+    "\"Advent Pro\" | 400 | url(\"https://fonts.gstatic.com/s/adventpro/v33/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyN_RpAprw0.woff2\") format(\"woff2\")",
+    "\"Advent Pro\" | 400 | url(\"https://fonts.gstatic.com/s/adventpro/v33/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyN_T5Aprw0.woff2\") format(\"woff2\")",
+    "\"Advent Pro\" | 400 | url(\"https://fonts.gstatic.com/s/adventpro/v33/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyN_SJAprw0.woff2\") format(\"woff2\")",
+    "\"Advent Pro\" | 400 | url(\"https://fonts.gstatic.com/s/adventpro/v33/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyN_RZAprw0.woff2\") format(\"woff2\")",
+    "\"Advent Pro\" | 400 | url(\"https://fonts.gstatic.com/s/adventpro/v33/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyN_S5Ap.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtamo-81Cg.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtahs-81Cg.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtagk-81Cg.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtamg-81Cg.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtamk-81Cg.woff2\") format(\"woff2\")",
+    "Afacad | 400 | url(\"https://fonts.gstatic.com/s/afacad/v3/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfhXtamc-8w.woff2\") format(\"woff2\")",
+    "Belanosima | 700 | url(\"https://fonts.gstatic.com/s/belanosima/v4/3y9n6bI8ejDo_3MfCDSL_Lx0A3Ngnqcd.woff2\") format(\"woff2\")",
+    "Belanosima | 700 | url(\"https://fonts.gstatic.com/s/belanosima/v4/3y9n6bI8ejDo_3MfCDSL_Lx0A31gng.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 300 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfXaUXaMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 300 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfXaUXcMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 300 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfXaUXfsEp.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 400 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xx0e2p98ZvDXdZQIOcpqjX4IcCQeA.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 400 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xx0e2p98ZvDXdZQIOcpqjX-IcCQeA.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 400 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xx0e2p98ZvDXdZQIOcpqjX9ocC.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 500 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfBaQXaMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 500 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfBaQXcMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 500 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfBaQXfsEp.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 600 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfKaMXaMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 600 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfKaMXcMEpAJ0.woff2\") format(\"woff2\")",
+    "\"Hind Madurai\" | 600 | url(\"https://fonts.gstatic.com/s/hindmadurai/v13/f0Xu0e2p98ZvDXdZQIOcpqjfKaMXfsEp.woff2\") format(\"woff2\")",
+    "\"Instrument Serif\" | 400 | url(\"https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjgn7MsNo.woff2\") format(\"woff2\")",
+    "\"Instrument Serif\" | 400 | url(\"https://fonts.gstatic.com/s/instrumentserif/v5/jizHRFtNs2ka5fXjeivQ4LroWlx-6zAjjH7M.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggqxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggOxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggSxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggixSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggmxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 500 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggqxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggOxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggSxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggixSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggmxSuXd.woff2\") format(\"woff2\")",
+    "Manrope | 700 | url(\"https://fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggexSg.woff2\") format(\"woff2\")",
+    "Mulish | 400 | url(\"https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aqvG4w-.woff2\") format(\"woff2\")"
+   ]
+  },
+  "tokens": {
+   "--token-7bb2a9aa-3401-4b79-ae07-6a087b5f50b8": "#f9f8ff",
+   "--token-255723c8-cf63-4b4a-a405-e3c27a385c3b": "#fff",
+   "--token-88270a27-b998-4d64-94e7-850fa71e2842": "#272b2d",
+   "--token-bb0d8485-0818-4a18-83c8-c96a11cb4bfb": "#383838",
+   "--token-42b5966a-6137-42ba-8337-6c98b1c1ca14": "#e5e5e5",
+   "--token-cb253b3d-7b13-46b1-a014-821dbdfab315": "#fff",
+   "--token-f8fb1996-4567-4b73-811a-0cce04cb9c46": "#ecfaff",
+   "--token-604af594-29f2-43c3-8dfa-c7d610d6d8e1": "#fff",
+   "--token-fe8040e6-3344-44c0-bab9-226d490ba5f3": "#3d0000",
+   "--token-de34b1db-c617-47fd-9a6d-ca7f94a49e32": "#ffe0e0",
+   "--token-b475daa1-123e-4ac4-9203-afa2fe736f56": "#fff",
+   "--token-e23e9fe4-f9ac-4a61-ade5-073c1d61b52f": "#f1f5f9",
+   "--token-799417b1-911d-4893-a870-42e397cb34ab": "#fff",
+   "--token-f4c021da-8bb9-40e6-af16-0c56225819b4": "#e2e8f0",
+   "--token-dfc256a6-0efb-491c-998b-838098bc0d59": "#1c64ff",
+   "--token-cf826c7f-4af8-4a6b-b95b-3eed78cd98a8": "#000",
+   "--token-ee89f356-ccae-4b6e-951c-bcc8951eb528": "#222",
+   "--token-ec284376-630c-4003-bba5-735e20be75de": "#0b0b0b",
+   "--token-8b1efac3-c141-454f-b454-7db258075998": "#f5fbff",
+   "--token-a4c0e139-c71f-40a7-b031-c8c8c04651e9": "#fff",
+   "--framer-will-change-override": "transform",
+   "--framer-will-change-filter-override": "filter",
+   "--overflow-clip-fallback": "hidden",
+   "--one-if-corner-shape-supported": "1",
+   "--framer-aspect-ratio-supported": "auto"
+  },
+  "tokenCount": 25,
+  "unreadable": [],
+  "bodyBg": "rgb(255, 255, 255)",
+  "bodyColor": "rgb(0, 0, 0)",
+  "bgColors": [
+   [
+    "rgb(255, 255, 255)",
+    43
+   ],
+   [
+    "rgba(255, 255, 255, 0.7)",
+    8
+   ],
+   [
+    "rgb(240, 241, 242)",
+    4
+   ],
+   [
+    "rgba(125, 128, 137, 0.5)",
+    4
+   ],
+   [
+    "rgb(0, 89, 255)",
+    3
+   ],
+   [
+    "rgb(5, 5, 5)",
+    2
+   ],
+   [
+    "rgb(229, 229, 229)",
+    2
+   ],
+   [
+    "rgb(247, 249, 250)",
+    2
+   ],
+   [
+    "rgb(194, 209, 237)",
+    1
+   ],
+   [
+    "rgb(216, 221, 227)",
+    1
+   ],
+   [
+    "rgb(249, 248, 255)",
+    1
+   ],
+   [
+    "rgb(30, 30, 30)",
+    1
+   ],
+   [
+    "rgb(252, 252, 252)",
+    1
+   ],
+   [
+    "rgb(67, 130, 96)",
+    1
+   ],
+   [
+    "rgba(255, 255, 255, 0)",
+    1
+   ],
+   [
+    "rgb(148, 129, 73)",
+    1
+   ],
+   [
+    "rgb(113, 30, 27)",
+    1
+   ],
+   [
+    "rgb(175, 107, 104)",
+    1
+   ],
+   [
+    "rgb(137, 79, 113)",
+    1
+   ],
+   [
+    "rgb(189, 130, 166)",
+    1
+   ],
+   [
+    "rgb(72, 92, 129)",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.02)",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.03)",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.04)",
+    1
+   ],
+   [
+    "rgba(255, 255, 255, 0.48)",
+    1
+   ]
+  ],
+  "textColors": [
+   [
+    "rgb(22, 16, 30)",
+    32
+   ],
+   [
+    "rgb(255, 255, 255)",
+    27
+   ],
+   [
+    "rgb(0, 0, 0)",
+    12
+   ],
+   [
+    "rgb(15, 15, 15)",
+    8
+   ],
+   [
+    "rgb(102, 102, 102)",
+    7
+   ],
+   [
+    "rgb(8, 11, 23)",
+    4
+   ],
+   [
+    "rgb(36, 36, 36)",
+    4
+   ],
+   [
+    "rgb(249, 248, 255)",
+    3
+   ],
+   [
+    "rgb(12, 12, 12)",
+    3
+   ],
+   [
+    "rgb(0, 89, 255)",
+    3
+   ],
+   [
+    "rgb(105, 105, 105)",
+    3
+   ],
+   [
+    "rgb(127, 110, 120)",
+    2
+   ],
+   [
+    "rgb(135, 135, 135)",
+    2
+   ],
+   [
+    "rgb(7, 0, 25)",
+    1
+   ],
+   [
+    "rgb(44, 44, 44)",
+    1
+   ]
+  ],
+  "typeScale": [
+   [
+    "20px | w500 | lh 24px | ls normal | \"Hind Madurai\"",
+    12
+   ],
+   [
+    "20px | w400 | lh 28px | ls normal | \"Hind Madurai\"",
+    8
+   ],
+   [
+    "17px | w400 | lh 25.5px | ls normal | \"Hind Madurai\"",
+    8
+   ],
+   [
+    "18px | w500 | lh 21.6px | ls normal | \"Hind Madurai\"",
+    7
+   ],
+   [
+    "14px | w400 | lh 22.4px | ls normal | Inter",
+    7
+   ],
+   [
+    "16px | w400 | lh 24px | ls normal | \"Hind Madurai\"",
+    7
+   ],
+   [
+    "45px | w700 | lh 52px | ls -1.8px | \"Hind Madurai\"",
+    5
+   ],
+   [
+    "16px | w400 | lh 22.4px | ls normal | \"Hind Madurai\"",
+    5
+   ],
+   [
+    "16px | w500 | lh 21px | ls 0.5px | \"Hind Madurai\"",
+    4
+   ],
+   [
+    "22px | w600 | lh 24px | ls normal | \"Hind Madurai\"",
+    4
+   ],
+   [
+    "30px | w700 | lh 36px | ls normal | \"Hind Madurai\"",
+    3
+   ],
+   [
+    "16px | w500 | lh 22.4px | ls normal | \"Hind Madurai\"",
+    3
+   ],
+   [
+    "18px | w600 | lh 25.2px | ls normal | \"Hind Madurai\"",
+    3
+   ],
+   [
+    "15px | w500 | lh 30px | ls -0.15px | Inter",
+    2
+   ],
+   [
+    "14px | w600 | lh 21px | ls 0.5px | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "18px | w500 | lh 21px | ls 0.5px | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "20px | w400 | lh 26px | ls normal | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "12px | w500 | lh 21.92px | ls normal | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "20px | w400 | lh 30px | ls normal | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "18px | w600 | lh 30px | ls normal | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "56px | w400 | lh 67.2px | ls -0.56px | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "80px | w700 | lh 80px | ls normal | \"Hind Madurai\"",
+    2
+   ],
+   [
+    "16px | w500 | lh 22px | ls normal | \"Hind Madurai\"",
+    1
+   ],
+   [
+    "65px | w500 | lh 58.5px | ls -3.9px | \"Hind Madurai\"",
+    1
+   ],
+   [
+    "65px | w400 | lh 65px | ls -1.95px | \"Instrument Serif\"",
+    1
+   ],
+   [
+    "20px | w500 | lh 26px | ls -0.4px | Inter",
+    1
+   ],
+   [
+    "16px | w600 | lh 19.2px | ls normal | Inter",
+    1
+   ],
+   [
+    "14px | w500 | lh 21px | ls 0.5px | \"Hind Madurai\"",
+    1
+   ],
+   [
+    "14px | w500 | lh 20px | ls normal | \"Hind Madurai\"",
+    1
+   ],
+   [
+    "80px | w400 | lh 104px | ls -1.6px | \"Instrument Serif\"",
+    1
+   ]
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "The complete creator toolkit",
+    "size": "65px",
+    "weight": "500",
+    "lh": "58.5px",
+    "ls": "-3.9px",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgb(249, 248, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "to Grow and Monetize",
+    "size": "65px",
+    "weight": "400",
+    "lh": "65px",
+    "ls": "-1.95px",
+    "family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+    "color": "rgb(249, 248, 255)",
+    "transform": "none"
+   },
+   {
+    "tag": "H3",
+    "text": "Effortlessly integrate with Third-Party Apps",
+    "size": "30px",
+    "weight": "700",
+    "lh": "36px",
+    "ls": "normal",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Top choice of 500,000+ creators",
+    "size": "48px",
+    "weight": "400",
+    "lh": "60px",
+    "ls": "-0.96px",
+    "family": "\"Instrument Serif\", \"Instrument Serif Placeholder\", serif",
+    "color": "rgb(36, 36, 36)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Questions? Answers!",
+    "size": "56px",
+    "weight": "400",
+    "lh": "67.2px",
+    "ls": "-0.56px",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgb(22, 16, 30)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Try SuperProfile today",
+    "size": "80px",
+    "weight": "700",
+    "lh": "80px",
+    "ls": "normal",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgb(0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H1",
+    "text": "Try SuperProfile today",
+    "size": "80px",
+    "weight": "700",
+    "lh": "80px",
+    "ls": "normal",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgba(0, 0, 0, 0)",
+    "transform": "none"
+   },
+   {
+    "tag": "H2",
+    "text": "Free to start . No commitments.",
+    "size": "24px",
+    "weight": "500",
+    "lh": "36px",
+    "ls": "-0.5px",
+    "family": "\"Hind Madurai\", \"Hind Madurai Placeholder\", sans-serif",
+    "color": "rgb(110, 110, 110)",
+    "transform": "none"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "New: schedule Instagram and Facebook posts with Au",
+    "bg": "rgb(194, 209, 237)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "0px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "0px",
+    "size": "1440x45",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Home",
+    "bg": "rgb(216, 221, 227)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "999px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "8px 24px",
+    "size": "91x37",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "AutoDM",
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "999px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "8px 24px",
+    "size": "110x37",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Pricing",
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "999px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "8px 24px",
+    "size": "99x37",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Learn",
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "999px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "8px 24px",
+    "size": "89x37",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Start for Free",
+    "bg": "rgb(0, 89, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "48px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "11px 28px",
+    "size": "159x44",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Get Started",
+    "bg": "rgb(249, 248, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "100px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "0px 24px 0px 48px",
+    "size": "162x44",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Start for Free",
+    "bg": "rgb(0, 89, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "48px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "11px 28px",
+    "size": "159x44",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Schedule Instagram and Facebook posts, with Auto-D",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "AI replies when a comment means your keyword, even",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Comment moderation: hide spam, links and abuse aut",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Brand Collab: brand deal DMs sorted for you",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Auto-DM on Facebook Messenger",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "Run your store and Auto-DM from Claude or ChatGPT",
+    "bg": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "16px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "16px 20px",
+    "size": "760x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   },
+   {
+    "text": "S t a r t f o r F r e e",
+    "bg": "rgb(15, 15, 15)",
+    "color": "rgb(0, 0, 238)",
+    "radius": "48px",
+    "border": "0px none rgb(0, 0, 238)",
+    "pad": "18px 60px",
+    "size": "234x60",
+    "font": "12px w400 sans-serif",
+    "transition": "all 0s ease",
+    "shadow": "none"
+   }
+  ],
+  "sections": [
+   {
+    "tag": "HEADER",
+    "cls": "framer-nrd4bf",
+    "top": 129,
+    "h": 1029,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none",
+    "heading": "The complete creator toolkit"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "",
+    "top": 1179,
+    "h": 100,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "framer-yb72j3 hidden-1fwp1ep",
+    "top": 4235,
+    "h": 1020,
+    "bg": "rgb(255, 255, 255)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "framer-7bDOp framer-1i4mnuf framer-v-ns4mi",
+    "top": 5255,
+    "h": 2305,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "linear-gradient(135deg, rgb(247, 252, 251) 0%, rgb(251, 250, 255) 49%, rgb(243, 240, 255) 100%)",
+    "heading": "Top choice of 500,000+ creators"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "framer-155ncku",
+    "top": 7560,
+    "h": 678,
+    "bg": "rgb(247, 249, 250)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "SECTION",
+    "cls": "framer-rijTU framer-gd7ln0 framer-v-gd7ln0",
+    "top": 8237,
+    "h": 857,
+    "bg": "rgb(247, 249, 250)",
+    "bgImg": "none",
+    "heading": "Questions? Answers!"
+   },
+   {
+    "tag": "HEADER",
+    "cls": "framer-sohn8i",
+    "top": 9094,
+    "h": 334,
+    "bg": "rgb(255, 255, 255)",
+    "bgImg": "none",
+    "heading": "Try SuperProfile today"
+   },
+   {
+    "tag": "FOOTER",
+    "cls": "framer-DPpky framer-SJplY framer-1o23s3k framer-v-q7r2wv",
+    "top": 9438,
+    "h": 240,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   },
+   {
+    "tag": "NAV",
+    "cls": "framer-dycegy",
+    "top": 9498,
+    "h": 24,
+    "bg": "rgba(0, 0, 0, 0)",
+    "bgImg": "none"
+   }
+  ],
+  "images": [
+   {
+    "src": "https://framerusercontent.com/images/wCe1qYzT9fRwqqxgUVgwEdpxbs.png?scale-down-to=2048&width=2880&height=1800",
+    "alt": "",
+    "w": 1397,
+    "h": 1029,
+    "natural": "1395x872",
+    "loading": "auto",
+    "radius": "20px"
+   },
+   {
+    "src": "https://i.ytimg.com/vi_webp/TZ4O6alssRQ/sddefault.webp",
+    "alt": "",
+    "w": 884,
+    "h": 497,
+    "natural": "640x480",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/Vzj0ddqjzxBUI5H8NifJnE5N1s.png?scale-down-to=2048&width=2737&height=974",
+    "alt": "",
+    "w": 1425,
+    "h": 547,
+    "natural": "1425x507",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/gMAAhjtXhayFO3xNzm5ATsMyU.png?scale-down-to=2048&width=3802&height=1458",
+    "alt": "",
+    "w": 1338,
+    "h": 514,
+    "natural": "1337x512",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/CKKD2ANV0xXtdIWAVYUtTitoPDQ.png?scale-down-to=512&width=1500&height=430",
+    "alt": "",
+    "w": 154,
+    "h": 44,
+    "natural": "154x44",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/QiNc6Lfiob0qS1FJSo327LaLYuo.png?width=467&height=59",
+    "alt": "",
+    "w": 136,
+    "h": 17,
+    "natural": "467x59",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/JchhNOiQkhwlV7KCO3DoFCvAjeU.png?width=460&height=108",
+    "alt": "",
+    "w": 129,
+    "h": 30,
+    "natural": "460x108",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/6vnZvIo8p0L11zlllvH7aTE9A.png?width=504&height=156",
+    "alt": "",
+    "w": 139,
+    "h": 42,
+    "natural": "504x156",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/WFVXwyEnIqp01BKhgKwUjFSB0bA.png?width=504&height=168",
+    "alt": "",
+    "w": 139,
+    "h": 46,
+    "natural": "504x168",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/hGfhrmpui8936uL79MpDRQv3vLs.png?scale-down-to=512&width=548&height=49",
+    "alt": "",
+    "w": 164,
+    "h": 14,
+    "natural": "164x14",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/J1ve4RFJ1Ziot8XRTtx5ITmVHMA.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/KpVDqTkxDwO8RF0s4SpTMmn0.png?width=306&height=112",
+    "alt": "",
+    "w": 152,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/G3oXaUVtqISIDWGC8HVWM7vj1M.png?width=307&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "307x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/yR3NTTBvDlPffPJuGCYmImhnZxk.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/CKKD2ANV0xXtdIWAVYUtTitoPDQ.png?scale-down-to=512&width=1500&height=430",
+    "alt": "",
+    "w": 154,
+    "h": 44,
+    "natural": "154x44",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/QiNc6Lfiob0qS1FJSo327LaLYuo.png?width=467&height=59",
+    "alt": "",
+    "w": 136,
+    "h": 17,
+    "natural": "467x59",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/JchhNOiQkhwlV7KCO3DoFCvAjeU.png?width=460&height=108",
+    "alt": "",
+    "w": 129,
+    "h": 30,
+    "natural": "460x108",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/6vnZvIo8p0L11zlllvH7aTE9A.png?width=504&height=156",
+    "alt": "",
+    "w": 139,
+    "h": 42,
+    "natural": "504x156",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/WFVXwyEnIqp01BKhgKwUjFSB0bA.png?width=504&height=168",
+    "alt": "",
+    "w": 139,
+    "h": 46,
+    "natural": "504x168",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/hGfhrmpui8936uL79MpDRQv3vLs.png?scale-down-to=512&width=548&height=49",
+    "alt": "",
+    "w": 164,
+    "h": 14,
+    "natural": "164x14",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/J1ve4RFJ1Ziot8XRTtx5ITmVHMA.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/KpVDqTkxDwO8RF0s4SpTMmn0.png?width=306&height=112",
+    "alt": "",
+    "w": 152,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/G3oXaUVtqISIDWGC8HVWM7vj1M.png?width=307&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "307x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/yR3NTTBvDlPffPJuGCYmImhnZxk.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/CKKD2ANV0xXtdIWAVYUtTitoPDQ.png?scale-down-to=512&width=1500&height=430",
+    "alt": "",
+    "w": 154,
+    "h": 44,
+    "natural": "154x44",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/QiNc6Lfiob0qS1FJSo327LaLYuo.png?width=467&height=59",
+    "alt": "",
+    "w": 136,
+    "h": 17,
+    "natural": "467x59",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/JchhNOiQkhwlV7KCO3DoFCvAjeU.png?width=460&height=108",
+    "alt": "",
+    "w": 129,
+    "h": 30,
+    "natural": "460x108",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/6vnZvIo8p0L11zlllvH7aTE9A.png?width=504&height=156",
+    "alt": "",
+    "w": 139,
+    "h": 42,
+    "natural": "504x156",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/WFVXwyEnIqp01BKhgKwUjFSB0bA.png?width=504&height=168",
+    "alt": "",
+    "w": 139,
+    "h": 46,
+    "natural": "504x168",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/hGfhrmpui8936uL79MpDRQv3vLs.png?scale-down-to=512&width=548&height=49",
+    "alt": "",
+    "w": 164,
+    "h": 14,
+    "natural": "164x14",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/J1ve4RFJ1Ziot8XRTtx5ITmVHMA.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/KpVDqTkxDwO8RF0s4SpTMmn0.png?width=306&height=112",
+    "alt": "",
+    "w": 152,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/G3oXaUVtqISIDWGC8HVWM7vj1M.png?width=307&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "307x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/yR3NTTBvDlPffPJuGCYmImhnZxk.png?width=306&height=112",
+    "alt": "",
+    "w": 153,
+    "h": 56,
+    "natural": "306x112",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/XVFMfq4YrXq1ZHBCfxnEVMv7po.png?scale-down-to=512&width=775&height=444",
+    "alt": "",
+    "w": 160,
+    "h": 92,
+    "natural": "160x91",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/gpL19e4CU3b8LbI9RDiKh5XzMQ.png?scale-down-to=512&width=1536&height=1024",
+    "alt": "",
+    "w": 81,
+    "h": 63,
+    "natural": "80x53",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/IX0ZWbEj3ZFjFJchUrw7836uPik.png?width=116&height=36",
+    "alt": "",
+    "w": 28,
+    "h": 8,
+    "natural": "116x36",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/gpL19e4CU3b8LbI9RDiKh5XzMQ.png?scale-down-to=512&width=1536&height=1024",
+    "alt": "",
+    "w": 81,
+    "h": 63,
+    "natural": "80x53",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/XoyGiAMlcswSQhbninSprd9GSs.png?scale-down-to=512&width=1309&height=512",
+    "alt": "",
+    "w": 42,
+    "h": 12,
+    "natural": "42x16",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/l508K7byYzpGlOZrAcLK4fBf3U.png?scale-down-to=512&width=1867&height=1867",
+    "alt": "",
+    "w": 294,
+    "h": 294,
+    "natural": "294x294",
+    "loading": "auto",
+    "radius": "16px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/iL66MXsqFwtsXu2EA2YbvwEAo.png?width=80&height=80",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "80x80",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/yC0e3XASI9jEQMyOAyoRXMMaVU.png?scale-down-to=512&width=2042&height=1316",
+    "alt": "",
+    "w": 294,
+    "h": 294,
+    "natural": "294x189",
+    "loading": "auto",
+    "radius": "16px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/iL66MXsqFwtsXu2EA2YbvwEAo.png?width=80&height=80",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "80x80",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/AMBA2pfKn5dsG498hpbFf9ezQ.png?scale-down-to=512&width=1867&height=1867",
+    "alt": "",
+    "w": 294,
+    "h": 294,
+    "natural": "294x294",
+    "loading": "auto",
+    "radius": "16px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/iL66MXsqFwtsXu2EA2YbvwEAo.png?width=80&height=80",
+    "alt": "",
+    "w": 24,
+    "h": 24,
+    "natural": "80x80",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/zNsArEN7q9ZS1fE6YUNmENnAirw.png?scale-down-to=1024&width=1040&height=786",
+    "alt": "",
+    "w": 520,
+    "h": 393,
+    "natural": "520x393",
+    "loading": "auto",
+    "radius": "16px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/TdoKAFDRkQjTefBGoF7Fb2lK4.png?scale-down-to=1024&width=2080&height=1572",
+    "alt": "",
+    "w": 520,
+    "h": 393,
+    "natural": "520x393",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/6BP2bHHsfddqp3rfH7a7UUXeiA.png?scale-down-to=1024&width=926&height=1852",
+    "alt": "",
+    "w": 232,
+    "h": 463,
+    "natural": "232x464",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/vwXhrfRLQgs326dlyJadsUnhgw.jpg?scale-down-to=512&width=4096&height=2731",
+    "alt": "",
+    "w": 190,
+    "h": 118,
+    "natural": "189x126",
+    "loading": "auto",
+    "radius": "12px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/1OnnpmaCHwrYuFX8WITyeRHPc0.png?width=684&height=1484",
+    "alt": "",
+    "w": 200,
+    "h": 432,
+    "natural": "199x433",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/LwB7zyGfqVSLNa4i6L2lgKxTmE.png?scale-down-to=1024&width=2080&height=1572",
+    "alt": "",
+    "w": 520,
+    "h": 393,
+    "natural": "520x393",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/HqPXOeGA3nSlTLeau93FEJIOw.png?scale-down-to=2048&width=2880&height=1850",
+    "alt": "",
+    "w": 1397,
+    "h": 972,
+    "natural": "1396x897",
+    "loading": "auto",
+    "radius": "40px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/7zTteuvmpR1W2oekSCdrFAS2h24.png?width=1898&height=756",
+    "alt": "",
+    "w": 1097,
+    "h": 428,
+    "natural": "1097x436",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/qR0PG28vXBMzeFtmwPbhvZQc.png?scale-down-to=512&width=1752&height=1703",
+    "alt": "Placeholder logo",
+    "w": 68,
+    "h": 68,
+    "natural": "68x66",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/m4GPBgVXZsF3fWw2YXj6JdmF5fE.svg?scale-down-to=512&width=1024&height=1024",
+    "alt": "Placeholder logo",
+    "w": 48,
+    "h": 48,
+    "natural": "150x150",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/m4GPBgVXZsF3fWw2YXj6JdmF5fE.svg?scale-down-to=512&width=1024&height=1024",
+    "alt": "Placeholder logo",
+    "w": 30,
+    "h": 30,
+    "natural": "150x150",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/CgVEQnWMNvEj4SdgzsPQtGiuU.svg?width=74&height=100",
+    "alt": "Placeholder logo",
+    "w": 48,
+    "h": 48,
+    "natural": "74x100",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/CgVEQnWMNvEj4SdgzsPQtGiuU.svg?width=74&height=100",
+    "alt": "Placeholder logo",
+    "w": 30,
+    "h": 30,
+    "natural": "74x100",
+    "loading": "lazy",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/jakccIEpuAcHFLRthckcPVFRs.png?scale-down-to=512&width=2400&height=2400",
+    "alt": "Placeholder logo",
+    "w": 48,
+    "h": 48,
+    "natural": "48x48",
+    "loading": "auto",
+    "radius": "0px"
+   },
+   {
+    "src": "https://framerusercontent.com/images/jakccIEpuAcHFLRthckcPVFRs.png?scale-down-to=512&width=2400&height=2400",
+    "alt": "Placeholder logo",
+    "w": 30,
+    "h": 30,
+    "natural": "48x48",
+    "loading": "auto",
+    "radius": "0px"
+   }
+  ],
+  "videos": [
+   {
+    "src": "https://framerusercontent.com/assets/6DJylbXofMHWfvurF5xcGClbs.mp4",
+    "poster": "",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 384
+   },
+   {
+    "src": "https://framerusercontent.com/assets/7xP7j2R2k9h62MMxb1kXEB8H4MI.mp4",
+    "poster": "",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 384
+   },
+   {
+    "src": "https://framerusercontent.com/assets/Y0QevWNHh1tq2HSojcZzupFhk.mp4",
+    "poster": "",
+    "autoplay": true,
+    "loop": true,
+    "muted": true,
+    "w": 384
+   }
+  ],
+  "radius": [
+   [
+    "16px",
+    29
+   ],
+   [
+    "12px",
+    28
+   ],
+   [
+    "14px",
+    16
+   ],
+   [
+    "10px",
+    15
+   ],
+   [
+    "20px",
+    14
+   ],
+   [
+    "100px",
+    8
+   ],
+   [
+    "48px",
+    7
+   ],
+   [
+    "999px",
+    5
+   ],
+   [
+    "40px",
+    5
+   ],
+   [
+    "0px 0px 60px 60px",
+    3
+   ],
+   [
+    "400px",
+    3
+   ],
+   [
+    "395px",
+    2
+   ],
+   [
+    "9999px",
+    2
+   ],
+   [
+    "398px",
+    1
+   ],
+   [
+    "50%",
+    1
+   ]
+  ],
+  "shadow": [
+   [
+    "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.09) 0px 6px 6px 0px, rgba(0, 0, 0, 0.05) 0px 13px 8px 0px, rgba(0, 0, 0, 0.01) 0px 22px 9px 0px, rgba(0, 0, ",
+    9
+   ],
+   [
+    "rgba(16, 49, 77, 0.05) 0px 0.706592px 0.706592px -0.291667px, rgba(16, 49, 77, 0.06) 0px 1.80656px 1.80656px -0.583333px, rgba(16, 49, 77, 0.06) 0px 3.62176px 3",
+    7
+   ],
+   [
+    "rgba(0, 0, 0, 0.13) 0px 4px 20px 0px",
+    4
+   ],
+   [
+    "rgba(0, 0, 0, 0.38) 4.43805px 2.21902px 83.2134px 0px",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.04) 0px 0px 10px 0px inset",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.08) 0px 0px 10px 0px inset",
+    1
+   ],
+   [
+    "rgba(0, 0, 0, 0.12) 0px 0px 10px 0px inset",
+    1
+   ],
+   [
+    "rgba(241, 242, 251, 0.9) 0px 0px 0px 2px",
+    1
+   ]
+  ],
+  "transitions": [
+   [
+    "fill, fill-opacity | 0.1s, 0.1s | cubic-bezier(0.4, 0, 1, 1), cubic-bezier(0.4, 0, 1, 1)",
+    1
+   ]
+  ],
+  "animationsCss": [
+   [
+    "eKXFfL | 6s | linear | infinite",
+    1
+   ]
+  ],
+  "keyframes": {
+   "eKXFfL": "@keyframes eKXFfL { \n  0%, 0% { background-position: 200% center; }\n  100% { background-position: -100% center; }\n}",
+   "__framer-editorbar-spinner-spin": "@keyframes __framer-editorbar-spinner-spin { \n  100% { transform: rotate(360deg); }\n}"
+  },
+  "breakpoints": [
+   "max-width: 1199.98px",
+   "max-width: 1439.98px",
+   "max-width: 809.98px",
+   "min-width: 1200px",
+   "min-width: 810px"
+  ],
+  "liveAnimations": [
+   {
+    "target": "H1",
+    "cls": "sc-aXZVg fuFShx",
+    "name": "eKXFfL",
+    "duration": 6000,
+    "delay": 0,
+    "easing": "linear",
+    "iter": null,
+    "kf": "[{\"offset\":0,\"easing\":\"linear\"},{\"offset\":1,\"easing\":\"linear\"}]"
+   },
+   {
+    "target": "UL",
+    "cls": "",
+    "name": "(waapi)",
+    "duration": 77320,
+    "delay": 0,
+    "easing": "linear",
+    "iter": null,
+    "kf": "[{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translateX(0px)\"},{\"offset\":null,\"easing\":\"linear\",\"transform\":\"translateX(-3866px)\"}]"
+   }
+  ],
+  "effects": [
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-h0o8tk",
+    "f": {
+     "backgroundImage": "linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)"
+    }
+   },
+   {
+    "tag": "SECTION",
+    "ps": "",
+    "cls": "",
+    "f": {
+     "maskImage": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-d3nwuw",
+    "f": {
+     "backgroundImage": "linear-gradient(90deg, rgb(82, 158, 180) 0%, rgb(75, 68, 186) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-19wqwni",
+    "f": {
+     "backgroundImage": "linear-gradient(90deg, rgb(0, 161, 255) 0%, rgb(50, 105, 255) 30.2885%, rgb(118, 50, 255) 70.6731%, rgb(200, 50, 255) 100%)",
+     "filter": "blur(270.588px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1kdyn99",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(227, 148, 0, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-udj3ec",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(0, 151, 254, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-5fjdu6",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(0, 173, 9, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-v6a8ed",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(243, 71, 255, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-7tnevo",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(153, 102, 255, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-14vf52q",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(255, 71, 71, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-zyajs9",
+    "f": {
+     "backgroundImage": "radial-gradient(50% 50%, rgba(71, 114, 255, 0.25) 0%, rgba(227, 148, 0, 0) 100%)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1arzru8",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1qhky6k",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-16mhid3",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-17o5g4a",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-ag01s1",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-pqfo7d",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-w4rf64",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1rbl3fg",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-9rr72o",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1m2soar",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1rtcrek",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1sry2rs",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-1cml5ev",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-y6fzjh",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-y67gr6",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-h2zl7n",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-x0y1y4",
+    "f": {
+     "backdropFilter": "blur(3px)"
+    }
+   },
+   {
+    "tag": "DIV",
+    "ps": "",
+    "cls": "framer-5fl7jd",
+    "f": {
+     "backdropFilter": "blur(6px)"
+    }
+   },
+   {
+    "tag": "SECTION",
+    "ps": "",
+    "cls": "framer-7bDOp framer-1i4mnuf framer-v-ns4mi",
+    "f": {
+     "backgroundImage": "linear-gradient(135deg, rgb(247, 252, 251) 0%, rgb(251, 250, 255) 49%, rgb(243, 240, 255) 100%)"
+    }
+   }
+  ],
+  "navLinks": [
+   "Get Started",
+   "S\nt\na\nr\nt\n \nf\no\nr\n \nF\nr\ne\ne",
+   "Pricing",
+   "Terms & Conditions",
+   "Privacy Policy",
+   "Help",
+   "Partner Program",
+   "Changelog",
+   "AI assistants (MCP)"
+  ],
+  "stickyHeader": {
+   "position": "relative",
+   "bg": "rgba(0, 0, 0, 0)",
+   "backdrop": "none",
+   "h": 1028.875
+  }
+ },
+ "headerAfterScroll": {
+  "position": "relative",
+  "top": -271,
+  "bg": "rgba(0, 0, 0, 0)",
+  "backdrop": "none",
+  "shadow": "none",
+  "h": 1028.875
+ },
+ "hovers": [
+  {
+   "text": "New: schedule Instagram and Facebook pos",
+   "before": {
+    "bg": "rgb(194, 209, 237)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "0px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   },
+   "after": {
+    "bg": "rgb(194, 209, 237)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "0px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   }
+  },
+  {
+   "text": "Home",
+   "before": {
+    "bg": "rgb(216, 221, 227)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   },
+   "after": {
+    "bg": "rgb(216, 221, 227)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   }
+  },
+  {
+   "text": "AutoDM",
+   "before": {
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   },
+   "after": {
+    "bg": "rgb(223, 227, 232)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   }
+  },
+  {
+   "text": "Pricing",
+   "before": {
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   },
+   "after": {
+    "bg": "rgb(223, 227, 232)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   }
+  },
+  {
+   "text": "Learn",
+   "before": {
+    "bg": "rgb(240, 241, 242)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   },
+   "after": {
+    "bg": "rgb(223, 227, 232)",
+    "color": "rgb(0, 0, 238)",
+    "transform": "none",
+    "shadow": "none",
+    "radius": "999px",
+    "border": "rgb(0, 0, 238)",
+    "opacity": "1",
+    "transition": "all 0s ease"
+   }
+  }
+ ],
+ "mobile": {
+  "headings": [
+   {
+    "text": "The complete creator toolkit",
+    "size": "40px",
+    "lh": "36px",
+    "weight": "500"
+   },
+   {
+    "text": "to Grow and Monetize",
+    "size": "35px",
+    "lh": "35px",
+    "weight": "400"
+   },
+   {
+    "text": "Top choice of 500,000+ creators",
+    "size": "48px",
+    "lh": "60px",
+    "weight": "400"
+   },
+   {
+    "text": "Questions? Answers!",
+    "size": "56px",
+    "lh": "67.2px",
+    "weight": "400"
+   },
+   {
+    "text": "Try SuperProfile today",
+    "size": "55px",
+    "lh": "55px",
+    "weight": "700"
+   },
+   {
+    "text": "Try SuperProfile today",
+    "size": "55px",
+    "lh": "55px",
+    "weight": "700"
+   },
+   {
+    "text": "Free to start . No commitments.",
+    "size": "20px",
+    "lh": "30px",
+    "weight": "500"
+   }
+  ],
+  "nav": {
+   "h": 614.78125,
+   "bg": "rgba(0, 0, 0, 0)",
+   "items": [
+    "Get Started",
+    "Play"
+   ]
+  },
+  "docHeight": 16503
+ }
+}
