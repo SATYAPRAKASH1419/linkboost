@@ -1,7 +1,8 @@
 # LinkBoost — Implementation Roadmap & Progress Tracker
 
 > Full-stack Next.js (App Router) + TypeScript + Supabase single codebase.  
-> Following the specifications from [BACKEND_SRS.md](file:///c:/Users/satya/Desktop/linkinbio/BACKEND_SRS.md).
+> Following the specifications from [BACKEND_SRS.md](file:///c:/Users/satya/Desktop/linkinbio/BACKEND_SRS.md).  
+> Features promised on the public site are tracked in [LANDING_FEATURE_PROMISES.md](./LANDING_FEATURE_PROMISES.md); check it before launch.
 
 ---
 

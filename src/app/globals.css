@@ -5,6 +5,15 @@
   --color-brand-hover: #CB202D;
   --color-brand-muted: rgba(226, 55, 68, 0.08);
 
+  /* Cranberry family used for full-bleed landing sections */
+  --color-wine: #5C0F1B;
+  --color-wine-soft: #7A1826;
+  --color-blush: #FDEBED;
+  --color-blush-strong: #F8CDD2;
+
+  --color-ink: #18181B;
+  --color-ink-soft: #27272A;
+
   --color-surface-app: #FFFFFF;
   --color-surface-panel: #F7F7F5;
   --color-surface-card: #FFFFFF;
@@ -18,6 +27,66 @@
   --color-text-secondary: #3F3F46;
   --color-text-muted: #71717A;
   --color-text-subtle: #A1A1AA;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-inter-tight), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  /* One easing curve for every interactive transition */
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-float: float 8s ease-in-out infinite;
+  --animate-rise: rise 0.9s var(--ease-out-quart) both;
+  --animate-orbit: orbit 60s linear infinite;
+  --animate-orbit-counter: orbit-counter 60s linear infinite;
+  --animate-ticker: ticker 16s linear infinite;
+  --animate-pulse-ring: pulse-ring 3s var(--ease-out-quart) infinite;
+  --animate-swap: swap 0.45s var(--ease-out-quart) both;
+  --animate-draw: draw 0.6s var(--ease-out-quart) 0.15s both;
+}
+
+@keyframes swap {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes draw {
+  from { stroke-dashoffset: 24; }
+  to { stroke-dashoffset: 0; }
+}
+
+/* `rotate` (not `transform`) so orbits compose with translate utilities */
+@keyframes orbit {
+  to { rotate: 360deg; }
+}
+
+@keyframes orbit-counter {
+  to { rotate: -360deg; }
+}
+
+@keyframes ticker {
+  to { transform: translateY(-50%); }
+}
+
+@keyframes pulse-ring {
+  from { opacity: 0.5; transform: scale(1); }
+  to { opacity: 0; transform: scale(2.4); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 :root {
@@ -25,9 +94,81 @@
   --foreground: #18181B;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--background);
   color: var(--foreground);
+}
+
+::selection {
+  background-color: rgb(226 55 68 / 0.1);
+  color: var(--color-brand);
+}
+
+/*
+ * Liquid fill on hover: a curved wave of `--fill` rises from the bottom.
+ * Set the color per element with `[--fill:var(--color-…)]`.
+ */
+@utility fill-hover {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    left: -15%;
+    width: 130%;
+    height: 220%;
+    border-radius: 50%;
+    background-color: var(--fill, var(--color-ink));
+    transition: transform 600ms var(--ease-out-quart);
+  }
+
+  &:focus-visible::before {
+    transform: translateY(-100%);
+  }
+
+  @media (hover: hover) {
+    &:hover::before {
+      transform: translateY(-100%);
+    }
+  }
+}
+
+/* Crisp, layered elevation for product mockups (hairline edge + contact shadow + soft drop) */
+@utility elevate {
+  box-shadow:
+    0 0 0 1px rgb(24 24 27 / 0.06),
+    0 1px 2px rgb(24 24 27 / 0.08),
+    0 16px 32px -16px rgb(24 24 27 / 0.35);
+}
+
+/* Underline that draws in from the left on hover */
+@utility link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  padding-bottom: 2px;
+  transition: background-size 450ms var(--ease-out-quart), color 300ms var(--ease-out-quart);
+
+  &:hover,
+  &:focus-visible {
+    background-size: 100% 1px;
+  }
+}
+
+/* For dark or brand-colored surfaces, where cranberry-on-tint would disappear */
+.selection-inverse::selection,
+.selection-inverse ::selection {
+  background-color: var(--color-blush-strong);
+  color: var(--color-wine);
 }
 
 @keyframes formShake {
@@ -53,4 +194,27 @@ body {
 
 .animate-slide-down-fade {
   animation: slideDownFade 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Scroll-linked reveal; browsers without scroll timelines just show the content */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 40%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
